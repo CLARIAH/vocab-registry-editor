@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-06-03</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://593</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>crminf</cmd:identifier>
+            <cmd:title xml:lang="en">CRMinf Argumentation Model</cmd:title>
+            <cmd:status>discarded</cmd:status>
+            <cmd:License>
+                <cmd:identifier>CC 1.0</cmd:identifier>
+                <cmd:uri>http://creativecommons.org/publicdomain/zero/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://doi.org/10.25504/FAIRsharing.2f3180</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+                <cmd:recipe>rdf</cmd:recipe>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>0.7</cmd:version>
+                <cmd:validFrom>2015-02-01</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://cidoc-crm.org/crminf/sites/default/files/CRMinf_v0.7_.rdfs</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>rdfs</cmd:syntax>
+            </cmd:Type>
+            <cmd:Topic>
+                <cmd:Tag>
+                    <cmd:tag xml:lang="en">bibliographic metadata</cmd:tag>
+                    <cmd:uri>https://www.wikidata.org/wiki/Q20745594</cmd:uri>
+                </cmd:Tag>
+            </cmd:Topic>
+            <cmd:description xml:lang="en">CRMinf is a formal ontology intended to be used as a global schema for integrating metadata about argumentation and inference making in descriptive and empirical sciences such as biodiversity, geology, geography, archaeology, cultural heritage, conservation, research IT environments and research data libraries. Its primary purpose is facilitating the management, integration, mediation, interchange and access to data about reasoning by a description of the semantic relationships between the premises, conclusions and activities of reasoning.
+
+CRMinf uses and extends the CIDOC CRM (ISO21127) as a general ontology of human activity, things and events happening in space-time. It uses the same encoding-neutral formalism of knowledge representation (“data model” in the sense of computer science) as the CIDOC CRM, which can be implemented in RDFS, OWL, on RDBMS and in other forms of encoding. Since the model reuses, wherever appropriate, parts of CIDOC Conceptual Reference Model, we provide in this document also a comprehensive list of all constructs used from ISO21127, together with their definitions following the version 5.1.2 maintained by CIDOC.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>Awesome Humanities; YALC</cmd:name>
+                <cmd:identifier>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:identifier>
+                <cmd:uri>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

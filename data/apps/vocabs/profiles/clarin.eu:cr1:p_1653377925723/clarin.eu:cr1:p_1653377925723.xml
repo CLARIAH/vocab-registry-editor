@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.2" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>clarin.eu:cr1:p_1653377925723</ID>
+        <Name>Vocabulary</Name>
+        <Description>Describe a vocabulary</Description>
+        <Status>development</Status>
+    </Header>
+    <Component name="Vocabulary" ConceptLink="http://www.w3.org/ns/dcat#Dataset" CardinalityMin="1" CardinalityMax="1">
+        <Element name="identifier" ConceptLink="http://purl.org/dc/terms/identifier" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Element name="status" CardinalityMin="1" CardinalityMax="1">
+            <ValueScheme>
+                <Vocabulary>
+                    <enumeration>
+                        <item>new</item>
+                        <item>review-in-progress</item>
+                        <item>published</item>
+                        <item>discarded</item>
+                    </enumeration>
+                </Vocabulary>
+            </ValueScheme>
+        </Element>
+        <Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Element name="description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Component name="Type" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="syntax" ConceptLink="http://purl.org/dc/terms/conformsTo" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item ConceptLink="https://www.w3.org/TR/tabular-data-primer/" AppInfo="">csvw</item>
+                            <item ConceptLink="https://linkml.io/" AppInfo="">linkml</item>
+                            <item ConceptLink="https://www.w3.org/TR/owl2-overview/" AppInfo="">owl</item>
+                            <item ConceptLink="https://www.w3.org/TR/rdf-schema/" AppInfo="">rdfs</item>
+                            <item ConceptLink="https://www.iso.org/standard/52348.html" AppInfo="">relaxng</item>
+                            <item ConceptLink="https://www.w3.org/TR/shacl/" AppInfo="">shacl</item>
+                            <item ConceptLink="https://www.w3.org/TR/skos-reference/" AppInfo="">skos</item>
+                            <item ConceptLink="https://www.iso.org/standard/76583.html" AppInfo="">sql ddl</item>
+                            <item ConceptLink="https://www.w3.org/TR/xmlschema-0/" AppInfo="">xsd</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+            <Element name="kos" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
+            <Element name="entity" CardinalityMin="0" CardinalityMax="1">
+                <Documentation xml:lang="en">(Use if applicable) if the vocabulary values are individual entities, choose the main type of entity being described.</Documentation>
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="Entities are of type concept">Concept</item>
+                            <item ConceptLink="" AppInfo="Entities are of type organization">Organisation</item>
+                            <item ConceptLink="" AppInfo="Entities are of type person">Person</item>
+                            <item ConceptLink="" AppInfo="Entities are of type place">Place</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+        </Component>
+        <Component name="License" CardinalityMin="1" CardinalityMax="1">
+            <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        </Component>
+        <Component name="Location" ComponentRef="clarin.eu:cr1:c_1659015263855" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="type" CardinalityMin="1" CardinalityMax="1">
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item>homepage</item>
+                            <item>endpoint</item>
+                            <item>dump</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+            <Element name="recipe" CardinalityMin="0" CardinalityMax="1">
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item>sparql</item>
+                            <item>skosmos</item>
+                            <item>elastic</item>
+                            <item>solr</item>
+                            <item>rdf</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+        </Component>
+        <Component name="Namespace" CardinalityMin="0" CardinalityMax="1">
+            <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+        </Component>
+        <Component name="Topic" CardinalityMin="0" CardinalityMax="1">
+            <Documentation>https://schema.org/about</Documentation>
+            <Component name="Domain" CardinalityMin="0" CardinalityMax="1">
+                <Element name="unesco" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="nwo" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            </Component>
+            <Component name="Tag" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="tag" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="uri" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
+            </Component>
+        </Component>
+        <Component name="Review" ComponentRef="clarin.eu:cr1:c_1712653174412" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="status" CardinalityMin="1" CardinalityMax="1">
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item ConceptLink="" AppInfo="">new</item>
+                            <item ConceptLink="" AppInfo="">review-in-progress</item>
+                            <item ConceptLink="" AppInfo="">published</item>
+                            <item ConceptLink="" AppInfo="">discarded</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+            <Element name="author" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+            <Element name="published" ValueScheme="dateTime" CardinalityMin="1" CardinalityMax="1"/>
+            <Element name="body" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="rating" ValueScheme="int" CardinalityMin="1" CardinalityMax="1"/>
+            <Element name="like" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <Element name="dislike" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+        </Component>
+        <Component name="Publisher" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="identifier" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+        </Component>
+        <Component name="Version" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="version" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="validFrom" ValueScheme="dateTime" CardinalityMin="0" CardinalityMax="1"/>
+            <Component name="Location" ComponentRef="clarin.eu:cr1:c_1659015263855" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="type" CardinalityMin="1" CardinalityMax="1">
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item>homepage</item>
+                                <item>endpoint</item>
+                                <item>dump</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Element>
+                <Element name="recipe" CardinalityMin="0" CardinalityMax="1">
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item>sparql</item>
+                                <item>skosmos</item>
+                                <item>elastic</item>
+                                <item>solr</item>
+                                <item>rdf</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Element>
+            </Component>
+            <Component name="Summary" ComponentRef="clarin.eu:cr1:c_1696338267563" CardinalityMin="0" CardinalityMax="1">
+                <Component name="Statements" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="Subjects" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="count" ValueScheme="int" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Component name="Namespaces" ComponentRef="clarin.eu:cr1:c_1659015263837" CardinalityMin="1" CardinalityMax="1">
+                            <Component name="Namespace" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                                <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="Predicates" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="count" ValueScheme="int" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Component name="Namespaces" ComponentRef="clarin.eu:cr1:c_1659015263837" CardinalityMin="1" CardinalityMax="1">
+                            <Component name="Namespace" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                                <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="Objects" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="count" ValueScheme="int" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Component name="Namespaces" ComponentRef="clarin.eu:cr1:c_1659015263837" CardinalityMin="1" CardinalityMax="1">
+                            <Component name="Namespace" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                                <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                            </Component>
+                        </Component>
+                        <Component name="Classes" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="count" ValueScheme="int" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Component name="Namespaces" ComponentRef="clarin.eu:cr1:c_1659015263837" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="Namespace" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                                </Component>
+                            </Component>
+                            <Component name="NamespaceItems" ComponentRef="clarin.eu:cr1:c_1685529187071" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="NamespaceItem" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                                </Component>
+                            </Component>
+                        </Component>
+                        <Component name="Literals" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="count" ValueScheme="int" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Component name="Languages" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Component name="Language" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="code" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                                </Component>
+                            </Component>
+                            <Component name="Namespaces" ComponentRef="clarin.eu:cr1:c_1659015263837" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="Namespace" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                                </Component>
+                            </Component>
+                            <Component name="NamespaceItems" ComponentRef="clarin.eu:cr1:c_1685529187071" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="NamespaceItem" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>

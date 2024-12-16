@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-06-12</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://135</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>shsh</cmd:identifier>
+            <cmd:title xml:lang="en">SHACL Shapes</cmd:title>
+            <cmd:status>review-in-progress</cmd:status>
+            <cmd:License>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://www.w3.org/TR/shacl/#shacl-shacl</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Type>
+                <cmd:syntax>shacl</cmd:syntax>
+            </cmd:Type>
+            <cmd:Namespace>
+                <cmd:prefix>shsh</cmd:prefix>
+                <cmd:uri>http://www.w3.org/ns/shacl-shacl#</cmd:uri>
+            </cmd:Namespace>
+            <cmd:description xml:lang="en">A SHACL shapes graph to validate SHACL shapes graphs.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/w3c/shsh</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

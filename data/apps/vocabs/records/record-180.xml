@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-12-11</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://180</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>sm</cmd:identifier>
+            <cmd:title xml:lang="en">Specification Metadata (SM) Ontology</cmd:title>
+            <cmd:status>review-in-progress</cmd:status>
+            <cmd:License>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:Namespace>
+                <cmd:prefix>sm</cmd:prefix>
+                <cmd:uri>http://www.omg.org/techprocess/ab/SpecificationMetadata/</cmd:uri>
+            </cmd:Namespace>
+            <cmd:description xml:lang="en">This ontology provides a set of basic metadata annotations for use in describing Object Management Group (OMG) specifications, standards, and documents.  It was recommended for use by the OMG Architecture Board (AB) in OMG standard ontologies, vocabularies and other models at the March 2013 Reston meeting.
+
+The annotations defined herein extend properties defined in the Dublin Core Metadata Terms Vocabulary and in the W3C Simple Knowledge Organization System (SKOS) Vocabulary, and have been customized to support the OMG specification development process.  Note that any of the original properties provided in Dublin Core and SKOS can be used in addition to the terms provided herein.  However, any Dublin Core terms that are not explicitly defined as OWL annotation properties below must be so declared in the ontologies that use them.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/omg/sm</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

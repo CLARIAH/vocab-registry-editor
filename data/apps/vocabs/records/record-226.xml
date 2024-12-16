@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-06-11</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://226</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>crm</cmd:identifier>
+            <cmd:title xml:lang="en">CIDOC Conceptual Reference Model (CRM)</cmd:title>
+            <cmd:status>published</cmd:status>
+            <cmd:License>
+                <cmd:identifier>CC BY 4.0</cmd:identifier>
+                <cmd:label xml:lang="en">Attribution 4.0 International</cmd:label>
+                <cmd:uri>https://creativecommons.org/licenses/by/4.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://cidoc-crm.org</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+                <cmd:recipe>rdf</cmd:recipe>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>7.1.2</cmd:version>
+                <cmd:validFrom>2022-06</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://cidoc-crm.org/rdfs/7.1.2/CIDOC_CRM_v7.1.2.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:Subjects>
+                            <cmd:count>387</cmd:count>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>10</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>288</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>386</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>3220</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>2562</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>309</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>95</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                            <cmd:Classes>
+                                <cmd:count>2562</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>3894</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>string</cmd:name>
+                                        <cmd:count>3894</cmd:count>
+                                    </cmd:NamespaceItem>
+                                </cmd:NamespaceItems>
+                            </cmd:Literals>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                </cmd:Summary>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>7.1.3</cmd:version>
+                <cmd:validFrom>2024-02</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://cidoc-crm.org/rdfs/7.1.3/CIDOC_CRM_v7.1.3.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>6.2.1</cmd:version>
+                <cmd:validFrom>2015</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://cidoc-crm.org/sites/default/files/cidoc_crm_v6.2.1-2018April.rdfs</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>rdfs</cmd:syntax>
+            </cmd:Type>
+            <cmd:Namespace>
+                <cmd:prefix>crm</cmd:prefix>
+                <cmd:uri>http://www.cidoc-crm.org/cidoc-crm/</cmd:uri>
+            </cmd:Namespace>
+            <cmd:description xml:lang="en">The "CIDOC object-oriented Conceptual Reference Model" (CRM), was developed by the ICOM/CIDOC Documentation Standards Group. Since September 2000, the CIDOC CRM is being developed into an ISO standard in a joined effort of the CIDOC CRM SIG and ISO/TC46/SC4/WG9. Since September 2006 it has been accepted as ISO 21127. 
+
+The CIDOC CRM represents an 'ontology' for cultural heritage information i.e. it describes in a formal language the explicit and implicit concepts and relations relevant to the documentation of cultural heritage. The primary role of the CIDOC CRM is to serve as a basis for mediation of cultural heritage information and thereby provide the semantic 'glue' needed to transform today's disparate, localised information sources into a coherent and valuable global resource.
+
+The CIDOC CRM is intended to promote a shared understanding of cultural heritage information by providing a common and extensible semantic framework that any cultural heritage information can be mapped to. It is intended to be a common language for domain experts and implementers to formulate requirements for information systems and to serve as a guide for good practice of conceptual modelling. In this way, it can provide the "semantic glue" needed to mediate between different sources of cultural heritage information, such as that published by museums, libraries and archives.
+
+The CIDOC CRM is the culmination of over 10 years work by the CIDOC Documentation Standards Working Group and CIDOC CRM SIG which are working groups of CIDOC. Since 9/12/2006 it is official standard ISO 21127:2006.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/cidoc/crm</cmd:uri>
+            </cmd:Publisher>
+            <cmd:Publisher>
+                <cmd:name>Awesome Humanities</cmd:name>
+                <cmd:identifier>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:identifier>
+                <cmd:uri>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

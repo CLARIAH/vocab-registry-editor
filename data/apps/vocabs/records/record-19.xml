@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-10-10</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://19</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>dist</cmd:identifier>
+            <cmd:title xml:lang="en">Distiller</cmd:title>
+            <cmd:status>review-in-progress</cmd:status>
+            <cmd:License>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:Namespace>
+                <cmd:prefix>dist</cmd:prefix>
+                <cmd:uri>http://www.w3.org/2007/08/pyRdfa/distiller#</cmd:uri>
+            </cmd:Namespace>
+            <cmd:description xml:lang="en">The few terms just to make the error messages of distiller proper.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/w3c/distiller</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

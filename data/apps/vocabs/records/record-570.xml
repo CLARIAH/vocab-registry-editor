@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:cmdp="http://www.clarin.eu/cmd//profiles/clarin.eu:cr1:p_1653377925723" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd">
+    <cmd:Header>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>dcam</cmd:identifier>
+            <cmd:title xml:lang="en">Dublin Core Abstract Model</cmd:title>
+            <cmd:status>review-in-progress</cmd:status>
+            <cmd:License>
+                <cmd:label>unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://www.dublincore.org/specifications/dublin-core/abstract-model</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:Namespace>
+                <cmd:prefix>dcam</cmd:prefix>
+                <cmd:uri>http://purl.org/dc/dcam/</cmd:uri>
+            </cmd:Namespace>
+            <cmd:description xml:lang="en">This is the abstract model for [Dublin Core™](/dcmi) metadata.  The primary purpose of this vocabulaty is to specify the components and constructs used in Dublin Core™ metadata.  It defines the nature of the components used and describes how those components are combined to create information structures.  It provides an information model which is independent of any particular encoding syntax.  Such an information model allows us to gain a better understanding of the kinds of descriptions that we are encoding and facilitates the development of better mappings and cross-syntax translations.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/dcmi/dcam</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

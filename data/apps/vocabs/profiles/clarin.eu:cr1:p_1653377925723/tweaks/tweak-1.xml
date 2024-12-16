@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:clariah="http://www.clariah.eu/">
+    <Header>
+        <ID>clarin.eu:cr1:p_1653377925723</ID>
+    </Header>
+    <Component name="Vocabulary">
+        <Component name="Type">
+            <Element name="kos" cue:class="skosType">
+                <clariah:autoCompleteURI>/proxy/skosmos/sd/nkostype</clariah:autoCompleteURI>
+            </Element>
+        </Component>
+        <Component name="Topic">
+            <Element name="domainUNESCO" cue:class="skosType">
+                <clariah:autoCompleteURI>/proxy/skosmos/odissei/unesco</clariah:autoCompleteURI>
+            </Element>
+            <Element name="domainNWO" cue:class="skosType">
+                <clariah:autoCompleteURI>/proxy/skosmos/sd/nwo-researchfields</clariah:autoCompleteURI>
+            </Element>
+        </Component>
+        <Component name="License">
+            <Component name="Description">
+                <Element name="description" cue:inputHeight="8" cue:inputWidth="60"/>
+            </Component>
+        </Component>
+        <Component name="Description">
+            <Element name="description" cue:inputHeight="8" cue:inputWidth="60"/>
+        </Component>
+        <Component name="Assessement" CardinalityMin="1" CardinalityMax="1">
+            <Component name="Review">
+                <Element name="body" cue:inputHeight="8" cue:inputWidth="60"/>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>

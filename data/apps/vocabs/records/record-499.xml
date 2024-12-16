@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-05-07</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://499</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>gnd</cmd:identifier>
+            <cmd:title xml:lang="en">GND Ontology</cmd:title>
+            <cmd:status>published</cmd:status>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/publicdomain/zero/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://d-nb.info/standards/elementset/gnd</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>1.19</cmd:version>
+                <cmd:validFrom>2024-03-12</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://d-nb.info/standards/elementset/gnd.nt</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:Subjects>
+                            <cmd:count>1097</cmd:count>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>38</cmd:count>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>2175</cmd:count>
+                            <cmd:Classes>
+                                <cmd:count>2175</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>4582</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                            </cmd:Literals>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                </cmd:Summary>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:Namespace>
+                <cmd:prefix>agent</cmd:prefix>
+                <cmd:uri>http://id.loc.gov/rwo/agents/</cmd:uri>
+            </cmd:Namespace>
+            <cmd:description xml:lang="en">This ontology describes the GND elements, defined as a dictionary of named properties and classes using W3C's RDF technology.
+
+GND stands for “Gemeinsame Normdatei” (Integrated Authority File) and offers a broad range of elements to describe authorities.  The GND originates from the German library community and aims to solve the name ambiguity problem in the library world.  Corresponding data is usually expressed in a customized MARC 21 Authority Format (GND MARC Format) which is quite domain specific and is not used beyond the library and publisher world.  The GND ontology tries to bridge this gap by providing a format specification for the usage in the semantic web.
+
+The need for name disambiguation and entries having an authoritative character is an issue that concerns a lot more communities than the library world.  In a growing information society the unique identification and linking of persons, places and other authorities becomes more and more important.  The GND Ontology aims to transfer the made experience from libraries to the web community by providing a vocabulary for the description of conferences or events, corporate bodies, places or geographic names, differentiated persons, undifferentiated persons (name of undifferentiated persons), subject headings, and works.
+
+To ensure compatibility, the GND ontology aligns with already established vocabularies such as the FOAF vocabulary as well as with new ones like the RDA Vocabularies.  We aim to align a number of additional vocabularies as soon as possible wherefore vocabulary suggestions as well as contribution in the alignment work is more than welcome.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/dnb/gnd</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

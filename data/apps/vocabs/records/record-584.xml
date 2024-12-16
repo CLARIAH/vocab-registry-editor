@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:cmdp="http://www.clarin.eu/cmd//profiles/clarin.eu:cr1:p_1653377925723" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd">
+    <cmd:Header>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>fibo-owl</cmd:identifier>
+            <cmd:title xml:lang="en">Financial Industry Business Ontology (FIBO) Ontology</cmd:title>
+            <cmd:status>review-in-progress</cmd:status>
+            <cmd:License>
+                <cmd:label>unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://spec.edmcouncil.org/fibo/OWL</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>2020-06-30</cmd:version>
+                <cmd:validFrom>2020-06-30T00:00:00</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://spec.edmcouncil.org/fibo/ontology/master/2020Q2/prod.ttl.zip</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:description xml:lang="en">FIBO OWL is available in a number of RDF formats.  These are available for offline use (i.e., download all of FIBO as a zip), or online use.  Each FIBO ontology file is available for “follow your nose” treatment, a general description of which is available here.
+
+FIBO OWL is published in two releases:
+- **FIBO Production** is published at the end of each calendar quarter and has been vetted by SMEs and passed standard industry hygiene tests for OWL.
+- **FIBO Development** is published in real-time as changes are incorporated by the FIBO Community and consists of a draft as well-vetted content.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/edmc/fibo-owl</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

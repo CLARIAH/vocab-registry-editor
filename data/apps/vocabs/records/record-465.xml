@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:cmdp="http://www.clarin.eu/cmd//profiles/clarin.eu:cr1:p_1653377925723" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd">
+    <cmd:Header>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:identifier>accmeth</cmd:identifier>
+            <cmd:title xml:lang="en">Collection Description Accrual Method Vocabulary</cmd:title>
+            <cmd:status>review-in-progress</cmd:status>
+            <cmd:License>
+                <cmd:label>unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://www.dublincore.org/specifications/dublin-core/collection-description/accrual-method/</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:Namespace>
+                <cmd:prefix>accmeth</cmd:prefix>
+                <cmd:uri>http://purl.org/cld/accmeth/</cmd:uri>
+            </cmd:Namespace>
+            <cmd:description xml:lang="en">The Collection Description Accrual Method Vocabulary provides a set of terms that can be used as values of the [`dct:accrualPolicy`](https://triplydb.com/dcmi/dct/table?subject=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPolicy) property in descriptions of collections.  It has been developed in association with the [Dublin Core Collections Application Profile (DC Collections AP)](http://dublincore.org/specifications/dublin-core/collection-description/collection-application-profile/) but this vocabulary is independent of that profile and the terms defined here may be referenced in other metadata descriptions and used as the values of other properties.
+
+In statements in DC metadata descriptions, the URIs of the individual terms may be used as value URIs and/or the labels of the terms may be used as value strings.</cmd:description>
+            <cmd:Publisher>
+                <cmd:name>YALC</cmd:name>
+                <cmd:identifier>https://triplydb.com/Triply/yalc</cmd:identifier>
+                <cmd:uri>https://triplydb.com/dcmi/accmeth</cmd:uri>
+            </cmd:Publisher>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>
