@@ -5,7 +5,11 @@
         <ID>clarin.eu:cr1:p_1653377925723</ID>
     </Header>
     <Component name="Vocabulary">
+        <Component name="Description">
             <Element name="description" cue:inputHeight="20" cue:inputWidth="60"/>
+            <Element name="language" cue:class="skosType">
+                <clariah:autoCompleteURI>/proxy/vocabularies.clarin.eu/clavas/ISO639-3/en/</clariah:autoCompleteURI>
+            </Element>
             <Element name="topic_unesco" cue:class="skosType">
                 <clariah:autoCompleteURI>/proxy/skosmos/odissei/unesco</clariah:autoCompleteURI>
             </Element>
@@ -18,4 +22,5 @@
                 <clariah:autoCompleteURI>/proxy/skosmos/sd/nkostype</clariah:autoCompleteURI>
             </Element>
         </Component>
+    </Component>
 </ComponentSpec>
