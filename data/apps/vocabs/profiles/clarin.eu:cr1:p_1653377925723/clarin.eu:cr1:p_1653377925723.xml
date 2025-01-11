@@ -72,8 +72,8 @@
                     <Documentation>A literal value that identifies the creator.</Documentation>
                 </Element>
             </Component>
-            <Component name="Publisher" ConceptLink="http://purl.org/dc/terms/publisher" CardinalityMin="0" CardinalityMax="unbounded">
-                <Documentation>An entity responsible for making the resource available (almost equivalent to maintainer). If the Creator and Publisher are the same, do not repeat the name in the Publisher area. If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
+            <Component name="Maintainer" ConceptLink="https://schema.org/maintainer" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>"A maintainer is a Person or Organization that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources." We use it as equivalent to http://purl.org/dc/terms/publisher ("An entity responsible for making the resource available"). If the Creator and Publisher=Maintainer are the same, do not repeat the name in the Publisher area. If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
                 <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A literal value that identifies the publisher.</Documentation>
