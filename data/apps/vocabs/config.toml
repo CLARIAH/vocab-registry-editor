@@ -9,15 +9,15 @@ title="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:title)"
 label_en="vocabulary"
 label_plural_en="vocabularies"
 
-[app.prof.vocab.list.identifier]
-xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:identifier)"
-label="Identifier"
+[app.prof.vocab.list.id]
+xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:Identification/cmd:id)"
+label="Id"
 sort="true"
 filter="true"
 
 [app.prof.vocab.list.name]
-xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:title)"
-label="Name"
+xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:Identification/cmd:title)"
+label="Title"
 sort="true"
 filter="true"
 
