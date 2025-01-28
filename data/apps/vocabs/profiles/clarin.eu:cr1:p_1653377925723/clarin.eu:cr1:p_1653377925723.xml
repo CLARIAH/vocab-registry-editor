@@ -17,7 +17,7 @@
                             <enumeration>
                                 <item ConceptLink="" AppInfo="The vocabulary has been submitted or requested to be added to the registry">new</item>
                                 <item ConceptLink="" AppInfo="The vocabulary is being reviewed">review-in-progress</item>
-                                <item ConceptLink="" AppInfo="The vocabulary was reviewed; if not discarded it is ready for publishing">reviewed-publish</item>
+                                <item ConceptLink="" AppInfo="The vocabulary was reviewed; if not discarded it is ready for publishing">to-publish</item>
                                 <item ConceptLink="" AppInfo="The vocabulary is in the production/public version of the vocabulary registry online">published</item>
                                 <item ConceptLink="" AppInfo="The vocabulary didn't fit the selection criteria">discarded</item>
                             </enumeration>
@@ -52,7 +52,7 @@
         </Component>
         <Component name="Identification" ConceptLink="" CardinalityMin="1" CardinalityMax="1">
             <Documentation>To group all elements containing different types of identifiers (local, external)</Documentation>
-            <Element name="id" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="identifier" ConceptLink="http://purl.org/dc/terms/identifier" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Local identification, use the short name of the vocabulary as identifier (similar to an "alias"), e.g., agrovoc. Make sure it's unique.</Documentation>
             </Element>
             <Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -98,17 +98,16 @@
             <Element name="language" ConceptLink="http://purl.org/dc/terms/language" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="7" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>A language of the resource. If a vocabulary is multilingual and it is not clear which languages does it cover (e.g., the AAT thesaurus) describe the main two or three language(s) and make sure to say it is "multilingual" in the description. Use a URI from: https://vocabularies.clarin.eu/clavas/ISO639-3/en/</Documentation>
             </Element>
-            <Element name="topic_unesco" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="topicUnesco" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Use the most specific term from the UNESCO thesaurus to describe the topic/theme of the vocabulary (if applicable). </Documentation>
             </Element>
-            <Element name="topic_nwo" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="4" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="topicNwo" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="4" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Use the most specific term from the NWO research areas to describe the topic/theme of the vocabulary (if applicable). </Documentation>
             </Element>
-            <Component name="keywords-tags" CardinalityMin="1" CardinalityMax="unbounded">
-                <Element name="keyword" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="5" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
-                    <Documentation>Any other tag or keyword that helps to represent the theme/topic of the vocabulary. Use keywords from sources such as wikidata, or the ELSST thesaurus (https://thesauri.cessda.eu/elsst-5/en/).</Documentation>
-                </Element>
+            <Component name="Keywords" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword" CardinalityMin="1" CardinalityMax="unbounded">
+                <Documentation>Any other tag or keyword that helps to represent the theme/topic of the vocabulary. Use keywords from sources such as wikidata, or the ELSST thesaurus (https://thesauri.cessda.eu/elsst-5/en/).</Documentation>
                 <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="6" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="5" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             </Component>
         </Component>
         <Component name="Type" CardinalityMin="1" CardinalityMax="unbounded">
@@ -146,14 +145,22 @@
                 </ValueScheme>
             </Element>
         </Component>
-        <Component name="License" CardinalityMin="1" CardinalityMax="unbounded">
-            <Element name="license" ConceptLink="http://purl.org/dc/terms/license" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-            <Element name="url" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
+        <Component name="License" ConceptLink="http://purl.org/dc/terms/license" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="uri" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</Documentation>
+            </Element>
+            <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
         </Component>
-        <Component name="ReferencedByRegistry" ConceptLink="" CardinalityMin="0" CardinalityMax="unbounded">
+        <Component name="ReferencedByRegistry" ConceptLink="http://purl.org/dc/terms/isReferencedBy" CardinalityMin="0" CardinalityMax="unbounded">
             <Documentation>To register other vocabulary registries that include this vocabulary.</Documentation>
-            <Element name="isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
-                <Documentation>This property is intended to be used with non-literal values. Use the URL/URI of the vocabulary registry where the vocabulary is registered.</Documentation>
+            <Element name="urlRegistry" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>This is the URL of the vocabulary registry where the vocabulary is registered (i.e., the general url).</Documentation>
+            </Element>
+            <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
+                <Documentation>Name of the registry</Documentation>
+            </Element>
+            <Element name="urlVocab" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                <Documentation>This is the URL (preferably URI) of this specific vocabulary in this vocabulary registry.</Documentation>
             </Element>
         </Component>
         <Component name="Location" ComponentRef="clarin.eu:cr1:c_1659015263855" CardinalityMin="1" CardinalityMax="unbounded">
