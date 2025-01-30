@@ -15,7 +15,7 @@
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
-                                <item ConceptLink="" AppInfo="The vocabulary has been just submitted or requested to be added to the registry (check if it doesn't exist and if it's relevant to be reviewed; if so, move status to to-review; if it already exists or is clearly not relevant; move status to discarded">new</item>
+                                <item ConceptLink=" move status to to-review; if it already exists or is clearly not relevant; move status to discarded" AppInfo="The vocabulary has been just submitted or requested to be added to the registry (check if it doesn't exist and if it's relevant to be reviewed; if so">new</item>
                                 <item ConceptLink="" AppInfo="The vocabulary should be reviewed and described (it may be a new vocabulary or one that needs to be reviewed again)">to-review</item>
                                 <item ConceptLink="" AppInfo="The vocabulary is being reviewed and described">review-in-progress</item>
                                 <item ConceptLink="" AppInfo="The vocabulary was reviewed and is ready for publishing">reviewed-publish</item>
@@ -74,7 +74,7 @@
                 </Element>
             </Component>
             <Component name="Maintainer" ConceptLink="https://schema.org/maintainer" CardinalityMin="0" CardinalityMax="unbounded">
-                <Documentation>"A maintainer is a Person or Organization that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources." We use it as equivalent to http://purl.org/dc/terms/publisher ("An entity responsible for making the resource available"). If the Creator and Publisher=Maintainer are the same, do not repeat the name in the Publisher area. If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
+                <Documentation>"A maintainer is a Person or Organization that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources." We use it as equivalent to http://purl.org/dc/terms/publisher ("An entity responsible for making the resource available"). If the Creator and Publisher=Maintainer are the same, repeat the name in the Maintainer element (to make it clear who is responsible for this vocabulary). If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
                 <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A literal value that identifies the publisher.</Documentation>
@@ -133,7 +133,7 @@
                 <Documentation>Type of knowledge organization system (KOS)</Documentation>
             </Element>
             <Element name="entity" ConceptLink="http://purl.org/dc/terms/subject" CardinalityMin="0" CardinalityMax="1">
-                <Documentation xml:lang="en">(Use if applicable) if the vocabulary values are individual entities, choose the main type of entity being described.</Documentation>
+                <Documentation xml:lang="en">(Use if applicable, only for value vocabularies, not for schemas) if the vocabulary values are individual entities, choose the main type of entity being described.</Documentation>
                 <ValueScheme>
                     <Vocabulary>
                         <enumeration>
@@ -152,9 +152,9 @@
             </Element>
             <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
         </Component>
-        <Component name="ReferencedByRegistry" ConceptLink="http://purl.org/dc/terms/isReferencedBy" CardinalityMin="0" CardinalityMax="unbounded">
-            <Documentation>To register other vocabulary registries that include this vocabulary.</Documentation>
-            <Element name="urlRegistry" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Component name="IsPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" CardinalityMin="0" CardinalityMax="unbounded">
+            <Documentation>A related resource in which the described resource is physically or logically included. This can logically extend to indicate that a vocabulary is part of a vocabulary registry or ontology repository.</Documentation>
+            <Element name="url" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>This is the URL of the vocabulary registry where the vocabulary is registered (i.e., the general url).</Documentation>
             </Element>
             <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
