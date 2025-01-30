@@ -15,7 +15,8 @@
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
-                                <item ConceptLink="" AppInfo="The vocabulary has been submitted or requested to be added to the registry">new</item>
+                                <item ConceptLink="" AppInfo="The vocabulary has been just submitted or requested to be added to the registry (check if it doesn't exist and if it's relevant to be reviewed; if so-&gt; move status to toReview; if not-&gt; move status to discarded">new</item>
+                                <item ConceptLink="" AppInfo="The vocabulary should be reviewed (it may be a new vocabulary or one that needs to be reviewed again)">to-review</item>
                                 <item ConceptLink="" AppInfo="The vocabulary is being reviewed">review-in-progress</item>
                                 <item ConceptLink="" AppInfo="The vocabulary was reviewed; if not discarded it is ready for publishing">to-publish</item>
                                 <item ConceptLink="" AppInfo="The vocabulary is in the production/public version of the vocabulary registry online">published</item>
