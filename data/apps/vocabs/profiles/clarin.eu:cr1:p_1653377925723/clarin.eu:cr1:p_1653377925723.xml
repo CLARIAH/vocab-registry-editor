@@ -152,17 +152,20 @@
             </Element>
             <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
         </Component>
-        <Component name="IsPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" CardinalityMin="0" CardinalityMax="unbounded">
-            <Documentation>A related resource in which the described resource is physically or logically included. This can logically extend to indicate that a vocabulary is part of a vocabulary registry or ontology repository.</Documentation>
-            <Element name="url" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
-                <Documentation>This is the URL of the vocabulary registry where the vocabulary is registered (i.e., the general url).</Documentation>
-            </Element>
-            <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
-                <Documentation>Name of the registry</Documentation>
-            </Element>
-            <Element name="urlVocab" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
-                <Documentation>This is the URL (preferably URI) of this specific vocabulary in this vocabulary registry.</Documentation>
-            </Element>
+        <Component name="IsReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" CardinalityMin="0" CardinalityMax="1">
+            <Documentation>A related resource that references, cites, or otherwise points to the described resource.</Documentation>
+            <Component name="Registry" ConceptLink="http://www.w3.org/ns/dcat#Catalog" CardinalityMin="1" CardinalityMax="unbounded">
+                <Documentation>We consider a vocabulary registry (such as LOV or Bartoc) a data catalog ("Datasets and data services are examples of resources in the context of a data catalog.")</Documentation>
+                <Element name="registryTitle" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                    <Documentation>The name of the vocabulary registry (e.g., Bartoc, LOV)</Documentation>
+                </Element>
+                <Element name="registryURL" ConceptLink="http://xmlns.com/foaf/spec/#term_homepage" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Documentation>The URL of the vocabulary registry's homepage; example: https://bartoc.org/</Documentation>
+                </Element>
+                <Element name="vocabularyURL" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                    <Documentation>This is the URL or URI (preferred if it exists) of this specific vocabulary in this vocabulary registry.</Documentation>
+                </Element>
+            </Component>
         </Component>
         <Component name="Location" ComponentRef="clarin.eu:cr1:c_1659015263855" CardinalityMin="1" CardinalityMax="unbounded">
             <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
