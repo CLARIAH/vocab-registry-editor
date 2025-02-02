@@ -15,9 +15,10 @@
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
-                                <item ConceptLink="" AppInfo="The vocabulary has been submitted or requested to be added to the registry">new</item>
-                                <item ConceptLink="" AppInfo="The vocabulary is being reviewed">review-in-progress</item>
-                                <item ConceptLink="" AppInfo="The vocabulary was reviewed; if not discarded it is ready for publishing">reviewed-publish</item>
+                                <item ConceptLink=" move status to to-review; if it already exists or is clearly not relevant; move status to discarded" AppInfo="The vocabulary has been just submitted or requested to be added to the registry (check if it doesn't exist and if it's relevant to be reviewed; if so">new</item>
+                                <item ConceptLink="" AppInfo="The vocabulary should be reviewed and described (it may be a new vocabulary or one that needs to be reviewed again)">to-review</item>
+                                <item ConceptLink="" AppInfo="The vocabulary is being reviewed and described">review-in-progress</item>
+                                <item ConceptLink="" AppInfo="The vocabulary was reviewed and is ready for publishing">reviewed-publish</item>
                                 <item ConceptLink="" AppInfo="The vocabulary is in the production/public version of the vocabulary registry online">published</item>
                                 <item ConceptLink="" AppInfo="The vocabulary didn't fit the selection criteria">discarded</item>
                             </enumeration>
@@ -52,7 +53,7 @@
         </Component>
         <Component name="Identification" ConceptLink="" CardinalityMin="1" CardinalityMax="1">
             <Documentation>To group all elements containing different types of identifiers (local, external)</Documentation>
-            <Element name="id" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="identifier" ConceptLink="http://purl.org/dc/terms/identifier" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Local identification, use the short name of the vocabulary as identifier (similar to an "alias"), e.g., agrovoc. Make sure it's unique.</Documentation>
             </Element>
             <Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -73,7 +74,7 @@
                 </Element>
             </Component>
             <Component name="Maintainer" ConceptLink="https://schema.org/maintainer" CardinalityMin="0" CardinalityMax="unbounded">
-                <Documentation>"A maintainer is a Person or Organization that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources." We use it as equivalent to http://purl.org/dc/terms/publisher ("An entity responsible for making the resource available"). If the Creator and Publisher=Maintainer are the same, do not repeat the name in the Publisher area. If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
+                <Documentation>"A maintainer is a Person or Organization that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources." We use it as equivalent to http://purl.org/dc/terms/publisher ("An entity responsible for making the resource available"). If the Creator and Publisher=Maintainer are the same, repeat the name in the Maintainer element (to make it clear who is responsible for this vocabulary). If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
                 <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A literal value that identifies the publisher.</Documentation>
@@ -98,17 +99,16 @@
             <Element name="language" ConceptLink="http://purl.org/dc/terms/language" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="7" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>A language of the resource. If a vocabulary is multilingual and it is not clear which languages does it cover (e.g., the AAT thesaurus) describe the main two or three language(s) and make sure to say it is "multilingual" in the description. Use a URI from: https://vocabularies.clarin.eu/clavas/ISO639-3/en/</Documentation>
             </Element>
-            <Element name="topic_unesco" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="topicUnesco" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Use the most specific term from the UNESCO thesaurus to describe the topic/theme of the vocabulary (if applicable). </Documentation>
             </Element>
-            <Element name="topic_nwo" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="4" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="topicNwo" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="4" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Use the most specific term from the NWO research areas to describe the topic/theme of the vocabulary (if applicable). </Documentation>
             </Element>
-            <Component name="keywords-tags" CardinalityMin="1" CardinalityMax="unbounded">
-                <Element name="keyword" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="5" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
-                    <Documentation>Any other tag or keyword that helps to represent the theme/topic of the vocabulary. Use keywords from sources such as wikidata, or the ELSST thesaurus (https://thesauri.cessda.eu/elsst-5/en/).</Documentation>
-                </Element>
+            <Component name="Keywords" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword" CardinalityMin="1" CardinalityMax="unbounded">
+                <Documentation>Any other tag or keyword that helps to represent the theme/topic of the vocabulary. Use keywords from sources such as wikidata, or the ELSST thesaurus (https://thesauri.cessda.eu/elsst-5/en/).</Documentation>
                 <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="6" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="5" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             </Component>
         </Component>
         <Component name="Type" CardinalityMin="1" CardinalityMax="unbounded">
@@ -133,7 +133,7 @@
                 <Documentation>Type of knowledge organization system (KOS)</Documentation>
             </Element>
             <Element name="entity" ConceptLink="http://purl.org/dc/terms/subject" CardinalityMin="0" CardinalityMax="1">
-                <Documentation xml:lang="en">(Use if applicable) if the vocabulary values are individual entities, choose the main type of entity being described.</Documentation>
+                <Documentation xml:lang="en">(Use if applicable, only for value vocabularies, not for schemas) if the vocabulary values are individual entities, choose the main type of entity being described.</Documentation>
                 <ValueScheme>
                     <Vocabulary>
                         <enumeration>
@@ -146,15 +146,26 @@
                 </ValueScheme>
             </Element>
         </Component>
-        <Component name="License" CardinalityMin="1" CardinalityMax="unbounded">
-            <Element name="license" ConceptLink="http://purl.org/dc/terms/license" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-            <Element name="url" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
-        </Component>
-        <Component name="ReferencedByRegistry" ConceptLink="" CardinalityMin="0" CardinalityMax="unbounded">
-            <Documentation>To register other vocabulary registries that include this vocabulary.</Documentation>
-            <Element name="isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
-                <Documentation>This property is intended to be used with non-literal values. Use the URL/URI of the vocabulary registry where the vocabulary is registered.</Documentation>
+        <Component name="License" ConceptLink="http://purl.org/dc/terms/license" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="uri" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</Documentation>
             </Element>
+            <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        </Component>
+        <Component name="IsReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" CardinalityMin="0" CardinalityMax="1">
+            <Documentation>A related resource that references, cites, or otherwise points to the described resource.</Documentation>
+            <Component name="Registry" ConceptLink="http://www.w3.org/ns/dcat#Catalog" CardinalityMin="1" CardinalityMax="unbounded">
+                <Documentation>We consider a vocabulary registry (such as LOV or Bartoc) a data catalog ("Datasets and data services are examples of resources in the context of a data catalog.")</Documentation>
+                <Element name="registryTitle" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                    <Documentation>The name of the vocabulary registry (e.g., Bartoc, LOV)</Documentation>
+                </Element>
+                <Element name="registryURL" ConceptLink="http://xmlns.com/foaf/spec/#term_homepage" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Documentation>The URL of the vocabulary registry's homepage; example: https://bartoc.org/</Documentation>
+                </Element>
+                <Element name="vocabularyURL" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                    <Documentation>This is the URL or URI (preferred if it exists) of this specific vocabulary in this vocabulary registry.</Documentation>
+                </Element>
+            </Component>
         </Component>
         <Component name="Location" ComponentRef="clarin.eu:cr1:c_1659015263855" CardinalityMin="1" CardinalityMax="unbounded">
             <Element name="uri" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>

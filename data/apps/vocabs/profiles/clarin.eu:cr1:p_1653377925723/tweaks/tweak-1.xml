@@ -8,12 +8,12 @@
         <Component name="Description">
             <Element name="description" cue:inputHeight="20" cue:inputWidth="60"/>
             <Element name="language" cue:class="skosType">
-                <clariah:autoCompleteURI>/proxy/vocabularies.clarin.eu/clavas/ISO639-3/en/</clariah:autoCompleteURI>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3/</clariah:autoCompleteURI>
             </Element>
-            <Element name="topic_unesco" cue:class="skosType">
+            <Element name="topicUnesco" cue:class="skosType">
                 <clariah:autoCompleteURI>/proxy/skosmos/odissei/unesco</clariah:autoCompleteURI>
             </Element>
-            <Element name="topic_nwo" cue:class="skosType">
+            <Element name="topicNwo" cue:class="skosType">
                 <clariah:autoCompleteURI>/proxy/skosmos/sd/nwo-researchfields</clariah:autoCompleteURI>
             </Element>
         </Component>
