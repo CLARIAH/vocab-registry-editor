@@ -10,9 +10,9 @@ title="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:title)"
 label_en="vocabulary"
 label_plural_en="vocabularies"
 
-[app.prof.vocab.list.id]
-xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:Identification/cmd:id)"
-label="Id"
+[app.prof.vocab.list.identifier]
+xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:Identification/cmd:identifier)"
+label="Identifier"
 sort="true"
 filter="true"
 
@@ -23,8 +23,14 @@ sort="true"
 filter="true"
 
 [app.prof.vocab.list.status]
-xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:status)"
+xpath="string(cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:InternalCuration/cmd:Status[last()]/cmd:status)"
 label="Status"
+sort="true"
+filter="'select'"
+
+[app.prof.vocab.list.dateFrom]
+xpath="string(cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:InternalCuration/cmd:Status[1]/cmd:dateFrom)"
+label="RecordCreated"
 sort="true"
 filter="'select'"
 
