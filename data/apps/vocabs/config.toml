@@ -2,6 +2,7 @@
 name="vocabs"
 title="CLARIAH Vocabulary Editor"
 def_prof="clarin.eu:cr1:p_1653377925723"
+def_user="vocabs"
 
 [app.prof.vocab]
 prof="clarin.eu:cr1:p_1653377925723"
@@ -34,7 +35,11 @@ sort="true"
 filter="'select'"
 
 [app.hooks.record]
-create="create_record"
-#read=
-#update=
-#delete=
+create_pre="create_record_pre"
+create_post="create_record_post"
+#read_pre=
+read_post="count"
+#update_pre=
+update_post="count"
+#delete_pre=
+delete_post="count"
