@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:cmdp="http://www.clarin.eu/cmd//profiles/clarin.eu:cr1:p_1653377925723" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd">
+    <cmd:Header>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label>unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://www.cidoc-crm.org/crmsci/home-1</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>1.2.6</cmd:version>
+                <cmd:Location>
+                    <cmd:uri>http://www.cidoc-crm.org/crmsci/sites/default/files/CRMsci_v1.2.6.rdfs</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:count>0</cmd:count>
+                        <cmd:Subjects>
+                            <cmd:count>83</cmd:count>
+                            <cmd:Namespaces/>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>7</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>83</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>264</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>162</cmd:count>
+                            <cmd:Classes>
+                                <cmd:count>162</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>347</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces/>
+                                <cmd:NamespaceItems/>
+                            </cmd:Literals>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>54</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>29</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                    <cmd:Namespaces>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>137</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>293</cmd:count>
+                        </cmd:Namespace>
+                    </cmd:Namespaces>
+                </cmd:Summary>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-01-17</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>crmsci</cmd:identifier>
+                <cmd:title xml:lang="en">CRMsci</cmd:title>
+                <cmd:Namespace>
+                    <cmd:Namespace>
+                        <cmd:prefix>crmsci</cmd:prefix>
+                        <cmd:uri>http://www.ics.forth.gr/isl/CRMsci/</cmd:uri>
+                    </cmd:Namespace>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The Scientific Observation Model (**CRMsci**) is a formal ontology
+                    intended to be used as a global schema for integrating metadata about scientific observation,
+                    measurements and processed data in descriptive and empirical sciences such as biodiversity, geology,
+                    geography, archaeology, cultural heritage conservation and others in research IT environments and
+                    research data libraries. Its primary purpose is facilitating the management, integration, mediation,
+                    interchange and access to research data by description of semantic relationships, in particular
+                    causal ones. It is not primarily a model to process the data themselves in order to produce new
+                    research results, even though its representations offer themselves to be used for some kind of
+                    processing.
+
+                    CRMsci uses and extends the CIDOC CRM (ISO21127) as a general ontology of human activity, things and
+                    events happening in spacetime. It uses the same encoding-neutral formalism of knowledge
+                    representation (“data model” in the sense of computer science) as the CIDOC CRM, which can be
+                    implemented in RDFS, OWL, on RDBMS and in other forms of encoding. Since the model reuses, wherever
+                    appropriate, parts of CIDOC Conceptual Reference Model, we provide in this document also a
+                    comprehensive list of all constructs used from ISO21127, together with their definitions following
+                    the version 6.2 maintained by CIDOC.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:registryURL>https://triplydb.com/Triply/yalc</cmd:registryURL>
+                    <cmd:vocabularyURL>https://triplydb.com/cidoc/crmsci</cmd:vocabularyURL>
+                    <cmd:registryTitle>YALC</cmd:registryTitle>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

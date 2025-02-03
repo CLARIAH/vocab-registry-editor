@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-03-12</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://520</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label xml:lang="en">CC 1.0</cmd:label>
+                <cmd:uri>http://creativecommons.org/publicdomain/zero/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://w3id.org/roar</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>0.1</cmd:version>
+                <cmd:Location>
+                    <cmd:uri>https://leonvanwissen.nl/vocab/roar/roar.nt</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:Subjects>
+                            <cmd:count>66</cmd:count>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>19</cmd:count>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>131</cmd:count>
+                            <cmd:Classes>
+                                <cmd:count>131</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>246</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                            </cmd:Literals>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                </cmd:Summary>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-03-12</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>roar</cmd:identifier>
+                <cmd:title xml:lang="en">Reconstructions and Observations in Archival Resources (ROAR)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:Namespace>
+                        <cmd:prefix>roar</cmd:prefix>
+                        <cmd:uri>https://w3id.org/roar#</cmd:uri>
+                    </cmd:Namespace>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Ontology to describe person, location etc. observations in archival
+                    resources. One or multiple observations can be bundled into a reconstruction that combines
+                    complementary (or sometimes conflicting) information from the observation(s) so that a single entity
+                    is reconstructed out of several entity observations from one or multiple sources.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:registryURL>https://triplydb.com/Triply/yalc</cmd:registryURL>
+                    <cmd:vocabularyURL>https://triplydb.com/roar</cmd:vocabularyURL>
+                    <cmd:registryTitle>YALC</cmd:registryTitle>
+                </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:registryURL>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:registryURL>
+                    <cmd:vocabularyURL>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:vocabularyURL>
+                    <cmd:registryTitle>Awesome Humanities</cmd:registryTitle>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

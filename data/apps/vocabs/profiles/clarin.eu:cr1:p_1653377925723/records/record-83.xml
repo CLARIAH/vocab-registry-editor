@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-10-26</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://66</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label xml:lang="en">CC BY 3.0</cmd:label>
+                <cmd:uri>https://creativecommons.org/licenses/by/3.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://dini-ag-kim.github.io/holding-ontology/holding.html</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>0.1.2+35</cmd:version>
+                <cmd:validFrom>2015-12-08</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>http://dini-ag-kim.github.io/holding-ontology/holding.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2023-10-26</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>holding</cmd:identifier>
+                <cmd:title xml:lang="en">Holding Ontology</cmd:title>
+                <cmd:Namespace>
+                    <cmd:Namespace>
+                        <cmd:prefix>holding</cmd:prefix>
+                        <cmd:uri>http://purl.org/ontology/holding#</cmd:uri>
+                    </cmd:Namespace>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">A vocabulary for describing (library) holdings. The Holding Ontology
+                    deals with [items]() and their relations to agents and documents. An item is a copy or exemplar of a
+                    document. Items are also referred to as holdings, but a holding is moreover the description of an
+                    agents inventory and access information for the item. Items may further be connected to services,
+                    locations, and chronologies.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:registryURL>https://triplydb.com/Triply/yalc</cmd:registryURL>
+                    <cmd:vocabularyURL>https://triplydb.com/holding</cmd:vocabularyURL>
+                    <cmd:registryTitle>YALC</cmd:registryTitle>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

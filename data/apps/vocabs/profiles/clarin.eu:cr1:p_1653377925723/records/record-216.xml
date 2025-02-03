@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-05-07</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://469</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:uri>http://creativecommons.org/publicdomain/zero/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://purl.org/ontology/ecpo</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>0.1+2</cmd:version>
+                <cmd:validFrom>2017-01-06</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>http://cklee.github.io/ecpo/ecpo.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-05-07</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>ecpo</cmd:identifier>
+                <cmd:title xml:lang="en">Enumeration and Chronology of Periodicals Ontology (ECPO)</cmd:title>
+                <cmd:Namespace/>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Defines the common bibliographic terms for the description of enumeration
+                    and chronology of periodicals.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:registryURL>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:registryURL>
+                    <cmd:vocabularyURL>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:vocabularyURL>
+                    <cmd:registryTitle>Awesome Humanities</cmd:registryTitle>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

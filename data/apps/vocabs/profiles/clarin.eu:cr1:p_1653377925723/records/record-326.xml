@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-10-25</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://59</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+                <cmd:Description>
+                    <cmd:description xml:lang="en">Copyright © 2017 W3C® (MIT, ERCIM, Keio, Beihang)</cmd:description>
+                </cmd:Description>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://www.w3.org/TR/Pointers-in-RDF</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>2017-02-02</cmd:version>
+                <cmd:validFrom>2017-02-02</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://www.w3.org/2009/pointers</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2023-10-25</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>ptr</cmd:identifier>
+                <cmd:title xml:lang="en">Pointer Methods</cmd:title>
+                <cmd:Namespace>
+                    <cmd:Namespace>
+                        <cmd:prefix>ptr</cmd:prefix>
+                        <cmd:uri>http://www.w3.org/2009/pointers#</cmd:uri>
+                    </cmd:Namespace>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Vocabulary for representing pointers ― entities that permit identifying a
+                    portion or segment of a piece of content ― making use of the [Resource Description
+                    Framework](/w3c/rdf) (RDF). It also describes a number of specific types of pointers that permit
+                    portions of a document to be referred to in different ways. When referring to a specific part of,
+                    say, a piece of web content, it is useful to be able to have a consistent manner by which to refer
+                    to a particular segment of a web document, to have a variety of ways by which to refer to that same
+                    segment, and to make the reference robust in the face of changes to that document. This
+                    specification is part of the [Evaluation And Report Language](/w3c/earl) (EARL) but can be reused in
+                    other contexts too.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:registryURL>https://triplydb.com/Triply/yalc</cmd:registryURL>
+                    <cmd:vocabularyURL>https://triplydb.com/w3c/ptr</cmd:vocabularyURL>
+                    <cmd:registryTitle>YALC</cmd:registryTitle>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

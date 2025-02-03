@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-12-13</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://202</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/licenses/by/4.0/</cmd:uri>
+                <cmd:label>CC 4.0</cmd:label>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://github.com/sparontologies/deo</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Location>
+                <cmd:uri>http://purl.org/spar/deo.html</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>2015-07-03</cmd:version>
+                <cmd:validFrom>2015-07-03T00:00:00</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://sparontologies.github.io/deo/current/deo.xml</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:Subjects>
+                            <cmd:count>62</cmd:count>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>20</cmd:count>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>113</cmd:count>
+                            <cmd:Classes>
+                                <cmd:count>113</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>197</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                            </cmd:Literals>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                </cmd:Summary>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2023-12-13</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>deo</cmd:identifier>
+                <cmd:title xml:lang="en">Document Elements Ontology (DEO)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:Namespace>
+                        <cmd:prefix>deo</cmd:prefix>
+                        <cmd:uri>http://purl.org/spar/deo/</cmd:uri>
+                    </cmd:Namespace>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">DEO, The Discourse Elements Ontology, is an ontology written in OWL 2 DL
+                    that provides a structured vocabulary for rhetorical elements within documents (e.g. Introduction,
+                    Discussion, Acknowledgements, Reference List, Figures, Appendix), enabling these to be described in
+                    RDF. It uses some of the rhetorical block elements from the SALT Rhetorical Ontology and the
+                    Ontology of Rhetorical Blocks.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:registryURL>https://triplydb.com/Triply/yalc</cmd:registryURL>
+                    <cmd:vocabularyURL>https://triplydb.com/spar/deo</cmd:vocabularyURL>
+                    <cmd:registryTitle>YALC</cmd:registryTitle>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>
