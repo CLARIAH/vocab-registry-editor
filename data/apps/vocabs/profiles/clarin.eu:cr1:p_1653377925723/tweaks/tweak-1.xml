@@ -5,22 +5,131 @@
         <ID>clarin.eu:cr1:p_1653377925723</ID>
     </Header>
     <Component name="Vocabulary">
-        <Component name="Description">
-            <Element name="description" cue:inputHeight="20" cue:inputWidth="60"/>
-            <Element name="language" cue:class="skosType">
-                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3/</clariah:autoCompleteURI>
-            </Element>
-            <Element name="topicUnesco" cue:class="skosType">
-                <clariah:autoCompleteURI>/proxy/skosmos/odissei/unesco</clariah:autoCompleteURI>
-            </Element>
-            <Element name="topicNwo" cue:class="skosType">
-                <clariah:autoCompleteURI>/proxy/skosmos/sd/nwo-researchfields</clariah:autoCompleteURI>
-            </Element>
+      <Component name="InternalCuration">
+        <clariah:explanation src="documentation"/>
+        <Component name="Status">
+          <clariah:explanation src="documentation"/>
+          <Element name="status">
+          </Element>
+          <Element name="dateFrom">
+            <clariah:explanation src="documentation"/>
+          </Element>
+          <Element name="dateUntil">
+            <clariah:explanation src="documentation"/>
+          </Element>
+          <Element name="accrualMethod">
+            <clariah:explanation src="documentation"/>
+          </Element>
+          <Element name="comments">
+            <clariah:explanation src="documentation"/>
+          </Element>
+          <Element name="reviewer">
+            <clariah:explanation src="documentation"/>
+          </Element>
         </Component>
-        <Component name="Type">
-            <Element name="kos" cue:class="skosType">
-                <clariah:autoCompleteURI>/proxy/skosmos/sd/nkostype</clariah:autoCompleteURI>
-            </Element>
+      </Component>
+      <Component name="Identification">
+        <clariah:explanation src="documentation"/>
+        <Element name="identifier">
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Element name="title">
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Component name="Namespace">
+          <Element name="uri"/>
+          <Element name="prefix"/>
         </Component>
+      </Component>
+      <Component name="Responsibility">
+        <clariah:explanation src="documentation"/>
+        <Component name="Creator">
+          <clariah:explanation src="documentation"/>
+          <Element name="uri"/>
+          <Element name="label">
+            <clariah:explanation src="documentation"/>
+          </Element>
+        </Component>
+        <Component name="Maintainer">
+          <clariah:explanation src="documentation"/>
+          <Element name="uri"/>
+          <Element name="label">
+            <clariah:explanation src="documentation"/>
+          </Element>
+        </Component>
+        <Component name="Contributor">
+          <clariah:explanation src="documentation"/>
+          <Element name="uri"/>
+          <Element name="label">
+            <clariah:explanation src="documentation"/>
+          </Element>
+        </Component>
+      </Component>
+      <Component name="Description">
+        <clariah:explanation src="documentation"/>
+        <Element name="description" cue:inputHeight="20" cue:inputWidth="60">
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Element name="dateIssued">
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Element name="language" cue:class="skosType">
+          <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3/</clariah:autoCompleteURI>
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Element name="topicUnesco" cue:class="skosType">
+          <clariah:autoCompleteURI>/proxy/skosmos/odissei/unesco</clariah:autoCompleteURI>
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Element name="topicNwo" cue:class="skosType">
+          <clariah:autoCompleteURI>/proxy/skosmos/sd/nwo-researchfields</clariah:autoCompleteURI>
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Component name="Keywords">
+          <clariah:explanation src="documentation"/>
+          <Element name="uri"/>
+          <Element name="label"/>
+        </Component>
+      </Component>
+      <Component name="Type">
+        <Element name="syntax">
+        </Element>
+        <Element name="kos" cue:class="skosType">
+          <clariah:autoCompleteURI>/proxy/skosmos/sd/nkostype</clariah:autoCompleteURI>
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Element name="entity">
+          <clariah:explanation src="documentation"/>
+        </Element>
+      </Component>
+      <Component name="License">
+        <Element name="uri">
+          <clariah:explanation src="documentation"/>
+        </Element>
+        <Element name="label"/>
+      </Component>
+      <Component name="IsReferencedBy">
+        <clariah:explanation src="documentation"/>
+        <Component name="Registry">
+          <clariah:explanation src="documentation"/>
+          <Element name="title">
+            <clariah:explanation src="documentation"/>
+          </Element>
+          <Element name="url">
+            <clariah:explanation src="documentation"/>
+          </Element>
+          <Element name="landingPage">
+            <clariah:explanation src="documentation"/>
+          </Element>
+        </Component>
+      </Component>
+      <Component name="Location"/>
+      <Component name="Version">
+        <Element name="version"/>
+        <Element name="validFrom"/>
+        <Component name="Location"/>
+        <Component name="Summary"/>
+      </Component>
+      <Component name="Review"/>
     </Component>
 </ComponentSpec>
