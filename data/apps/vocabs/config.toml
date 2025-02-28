@@ -17,7 +17,7 @@ sort="true"
 filter="true"
 
 [app.prof.vocab.list.name]
-xpath="string(/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:Identification/cmd:title)"
+xpath="/cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:Identification/cmd:title[@xml:lang='en']"
 label="Title"
 sort="true"
 filter="true"
