@@ -90,7 +90,7 @@
         </Component>
         <Component name="Description" CardinalityMin="1" CardinalityMax="1">
             <Documentation>Description of the content and thematic scope of the vocabulary.</Documentation>
-            <Element name="description" ConceptLink="  http://purl.org/dc/terms/description" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="description" ConceptLink="  http://purl.org/dc/terms/description" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Copy/paste and/or slighly adapt the most clear description of the vocabulary, meant for its users to know about its content, purpose, intended uses, etc. If the description is not made by the creator, add the source at the end.</Documentation>
             </Element>
             <Element name="dateIssued" ConceptLink="http://purl.org/dc/terms/issued" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -99,10 +99,10 @@
             <Element name="language" ConceptLink="http://purl.org/dc/terms/language" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="7" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>A language of the resource. If a vocabulary is multilingual and it is not clear which languages does it cover (e.g., the AAT thesaurus) describe the main two or three language(s) and make sure to say it is "multilingual" in the description. Use a URI from: https://vocabularies.clarin.eu/clavas/ISO639-3/en/</Documentation>
             </Element>
-            <Element name="topicUnesco" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="topicUnesco" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Use the most specific term from the UNESCO thesaurus to describe the topic/theme of the vocabulary (if applicable). </Documentation>
             </Element>
-            <Element name="topicNwo" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="4" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="topicNwo" ConceptLink="http://purl.org/dc/terms/subject" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="4" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Use the most specific term from the NWO research areas to describe the topic/theme of the vocabulary (if applicable). </Documentation>
             </Element>
             <Component name="Keywords" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword" CardinalityMin="0" CardinalityMax="unbounded">
@@ -156,10 +156,10 @@
             <Documentation>A related resource that references, cites, or otherwise points to the described resource.</Documentation>
             <Component name="Registry" ConceptLink="http://www.w3.org/ns/dcat#Catalog" CardinalityMin="1" CardinalityMax="unbounded">
                 <Documentation>We consider a vocabulary registry (such as LOV or Bartoc) a data catalog ("Datasets and data services are examples of resources in the context of a data catalog.")</Documentation>
-                <Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                <Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
                     <Documentation>The name of the vocabulary registry (e.g., Bartoc, LOV)</Documentation>
                 </Element>
-                <Element name="url" ConceptLink="http://xmlns.com/foaf/spec/#term_homepage" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="url" ConceptLink="http://xmlns.com/foaf/spec/#term_homepage" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>The URL of the vocabulary registry's homepage; example: https://bartoc.org/</Documentation>
                 </Element>
                 <Element name="landingPage" ConceptLink="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
