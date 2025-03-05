@@ -1,0 +1,120 @@
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1741007556">2025-03-03</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://16</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-03-12</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-03-03</cmd:dateFrom>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>pnv</cmd:identifier>
+                <cmd:title xml:lang="en">Person Name Vocabulary (PNV)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>https://w3id.org/pnv#</cmd:uri>
+                    <cmd:prefix>pnv</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:uri>Lodewijk Petram</cmd:uri>
+                    <cmd:label>https://orcid.org/0000-0002-7246-4176</cmd:label>
+                </cmd:Creator>
+                <cmd:Creator>
+                    <cmd:uri>https://www.linkedin.com/in/elvindechesne/</cmd:uri>
+                    <cmd:label>Elvin Dechesne</cmd:label>
+                </cmd:Creator>
+                <cmd:Creator>
+                    <cmd:uri>http://viaf.org/viaf/281449420</cmd:uri>
+                    <cmd:label>Gijsbert Kruithof</cmd:label>
+                </cmd:Creator>
+                <cmd:Maintainer>
+                    <cmd:uri>Lodewijk Petram</cmd:uri>
+                    <cmd:label>https://orcid.org/0000-0002-7246-4176</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The Person Name Vocabulary (PNV) is an rdf vocabulary and data model for
+                    persons' names. It is applicable to many datasets in which persons are described, as it accommodates
+                    different levels of data granularity. It furthermore allows for easy alignment of name elements,
+                    including idiosyncratic ones, such as family name prefixes and patronymics, with standard
+                    vocabularies such as schema.org, foaf, DBpedia and Wikidata, thus guaranteeing optimal data
+                    interoperability.
+                </cmd:description>
+                <cmd:dateIssued>2019-07-01</cmd:dateIssued>
+                <cmd:language>eng</cmd:language>
+                <cmd:Keywords>
+                    <cmd:uri>https://www.wikidata.org/wiki/Q115642094</cmd:uri>
+                    <cmd:label>personal name</cmd:label>
+                </cmd:Keywords>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+                <cmd:kos>ontology</cmd:kos>
+                <cmd:entity>Person</cmd:entity>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/licenses/by-nc-sa/4.0/</cmd:uri>
+                <cmd:label xml:lang="en">CC BY-NC-SA 4.0 Deed</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>YALC</cmd:title>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/huygens-ing/pnv</cmd:landingPage>
+                </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>Awesome Humanities</cmd:title>
+                    <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
+                    <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+            <cmd:Location>
+                <cmd:uri>https://www.lodewijkpetram.nl/vocab/pnv/doc/</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>1.1</cmd:version>
+                <cmd:validFrom>2019-07-01</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://www.lodewijkpetram.nl/vocab/pnv/pnv.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://localhost:5000/cache/pnv/1.1.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://localhost:5000/docs/pnv/1.1.html</cmd:uri>
+                    <cmd:type>homepage</cmd:type>
+                    <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>
