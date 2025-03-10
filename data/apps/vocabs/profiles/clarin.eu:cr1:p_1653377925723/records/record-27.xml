@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+   <cmd:Header>
+      <cmd:MdCreator>vocabs</cmd:MdCreator>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1741022354">2025-03-03</cmd:MdCreationDate>
+      <cmd:MdSelfLink>unl://27</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName/>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList/>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+      <cmd:IsPartOfList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <cmd:Vocabulary>
+         <cmd:InternalCuration>
+            <cmd:Status>
+               <cmd:status>reviewed-publish</cmd:status>
+               <cmd:dateFrom>2024-03-18</cmd:dateFrom>
+               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+            </cmd:Status>
+            <cmd:Status>
+                 <cmd:status>to-review</cmd:status>
+                 <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>reviewed-publish</cmd:status>
+               <cmd:dateFrom>2025-03-03</cmd:dateFrom>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+         </cmd:InternalCuration>
+         <cmd:Identification>
+            <cmd:identifier>viaf</cmd:identifier>
+            <cmd:title xml:lang="en">Virtual International Authority File (VIAF)</cmd:title>
+            <cmd:Namespace>
+               <cmd:uri>https://viaf.org/en/viaf/data</cmd:uri>
+               <cmd:prefix>viaf</cmd:prefix>
+            </cmd:Namespace>
+         </cmd:Identification>
+         <cmd:Responsibility>
+            <cmd:Creator>
+               <cmd:uri>https://viaf.org/viaf/156508705</cmd:uri>
+               <cmd:label>OCLC Online Computer Library Center, Inc.</cmd:label>
+            </cmd:Creator>
+            <cmd:Maintainer>
+               <cmd:uri>https://viaf.org/viaf/156508705</cmd:uri>
+               <cmd:label>OCLC Online Computer Library Center, Inc.</cmd:label>
+            </cmd:Maintainer>
+         </cmd:Responsibility>
+         <cmd:Description>
+            <cmd:description xml:lang="en">The Virtual International Authority File (VIAF) is an OCLC service built in cooperation with national libraries and other partners ― that virtually combines multiple LAM (Library Archives Museum) name authority files into a single name authority service.
+
+"The VIAF (Virtual International Authority File) service provides libraries and library users with convenient access to the world's major name authority files. VIAF Contributors regularly supply authority data that VIAF matches, links, and groups. All descriptions for a given entity are merged into a cluster that brings together the different names for that entity. This service allows researchers to identify names, locations, works, and expressions while preserving regional preferences for language, spelling, and script." (https://marketplace.sshopencloud.eu/tool-or-service/DrxHId)
+                </cmd:description>
+            <cmd:dateIssued>2003</cmd:dateIssued>
+            <cmd:language>eng</cmd:language>
+            <cmd:topicUnesco>Bibliographic control</cmd:topicUnesco>
+         </cmd:Description>
+         <cmd:Type>
+            <cmd:syntax>owl</cmd:syntax>
+            <cmd:kos>authority file</cmd:kos>
+            <cmd:entity>Person</cmd:entity>
+         </cmd:Type>
+         <cmd:License>
+            <cmd:uri>https://opendatacommons.org/licenses/by/1-0/</cmd:uri>
+            <cmd:label xml:lang="en">Open Data Commons Attribution License (ODC-By) v1.0</cmd:label>
+         </cmd:License>
+         <cmd:IsReferencedBy>
+            <cmd:Registry>
+               <cmd:title>YALC</cmd:title>
+               <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+               <cmd:landingPage>https://triplydb.com/oclc/viaf</cmd:landingPage>
+            </cmd:Registry>
+            <cmd:Registry>
+               <cmd:title>Awesome Humanities</cmd:title>
+               <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
+               <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
+            </cmd:Registry>
+            <cmd:Registry>
+               <cmd:title>Bartoc</cmd:title>
+               <cmd:url>https://bartoc.org</cmd:url>
+               <cmd:landingPage>https://bartoc.org/en/node/2053</cmd:landingPage>
+            </cmd:Registry>
+         </cmd:IsReferencedBy>
+         <cmd:Location>
+            <cmd:uri>http://viaf.org</cmd:uri>
+            <cmd:type>homepage</cmd:type>
+         </cmd:Location>
+         <cmd:Version>
+            <cmd:version>2024-08-04</cmd:version>
+            <cmd:validFrom>2024-08-04</cmd:validFrom>
+            <cmd:Location>
+               <cmd:uri>https://downloads.viaf.org/download/yearly/viaf-20240804-clusters-rdf.nt.gz</cmd:uri>
+               <cmd:type>dump</cmd:type>
+               <cmd:recipe>rdf</cmd:recipe>
+            </cmd:Location>
+         </cmd:Version>
+      </cmd:Vocabulary>
+   </cmd:Components>
+</cmd:CMD>
