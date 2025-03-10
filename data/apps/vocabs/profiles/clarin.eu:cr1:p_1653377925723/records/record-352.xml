@@ -1,0 +1,119 @@
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1741180676">2025-03-05</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://352</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-06-11</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-03-05</cmd:dateFrom>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>gold</cmd:identifier>
+                <cmd:title xml:lang="en">General Ontology for Linguistic Description (GOLD)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://purl.org/linguistics/gold/</cmd:uri>
+                    <cmd:prefix>gold</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:uri>farrar@u.arizona.edu</cmd:uri>
+                    <cmd:label>Scott Farrar</cmd:label>
+                </cmd:Creator>
+                <cmd:Maintainer>
+                    <cmd:uri>http://www.jstor.org/stable/30200572</cmd:uri>
+                    <cmd:label>GOLD Community of Practice</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">GOLD is an ontology for descriptive linguistics. It gives a formalized
+                    account of the most basic categories and relations (the ‘atoms’) used in the scientific description
+                    of human language. GOLD is intended to capture the knowledge of a well-trained linguist, and can
+                    thus be viewed as an attempt to codify the general knowledge of the field. It will facilite
+                    automated reasoning over linguistic data and help establish the basic concepts through which
+                    intelligent search can be carried out. Furthermore, GOLD is meant to be compatible with the general
+                    goals of the Semantic Web.
+                </cmd:description>
+                <cmd:dateIssued>2003</cmd:dateIssued>
+                <cmd:language>eng</cmd:language>
+                <cmd:topicUnesco>Linguistics</cmd:topicUnesco>
+                <cmd:topicUnesco>Disappearing languages</cmd:topicUnesco>
+                <cmd:topicNwo>Linguistics</cmd:topicNwo>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+                <cmd:kos>ontology</cmd:kos>
+                <cmd:entity>Concept</cmd:entity>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/licenses/by/3.0/</cmd:uri>
+                <cmd:label xml:lang="en">CC BY 3.0</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>YALC</cmd:title>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/gold</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+            <cmd:Location>
+                <cmd:uri>http://linguistics-ontology.org</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Location>
+                <cmd:uri>https://web.archive.org/web/20070715111533/http://linguistlist.org/gold/linguistics-ontology.org/</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>2008</cmd:version>
+                <cmd:validFrom>2008-01-01</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>http://www.linguistics-ontology.org/gold-2008.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>2009</cmd:version>
+                <cmd:validFrom>2009-01-01</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>http://www.linguistics-ontology.org/gold-2009.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>2010</cmd:version>
+                <cmd:validFrom>2010-01-01</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>http://www.linguistics-ontology.org/gold-2010.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>
