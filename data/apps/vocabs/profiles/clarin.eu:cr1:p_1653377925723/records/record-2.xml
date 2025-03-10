@@ -20,6 +20,15 @@
                     <cmd:dateFrom>2024-02-05</cmd:dateFrom>
                     <cmd:dateUntil>2024-06-13</cmd:dateUntil>
                 </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-03-03</cmd:dateFrom>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
             </cmd:InternalCuration>
             <cmd:Identification>
                 <cmd:identifier>bib</cmd:identifier>
