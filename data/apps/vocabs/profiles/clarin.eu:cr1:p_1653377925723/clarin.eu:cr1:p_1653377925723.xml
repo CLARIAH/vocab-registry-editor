@@ -64,7 +64,7 @@
                 <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
             </Component>
         </Component>
-        <Component name="Responsibility">
+        <Component name="Responsibility" CardinalityMin="0" CardinalityMax="1">
             <Documentation>For mentions of responsibility (creation, publication, maintenance), describes the rights holder.</Documentation>
             <Component name="Creator" ConceptLink="http://purl.org/dc/terms/creator" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>An entity responsible for making the resource. It can be a person or an institution. If the Creator and Publisher are the same, do not repeat the name in the Publisher area. If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
