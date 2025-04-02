@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-10-19</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://8</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/licenses/by/3.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://www.w3.org/2007/05/powder-s#</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>2010-11-08</cmd:version>
+                <cmd:validFrom>2010-11-08</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>http://www.w3.org/2007/05/powder-s.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2023-10-19</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published_to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>wdrs</cmd:identifier>
+                <cmd:title xml:lang="en">Protocol for Web Description Resources (POWDER): POWDER-S Vocabulary (WDRS)
+            </cmd:title>
+                <cmd:Namespace>
+                    <cmd:prefix>wdrs</cmd:prefix>
+                    <cmd:uri>https://www.w3.org/2007/05/powder-s#</cmd:uri>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The Protocol for Web Description Resources (POWDER) allows metadata to be
+                    associated with groups of resources such as those found on a Web site. Its main 'unit of
+                    information' is the Description Resource (DR), one or more of which are contained in a POWDER
+                    document. Processing such a document yields RDF triples describing the resources that are within the
+                    scope of the DRs. POWDER documents are written in XML and have relatively loose semantics, however,
+                    a GRDDL transform, associated with the root namespace, renders the data in OWL with more formal
+                    semantics.An RDF vocabulary is defined to support Semantic POWDER, or POWDER-S encoding, of
+                    Description Resources. This is the namespace document for that vocabulary. Although this document
+                    sets out the domain and range of each term, their full definitions are to be found in other
+                    documents in the set, notably the Description Resources document
+                    [DR](https://www.w3.org/2007/05/powder-s#dr) and the Formal Semantics document
+                    [FORMAL](https://www.w3.org/2007/05/powder-s#formal).
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/okfn/wdrs</cmd:landingPage>
+                    <cmd:title>YALC</cmd:title>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

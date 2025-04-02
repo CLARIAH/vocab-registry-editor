@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:cmdp="http://www.clarin.eu/cmd//profiles/clarin.eu:cr1:p_1653377925723" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd">
+    <cmd:Header>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label>unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://id.loc.gov/ontologies/madsrdf/v1.html</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-01-17</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>mads</cmd:identifier>
+                <cmd:title xml:lang="en">Metadata Authority Description Schema (MADS)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:prefix>mads</cmd:prefix>
+                    <cmd:uri>http://www.loc.gov/mads/rdf/v1#</cmd:uri>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">This document describes the MADS/RDF (Metadata Authority Description
+                    Schema in RDF) vocabulary, a data model for authority and vocabulary data used within the library
+                    and information science (LIS) community, which is inclusive of museums, archives, and other cultural
+                    institutions. It is presented as an OWL ontology.
+
+                    MADS/RDF is a knowledge organization system (KOS) designed for use with controlled values for names
+                    (personal, corporate, geographic, etc.), thesauri, taxonomies, subject heading systems, and other
+                    controlled value lists. It is closely related to SKOS, the Simple Knowledge Organization System and
+                    a widely supported and adopted RDF vocabulary. Given the close relationship between the aim of
+                    MADS/RDF and the aim of SKOS, the MADS ontology has been fully mapped to SKOS.
+
+                    Unlike SKOS, however, which is very broad in its application, MADS/RDF is designed specifically to
+                    support authority data as used by and needed in the LIS community and its technology systems. For
+                    example, MADS/RDF provides a means to record data from the Machine Readable Cataloging (MARC)
+                    Authorities format in RDF for use in semantic applications and Linked Data projects.
+
+                    MADS/RDF is designed to support the description of cultural and bibliographic resources. Data
+                    described using MADS/RDF, therefore, assists with identifying and annotating bibliographic and
+                    cultural resources. MADS/RDF is not focused on the description of Real World Objects. Although a
+                    MADS/RDF description may contain information specific to the Real World Object associated with the
+                    MADS/RDF authoritative label, the MADS/RDF ontology distinguishes between these two entities – the
+                    RWO and the Authority.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/loc/mads</cmd:landingPage>
+                    <cmd:title>YALC</cmd:title>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

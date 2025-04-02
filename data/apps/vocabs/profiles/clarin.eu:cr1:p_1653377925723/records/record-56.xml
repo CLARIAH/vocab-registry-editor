@@ -1,0 +1,113 @@
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:cmdp="http://www.clarin.eu/cmd//profiles/clarin.eu:cr1:p_1653377925723" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd">
+    <cmd:Header>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-01-17</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-03-10</cmd:dateFrom>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>owl</cmd:identifier>
+                <cmd:title xml:lang="en">The OWL 2 Schema vocabulary (OWL 2)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://www.w3.org/2002/07/owl#</cmd:uri>
+                    <cmd:prefix>owl</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:uri>http://viaf.org/viaf/122285539</cmd:uri>
+                    <cmd:label>W3C OWL Working Group</cmd:label>
+                </cmd:Creator>
+                <cmd:Maintainer>
+                    <cmd:uri>https://www.w3.org/2007/OWL/wiki/OWL_Working_Group</cmd:uri>
+                    <cmd:label>World-Wide Web Consortium (W3C)</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">"The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents." (https://www.w3.org/TR/owl2-overview/#ref-owl-2-specification)
+
+                    This ontology partially describes the built-in classes and properties
+                    that together form the basis of the RDF/XML syntax of OWL 2. The content of this ontology is based
+                    on Tables 6.1 and 6.2 in Section 6.4 of the OWL 2 RDF-Based Semantics specification, available at
+                    &lt;http://www.w3.org/TR/owl2-rdf-based-semantics/&gt;.
+
+                    Please note that those tables do not include the different annotations (labels, comments and
+                    `rdfs:isDefinedBy` links) used in this file. Also note that the descriptions provided in this
+                    ontology do not provide a complete and correct formal description of either the syntax or the
+                    semantics of the introduced terms (please see the OWL 2 recommendations for the complete and
+                    normative specifications).
+
+                    Furthermore, the information provided by this ontology may be misleading if not used with care. This
+                    ontology SHOULD NOT be imported into OWL ontologies. Importing this file into an OWL 2 DL ontology
+                    will cause it to become an OWL 2 Full ontology and may have other, unexpected, consequences.
+                </cmd:description>
+                <cmd:dateIssued>2004-02-10</cmd:dateIssued>
+                <cmd:language>eng</cmd:language>
+                <cmd:topicUnesco>Standards</cmd:topicUnesco>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>rdfs</cmd:syntax>
+                <cmd:kos>ontology</cmd:kos>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>http://rightsstatements.org/vocab/InC/1.0/</cmd:uri>
+                <cmd:label>In Copyright</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>YALC</cmd:title>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/w3c/owl</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+            <cmd:Location>
+                <cmd:uri>https://www.w3.org/TR/owl2-overview</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>owl2</cmd:version>
+                <cmd:validFrom>2009-10-27</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://www.w3.org/2002/07/owl.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://localhost:5000/cache/owl/owl2.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://localhost:5000/docs/owl/owl2.html</cmd:uri>
+                    <cmd:type>homepage</cmd:type>
+                    <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

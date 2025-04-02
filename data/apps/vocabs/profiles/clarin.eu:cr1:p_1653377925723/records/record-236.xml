@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-10-25</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://63</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://histograph.io</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>discarded</cmd:status>
+                    <cmd:dateFrom>2023-10-25</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>discarded</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>hg</cmd:identifier>
+                <cmd:title xml:lang="en">HistoGraph</cmd:title>
+                <cmd:Namespace>
+                    <cmd:prefix>hg</cmd:prefix>
+                    <cmd:uri>https://rdf.histograph.io/</cmd:uri>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">A historical geocoder for search and standardization of place names
+                    throughout history. For example, people used different names for the city of The Hague:
+                    ’s-Gravenhage, Vander Haegen, Haga Comitis, Den Haege, La Haye, De Haach, In den Haige,
+                    Schravenhaegen and ‘t Haagie. Histograph collects and links place names and uses these to
+                    georeference and standardize place names in time; currently, sources used include birth places of
+                    Dutch East India Company crew members, monastry records and historical census data.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/rce/hg</cmd:landingPage>
+                    <cmd:title>YALC</cmd:title>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

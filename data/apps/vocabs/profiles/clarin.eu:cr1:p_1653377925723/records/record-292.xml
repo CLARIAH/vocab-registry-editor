@@ -106,14 +106,14 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://localhost:5000/cache/foaf/0.99.rdf</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
-                </cmd:Location>
-                <cmd:Location>
                     <cmd:uri>https://localhost:5000/docs/foaf/0.99.html</cmd:uri>
                     <cmd:type>homepage</cmd:type>
                     <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://localhost:5000/cache/foaf/0.99.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

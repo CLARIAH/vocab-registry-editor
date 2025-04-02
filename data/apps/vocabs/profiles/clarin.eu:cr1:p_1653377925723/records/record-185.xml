@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-06-12</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://493</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:researchDomain>Geography</cmd:researchDomain>
+            <cmd:License>
+                <cmd:label xml:lang="en">Document License Agreement</cmd:label>
+                <cmd:uri>https://www.ogc.org/about-ogc/policies/document-license-agreement/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://www.ogc.org/standard/geosparql/</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>1.1</cmd:version>
+                <cmd:Location>
+                    <cmd:uri>http://www.opengis.net/ont/geosparql</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-06-12</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>geosparql</cmd:identifier>
+                <cmd:title xml:lang="en">GeoSPARQL ontology</cmd:title>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The OGC GeoSPARQL standard supports representing and querying geospatial
+                    data on the Semantic Web. GeoSPARQL defines a vocabulary for representing geospatial data in RDF,
+                    and it defines an extension to the SPARQL query language for processing geospatial data. In
+                    addition, GeoSPARQL is designed to accommodate systems based on qualitative spatial reasoning and
+                    systems based on quantitative spatial computations.
+
+                    GeoSPARQL - the richest and most common spatial ontologies, plus an optional SPARQL extension (hence
+                    the name) that supports spatial reasoning over geodata that are annotated with its ontology.
+                    Supported by various triples stores, such as TriplyDB (Druid) triple stores.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
+                    <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
+                    <cmd:title>Awesome Humanities</cmd:title>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

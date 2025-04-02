@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:cmdp="http://www.clarin.eu/cmd//profiles/clarin.eu:cr1:p_1653377925723" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd">
+    <cmd:Header>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label>unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>https://github.com/SPAROntologies/literal</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>2011-03-23</cmd:version>
+                <cmd:validFrom>2011-03-23T00:00:00</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://raw.githubusercontent.com/SPAROntologies/literal/master/docs/current/literal.nt
+                    </cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:count>0</cmd:count>
+                        <cmd:Subjects>
+                            <cmd:count>37</cmd:count>
+                            <cmd:Namespaces/>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>30</cmd:count>
+                            <cmd:Namespaces/>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>60</cmd:count>
+                            <cmd:Classes>
+                                <cmd:count>60</cmd:count>
+                                <cmd:Namespaces/>
+                                <cmd:NamespaceItems/>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>99</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces/>
+                                <cmd:NamespaceItems/>
+                            </cmd:Literals>
+                            <cmd:Namespaces/>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                    <cmd:Namespaces/>
+                </cmd:Summary>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-01-17</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>literal</cmd:identifier>
+                <cmd:title xml:lang="en">Literal Reification pattern</cmd:title>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Recently within the Semantic Web community a new topic has been actively
+                    discussed: whether and how to allow literals to be subjects of RDF statements
+                    ([link](https://www.w3.org/2001/sw/wiki/Literals_as_Subjects)). This discussions failed to provide a
+                    unique and clear indication of how to proceed in that regard.
+
+                    Although one of the suggestions coming out of the discussion was to explicitly include the proposal
+                    in a (future) specification of RDF, this topic is not actually new, particularly in ontology
+                    modelling. The needs to describe “typical” literals (specially strings) as individuals of a
+                    particular class has been addressed by a lot of models in past, such as Common Tag (through the
+                    class Tag), SIOC (through the classes Category and Tag), SKOS-XL (through the class Label), and LMM
+                    (through the class Expression).
+
+                    After considering the above-mentioned models and other related and inspiring ones, this literal
+                    reification vocabulary was created to address this issue. It allows to express literal values as
+                    proper ontological individuals so as to use them as subject/object of any assertion within OWL
+                    models.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/literal</cmd:landingPage>
+                    <cmd:title>YALC</cmd:title>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

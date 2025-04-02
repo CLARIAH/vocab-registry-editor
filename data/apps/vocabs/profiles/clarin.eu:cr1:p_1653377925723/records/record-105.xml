@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-10-31</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://86</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://www.cidoc-crm.org/crmdig</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>3.2.1</cmd:version>
+                <cmd:Location>
+                    <cmd:uri>http://www.cidoc-crm.org/crmdig/sites/default/files/CRMdig_v3.2.1.rdfs</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:Subjects>
+                            <cmd:count>85</cmd:count>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>7</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>84</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>280</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>137</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>69</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>28</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                            <cmd:Classes>
+                                <cmd:count>137</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>365</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                            </cmd:Literals>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                    <cmd:Namespaces>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>153</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>309</cmd:count>
+                        </cmd:Namespace>
+                    </cmd:Namespaces>
+                </cmd:Summary>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>7.1.2</cmd:version>
+                <cmd:validFrom>2022-06-01</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://cidoc-crm.org/rdfs/7.1.2/CIDOC_CRM_v7.1.2.rdfs</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>3.2</cmd:version>
+                <cmd:Location>
+                    <cmd:uri>http://www.cidoc-crm.org/crmdig/sites/default/files/CRMdig_v3.2.rdfs</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2023-10-31</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>review-in-progress</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>crmdig</cmd:identifier>
+                <cmd:title xml:lang="en">CRMdig</cmd:title>
+                <cmd:Namespace>
+                    <cmd:prefix>crmdig</cmd:prefix>
+                    <cmd:uri>http://www.ics.forth.gr/isl/CRMdig/</cmd:uri>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">**CRM Digital** is an ontology and RDF Schema to encode metadata about
+                    the steps and methods of production (“provenance”) of digitization products and synthetic digital
+                    representations such as 2D, 3D or even animated Models created by various technologies. Its distinct
+                    features compared to competitive models is the complete inclusion of the initial physical
+                    measurement processes and their parameters. It has been developed as compatible extension of [CIDOC
+                    CRM](/cidoc/crm), which allows for querying the most relevant facts and returning complete
+                    descriptions encoded in this model by generic [ISO21127](/iso/21127) terms without need to refer to
+                    its specific properties. In contrast, competitive models cannot be queried by a more general
+                    standard and are restricted to the computational provenance only. Data encoded in the major
+                    competitive models can be transformed without loss of meaning into a CRM-Digital-form.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/cidoc/crmdig</cmd:landingPage>
+                    <cmd:title>YALC</cmd:title>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

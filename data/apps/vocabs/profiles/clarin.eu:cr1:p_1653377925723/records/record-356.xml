@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>KNAW editor</cmd:MdCreator>
+        <cmd:MdCreationDate>2024-06-12</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://636</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label xml:lang="en">Attribution-ShareAlike 3.0 Intergovernmental Organization</cmd:label>
+                <cmd:uri>http://creativecommons.org/licenses/by-sa/3.0/igo/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://vocabularies.unesco.org/thesaurus</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>unspecified</cmd:version>
+                <cmd:validFrom>Monday, June 3, 2024 16:39:30</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://vocabularies.unesco.org/exports/thesaurus/latest/unesco-thesaurus.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>skos</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-06-12</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>unescothesaurus</cmd:identifier>
+                <cmd:title xml:lang="en">UNESCO Thesaurus</cmd:title>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The UNESCO Thesaurus is a controlled and structured list of terms used in
+                    subject analysis and retrieval of documents and publications in the fields of education, culture,
+                    natural sciences, social and human sciences, communication and information. Continuously enriched
+                    and updated, its multidisciplinary terminology reflects the evolution of UNESCO's programmes and
+                    activities.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy/>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>

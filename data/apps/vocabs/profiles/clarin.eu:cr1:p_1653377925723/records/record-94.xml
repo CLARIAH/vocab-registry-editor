@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
+        <cmd:MdCreationDate>2023-11-01</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://95</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:License>
+                <cmd:label xml:lang="en">CC 3.0</cmd:label>
+                <cmd:uri>https://creativecommons.org/licenses/by/3.0/</cmd:uri>
+            </cmd:License>
+            <cmd:Location>
+                <cmd:uri>http://purl.org/vocommons/voaf</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>2.3</cmd:version>
+                <cmd:validFrom>2013-05-24</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://lov.linkeddata.es/dataset/lov/vocabs/voaf/versions/2013-05-24.n3</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2023-11-01</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published_to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>voaf</cmd:identifier>
+                <cmd:title xml:lang="en">Vocabulary of a Friend (VOAF)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:prefix>voaf</cmd:prefix>
+                    <cmd:uri>http://purl.org/vocommons/voaf#</cmd:uri>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">VOAF is a vocabulary specification providing elements allowing the
+                    description of vocabularies (RDFS vocabularies or OWL ontologies) used in the Linked Data Cloud. In
+                    particular it provides properties expressing the different ways such vocabularies can rely on,
+                    extend, specify, annotate or otherwise link to each other. It relies itself on [Dublin Core](/dcmi)
+                    and [VoID](/w3c/void). The name of the vocabulary makes an explicit reference to [FOAF](/w3c/foaf)
+                    because VOAF can be used to define networks of vocabularies in a way similar to the one FOAF is used
+                    to define networks of people.
+                </cmd:description>
+            </cmd:Description>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/okfn/voaf</cmd:landingPage>
+                    <cmd:title>YALC</cmd:title>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>
