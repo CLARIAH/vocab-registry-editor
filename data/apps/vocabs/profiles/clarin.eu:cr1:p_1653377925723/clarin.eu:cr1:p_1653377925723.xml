@@ -64,25 +64,25 @@
                 <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
             </Component>
         </Component>
-        <Component name="Responsibility" CardinalityMin="0" CardinalityMax="1">
+        <Component name="Responsibility" CardinalityMin="0">
             <Documentation>For mentions of responsibility (creation, publication, maintenance), describes the rights holder.</Documentation>
             <Component name="Creator" ConceptLink="http://purl.org/dc/terms/creator" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>An entity responsible for making the resource. It can be a person or an institution. If the Creator and Publisher are the same, do not repeat the name in the Publisher area. If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
-                <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A literal value that identifies the creator.</Documentation>
                 </Element>
             </Component>
             <Component name="Maintainer" ConceptLink="https://schema.org/maintainer" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>"A maintainer is a Person or Organization that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources." We use it as equivalent to http://purl.org/dc/terms/publisher ("An entity responsible for making the resource available"). If the Creator and Publisher=Maintainer are the same, repeat the name in the Maintainer element (to make it clear who is responsible for this vocabulary). If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
-                <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A literal value that identifies the publisher.</Documentation>
                 </Element>
             </Component>
             <Component name="Contributor" ConceptLink="http://purl.org/dc/terms/contributor" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>An entity responsible for making contributions to the resource. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
-                <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A literal value that identifies the contributor.</Documentation>
                 </Element>
@@ -132,15 +132,16 @@
             <Element name="kos" ConceptLink="http://purl.org/dc/terms/type" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
                 <Documentation>Type of knowledge organization system (KOS)</Documentation>
             </Element>
-            <Element name="entity" ConceptLink="http://purl.org/dc/terms/subject" CardinalityMin="0" CardinalityMax="1">
-                <Documentation xml:lang="en">(Use if applicable, only for value vocabularies, not for schemas) if the vocabulary values are individual entities, choose the main type of entity being described.</Documentation>
+            <Element name="entity" ConceptLink="http://purl.org/dc/terms/subject" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation xml:lang="en">Use if applicable: if the vocabulary values or schemas are clearly meant to describe one of these entities, choose the main type of entity being described.</Documentation>
                 <ValueScheme>
                     <Vocabulary>
                         <enumeration>
-                            <item ConceptLink="http://www.w3.org/2004/02/skos/core#ConceptScheme" AppInfo="Entities are of type concept">Concept</item>
-                            <item ConceptLink="https://schema.org/Organization" AppInfo="Entities are of type organization">Organisation</item>
-                            <item ConceptLink="https://schema.org/Person" AppInfo="Entities are of type person">Person</item>
-                            <item ConceptLink="https://schema.org/Place" AppInfo="Entities are of type place">Place</item>
+                            <item ConceptLink="http://www.w3.org/2004/02/skos/core#ConceptScheme" AppInfo="Related to concepts or concept descriptions">Concept</item>
+                            <item ConceptLink="https://schema.org/Organization" AppInfo="Related to organizations or organization descriptions">Organisation</item>
+                            <item ConceptLink="https://schema.org/Person" AppInfo="Related to persons or person descriptions">Person</item>
+                            <item ConceptLink="https://schema.org/Place" AppInfo="Related to places or place descriptions">Place</item>
+                            <item ConceptLink="https://www.wikidata.org/wiki/Q11471" AppInfo="Related to time or time descriptions">Time</item>
                         </enumeration>
                     </Vocabulary>
                 </ValueScheme>
