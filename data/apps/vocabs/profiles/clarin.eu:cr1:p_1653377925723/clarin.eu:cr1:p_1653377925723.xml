@@ -137,11 +137,12 @@
                 <ValueScheme>
                     <Vocabulary>
                         <enumeration>
-                            <item ConceptLink="http://www.w3.org/2004/02/skos/core#ConceptScheme" AppInfo="Related to concepts or concept descriptions">Concept</item>
-                            <item ConceptLink="https://schema.org/Organization" AppInfo="Related to organizations or organization descriptions">Organisation</item>
-                            <item ConceptLink="https://schema.org/Person" AppInfo="Related to persons or person descriptions">Person</item>
-                            <item ConceptLink="https://schema.org/Place" AppInfo="Related to places or place descriptions">Place</item>
-                            <item ConceptLink="https://www.wikidata.org/wiki/Q11471" AppInfo="Related to time or time descriptions">Time</item>
+                            <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object" AppInfo="Related to concepts or concept descriptions">Concept</item>
+                            <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E74_Group" AppInfo="Related to organizations or organization descriptions">Organisation-group</item>
+                            <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E21_Person" AppInfo="Related to persons or person descriptions">Person</item>
+                            <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E53_Place" AppInfo="Related to places or place descriptions">Place</item>
+                            <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span" AppInfo="Related to time or time descriptions">Time-Span</item>
+                            <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E5_Event" AppInfo="Related to events, activities, processes">Event-Activity</item>
                         </enumeration>
                     </Vocabulary>
                 </ValueScheme>
