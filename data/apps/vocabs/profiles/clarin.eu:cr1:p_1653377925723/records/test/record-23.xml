@@ -98,8 +98,7 @@
                 <cmd:dateIssued>2023-09-21</cmd:dateIssued>
                 <cmd:language>eng</cmd:language>
                 <cmd:language>nld</cmd:language>
-                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C02292">Life cycle</cmd:topicUnesco>
-                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00228">Archive records</cmd:topicUnesco>
+                <cmd:topicUnesco>Life cycle</cmd:topicUnesco>
                 <cmd:topicUnesco>Family</cmd:topicUnesco>
                 <cmd:topicNwo>Social and economic history</cmd:topicNwo>
                 <cmd:Keywords>
@@ -120,13 +119,7 @@
                 <cmd:uri>https://creativecommons.org/licenses/by-sa/4.0/</cmd:uri>
                 <cmd:label xml:lang="en">CC BY-SA 4.0</cmd:label>
             </cmd:License>
-            <cmd:IsReferencedBy>
-                <cmd:Registry>
-                   <cmd:title>Awesome Ontologies for the Social Sciences</cmd:title>
-                   <cmd:url>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:url>
-                   <cmd:landingPage>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:landingPage>
-                </cmd:Registry>                
-            </cmd:IsReferencedBy>
+            <cmd:IsReferencedBy/>
             <cmd:Location>
                 <cmd:uri>https://personsincontext.org/</cmd:uri>
                 <cmd:type>homepage</cmd:type>

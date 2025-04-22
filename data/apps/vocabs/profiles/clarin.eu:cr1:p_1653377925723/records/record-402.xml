@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+   <cmd:Header>
+      <cmd:MdCreator>vocabs</cmd:MdCreator>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745214204">2025-04-21</cmd:MdCreationDate>
+      <cmd:MdSelfLink>unl://402</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName/>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList/>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+      <cmd:IsPartOfList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <cmd:Vocabulary>
+         <cmd:InternalCuration>
+            <cmd:Status>
+               <cmd:status>new</cmd:status>
+               <cmd:dateFrom>2025-04-17</cmd:dateFrom>
+               <cmd:dateUntil>2025-04-17</cmd:dateUntil>
+               <cmd:accrualMethod>found in curated list</cmd:accrualMethod>
+               <cmd:comments>Found in Awesome vocabs for the social sciences</cmd:comments>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>review-in-progress</cmd:status>
+               <cmd:dateFrom>2025-04-17</cmd:dateFrom>
+               <cmd:comments>This is a "dataset" with no direct download, we still need to decide if we provide reference to this type of vocab.</cmd:comments>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+         </cmd:InternalCuration>
+         <cmd:Identification>
+            <cmd:identifier>kinkbank</cmd:identifier>
+            <cmd:title xml:lang="en">Kinkbank: Database of kinship terminology</cmd:title>
+         </cmd:Identification>
+         <cmd:Description>
+            <cmd:description xml:lang="en">"Kinbank is a database of kinship terminologies to be used for exploring cross-linguistic diversity in kinship organisation. The database includes 1215 languages and a set of 100 core kin types between Grandparents and Grandchildren, and between Parent's siblings, and Parent's siblings’ children. A major advantage of Kinbank is the focused language family sampling and sampling based on occurrence in existing anthropological databases (e.g. d-place.org), allowing us to test the relationship between languages and behaviour. This allows the use of phylogenetic methods to reconstruct the states of proto-kinship, account for common ancestry in models of kinship change, and test for correlated evolution between linguistic and behavioural patterns." (http://www.kinbank.net/about/)</cmd:description>
+         </cmd:Description>
+         <cmd:IsReferencedBy>
+            <cmd:Registry>
+               <cmd:title>Awesome Ontologies for the Social Sciences</cmd:title>
+               <cmd:url>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:url>
+               <cmd:landingPage>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:landingPage>
+            </cmd:Registry>
+         </cmd:IsReferencedBy>
+         <cmd:Location>
+            <cmd:uri>http://www.kinbank.net/</cmd:uri>
+            <cmd:type>homepage</cmd:type>
+         </cmd:Location>
+         <cmd:Location>
+            <cmd:uri>https://zenodo.org/badge/latestdoi/224288379</cmd:uri>
+            <cmd:type>homepage</cmd:type>
+         </cmd:Location>
+      </cmd:Vocabulary>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,101 +1,96 @@
-<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-    <cmd:Header>
-        <cmd:MdCreator>vocabs</cmd:MdCreator>
-        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1743414049">2025-03-31</cmd:MdCreationDate>
-        <cmd:MdSelfLink>unl://297</cmd:MdSelfLink>
-        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-        <cmd:MdCollectionDisplayName/>
-    </cmd:Header>
-    <cmd:Resources>
-        <cmd:ResourceProxyList/>
-        <cmd:JournalFileProxyList/>
-        <cmd:ResourceRelationList/>
-        <cmd:IsPartOfList/>
-    </cmd:Resources>
-    <cmd:Components>
-        <cmd:Vocabulary>
-            <cmd:InternalCuration>
-                <cmd:Status>
-                    <cmd:status>reviewed-publish</cmd:status>
-                    <cmd:dateFrom>2023-12-14</cmd:dateFrom>
-                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
-                </cmd:Status>
-                <cmd:Status>
-                    <cmd:status>published</cmd:status>
-                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
-                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
-                </cmd:Status>
-                <cmd:Status>
-                    <cmd:status>reviewed-publish</cmd:status>
-                    <cmd:dateFrom>2025-03-31</cmd:dateFrom>
-                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
-                </cmd:Status>
-            </cmd:InternalCuration>
-            <cmd:Identification>
-                <cmd:identifier>drammar</cmd:identifier>
-                <cmd:title xml:lang="en">Drammar</cmd:title>
-                <cmd:Namespace>
-                    <cmd:uri>http://www.purl.org/drammar#</cmd:uri>
-                    <cmd:prefix>drammar</cmd:prefix>
-                </cmd:Namespace>
-            </cmd:Identification>
-            <cmd:Responsibility>
-                <cmd:Creator>
-                    <cmd:label>Antonio Pizzo</cmd:label>
-                </cmd:Creator>
-                <cmd:Creator>
-                    <cmd:uri>Vincenzo Lombardo</cmd:uri>
-                    <cmd:label>Rossana Damiano</cmd:label>
-                </cmd:Creator>
-                <cmd:Maintainer>
-                    <cmd:uri>www.cirma.unito.it</cmd:uri>
-                    <cmd:label>Centro Interdipartimentale di Ricerca per la Multimedialità e l'Audiovisivo - Interdeparmental Center for Research on Multimedia and Audivideo</cmd:label>
-                </cmd:Maintainer>
-            </cmd:Responsibility>
-            <cmd:Description>
-                <cmd:description xml:lang="en">"Designed with the goals to describe and encode the core dramatic qualities and to serve as a knowledge base underlying a number of applications, Drammar is a comprehensive ontology of drama, realized through a collaboration of computer scientists and drama scholars. It makes the knowledge about drama available as a vocabulary for the linked interchange of drama encodings and readily usable by automatic reasoners. By avoinding references to style and artistic qualities Drammar aims at representing the elements shared by different, cross-media manifestations of drama, the so–called intangible elements of drama as an intangible cultural heritage form."
+<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+   <cmd:Header>
+      <cmd:MdCreator>vocabs</cmd:MdCreator>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745299307">2025-04-22</cmd:MdCreationDate>
+      <cmd:MdSelfLink>unl://297</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName/>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList/>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+      <cmd:IsPartOfList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <cmd:Vocabulary>
+         <cmd:InternalCuration>
+            <cmd:Status>
+               <cmd:status>reviewed-publish</cmd:status>
+               <cmd:dateFrom>2023-12-14</cmd:dateFrom>
+               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>published</cmd:status>
+               <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+               <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>reviewed-publish</cmd:status>
+               <cmd:dateFrom>2025-03-31</cmd:dateFrom>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+         </cmd:InternalCuration>
+         <cmd:Identification>
+            <cmd:identifier>drammar</cmd:identifier>
+            <cmd:title xml:lang="en">Drammar</cmd:title>
+            <cmd:Namespace>
+               <cmd:uri>http://www.purl.org/drammar#</cmd:uri>
+               <cmd:prefix>drammar</cmd:prefix>
+            </cmd:Namespace>
+         </cmd:Identification>
+         <cmd:Responsibility>
+            <cmd:Creator>
+               <cmd:label>Antonio Pizzo</cmd:label>
+            </cmd:Creator>
+            <cmd:Creator>
+               <cmd:uri>Vincenzo Lombardo</cmd:uri>
+               <cmd:label>Rossana Damiano</cmd:label>
+            </cmd:Creator>
+            <cmd:Maintainer>
+               <cmd:uri>www.cirma.unito.it</cmd:uri>
+               <cmd:label>Centro Interdipartimentale di Ricerca per la Multimedialità e l'Audiovisivo - Interdeparmental Center for Research on Multimedia and Audivideo</cmd:label>
+            </cmd:Maintainer>
+         </cmd:Responsibility>
+         <cmd:Description>
+            <cmd:description xml:lang="en">"Designed with the goals to describe and encode the core dramatic qualities and to serve as a knowledge base underlying a number of applications, Drammar is a comprehensive ontology of drama, realized through a collaboration of computer scientists and drama scholars. It makes the knowledge about drama available as a vocabulary for the linked interchange of drama encodings and readily usable by automatic reasoners. By avoinding references to style and artistic qualities Drammar aims at representing the elements shared by different, cross-media manifestations of drama, the so–called intangible elements of drama as an intangible cultural heritage form."
 (source: https://www.cirma.unito.it/drammar/drammarlode/)</cmd:description>
-                <cmd:dateIssued>2018-03-01</cmd:dateIssued>
-                <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
-                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C01102">Drama</cmd:topicUnesco>
-                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/COL355">Performing arts</cmd:topicUnesco>
-                <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#TheatreStudiesAndIconography">Theatre studies and iconography</cmd:topicNwo>
-                <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#MusicTheatrePerformingArtsMedia">Music, theatre, performing arts and media</cmd:topicNwo>
-            </cmd:Description>
-            <cmd:Type>
-                <cmd:syntax>rdfs</cmd:syntax>
-                <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#ontology">ontology</cmd:kos>
-                <cmd:entity>Concept</cmd:entity>
-            </cmd:Type>
-            <cmd:License>
-                <cmd:uri>https://creativecommons.org/licenses/by-nd/4.0/</cmd:uri>
-                <cmd:label xml:lang="en">Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</cmd:label>
-            </cmd:License>
-            <cmd:IsReferencedBy>
-                <cmd:Registry>
-                    <cmd:title>Awesome Humanities</cmd:title>
-                    <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
-                    <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
-                </cmd:Registry>
-            </cmd:IsReferencedBy>
+            <cmd:dateIssued>2018-03-01</cmd:dateIssued>
+            <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
+            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C01102">Drama</cmd:topicUnesco>
+            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/COL355">Performing arts</cmd:topicUnesco>
+            <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#TheatreStudiesAndIconography">Theatre studies and iconography</cmd:topicNwo>
+            <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#MusicTheatrePerformingArtsMedia">Music, theatre, performing arts and media</cmd:topicNwo>
+         </cmd:Description>
+         <cmd:Type>
+            <cmd:syntax>rdfs</cmd:syntax>
+            <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#ontology">ontology</cmd:kos>
+            <cmd:entity>Concept</cmd:entity>
+         </cmd:Type>
+         <cmd:License>
+            <cmd:uri>https://creativecommons.org/licenses/by-nd/4.0/</cmd:uri>
+            <cmd:label xml:lang="en">Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</cmd:label>
+         </cmd:License>
+         <cmd:IsReferencedBy>
+            <cmd:Registry>
+               <cmd:title>Awesome Humanities</cmd:title>
+               <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
+               <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
+            </cmd:Registry>
+         </cmd:IsReferencedBy>
+         <cmd:Location>
+            <cmd:uri>https://www.cirma.unito.it/drammar/drammarlode/</cmd:uri>
+            <cmd:type>homepage</cmd:type>
+         </cmd:Location>
+         <cmd:Version>
+            <cmd:version>0.9</cmd:version>
+            <cmd:validFrom>2018-06-11</cmd:validFrom>
             <cmd:Location>
-                <cmd:uri>https://www.cirma.unito.it/drammar/drammarlode/</cmd:uri>
-                <cmd:type>homepage</cmd:type>
+               <cmd:uri>https://www.cirma.unito.it/drammar/drammar.owl</cmd:uri>
+               <cmd:type>dump</cmd:type>
+               <cmd:recipe>rdf</cmd:recipe>
             </cmd:Location>
-            <cmd:Version>
-                <cmd:version>0.9</cmd:version>
-                <cmd:validFrom>2018-06-11</cmd:validFrom>
-                <cmd:Location>
-                    <cmd:uri>https://www.cirma.unito.it/drammar/drammar.owl</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>rdf</cmd:recipe>
-                </cmd:Location>
-                <cmd:Location>
-                    <cmd:uri>https://localhost:5000/cache/drammar/0.9.owl</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
-                </cmd:Location>
-            </cmd:Version>
-        </cmd:Vocabulary>
-    </cmd:Components>
+         </cmd:Version>
+      </cmd:Vocabulary>
+   </cmd:Components>
 </cmd:CMD>

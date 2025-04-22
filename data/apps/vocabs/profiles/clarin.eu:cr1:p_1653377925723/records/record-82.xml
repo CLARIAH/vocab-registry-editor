@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
    <cmd:Header>
       <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1741626805">2025-03-10</cmd:MdCreationDate>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1744186576">2025-04-09</cmd:MdCreationDate>
       <cmd:MdSelfLink>unl://82</cmd:MdSelfLink>
       <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
       <cmd:MdCollectionDisplayName/>
@@ -39,9 +39,8 @@
             </cmd:Creator>
             <cmd:Maintainer>
                <cmd:uri>http://viaf.org/viaf/122285539</cmd:uri>
-               <cmd:label>World-Wide Web Consortium</cmd:label>
+               <cmd:label>World Wide Web Consortium (W3C)</cmd:label>
             </cmd:Maintainer>
-            <cmd:Contributor/>
          </cmd:Responsibility>
          <cmd:Description>
             <cmd:description xml:lang="en">An RDF vocabulary for describing the basic structure and content of
@@ -52,11 +51,11 @@
             <cmd:dateIssued>2009-08-18</cmd:dateIssued>
             <cmd:language>eng</cmd:language>
             <cmd:topicUnesco>Standards</cmd:topicUnesco>
-            <cmd:Keywords/>
          </cmd:Description>
          <cmd:Type>
             <cmd:syntax>owl</cmd:syntax>
             <cmd:kos>ontology</cmd:kos>
+            <cmd:entity>Concept</cmd:entity>
          </cmd:Type>
          <cmd:License>
             <cmd:uri>http://rightsstatements.org/vocab/InC/1.0/</cmd:uri>
@@ -90,9 +89,7 @@
                <cmd:type>dump</cmd:type>
                <cmd:recipe>rdf</cmd:recipe>
             </cmd:Location>
-            <cmd:Summary/>
          </cmd:Version>
-         <cmd:Review/>
       </cmd:Vocabulary>
    </cmd:Components>
 </cmd:CMD>

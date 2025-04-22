@@ -1,95 +1,85 @@
-<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-    <cmd:Header>
-        <cmd:MdCreator>vocabs</cmd:MdCreator>
-        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1741618611">2025-03-10</cmd:MdCreationDate>
-        <cmd:MdSelfLink>unl://20</cmd:MdSelfLink>
-        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-        <cmd:MdCollectionDisplayName/>
-    </cmd:Header>
-    <cmd:Resources>
-        <cmd:ResourceProxyList/>
-        <cmd:JournalFileProxyList/>
-        <cmd:ResourceRelationList/>
-        <cmd:IsPartOfList/>
-    </cmd:Resources>
-    <cmd:Components>
-        <cmd:Vocabulary>
-            <cmd:InternalCuration>
-                <cmd:Status>
-                    <cmd:status>to-review</cmd:status>
-                    <cmd:dateFrom>2024-02-05</cmd:dateFrom>
-                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
-                </cmd:Status>
-                <cmd:Status>
-                    <cmd:status>to-review</cmd:status>
-                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
-                </cmd:Status>
-                <cmd:Status>
-                    <cmd:status>reviewed-publish</cmd:status>
-                    <cmd:dateFrom>2025-03-10</cmd:dateFrom>
-                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
-                </cmd:Status>
-            </cmd:InternalCuration>
-            <cmd:Identification>
-                <cmd:identifier>sdmx_core</cmd:identifier>
-                <cmd:title xml:lang="en">Vocabulary for publishing SDMX statistical data in RDF</cmd:title>
-                <cmd:Namespace>
-                    <cmd:uri>http://purl.org/linked-data/sdmx#</cmd:uri>
-                    <cmd:prefix>sdmx</cmd:prefix>
-                </cmd:Namespace>
-            </cmd:Identification>
-            <cmd:Responsibility>
-                <cmd:Creator>
-                    <cmd:uri>https://sdmx.org/</cmd:uri>
-                    <cmd:label>Statistical Data and Metadata eXchange (SDMX)</cmd:label>
-                </cmd:Creator>
-            </cmd:Responsibility>
-            <cmd:Description>
-                <cmd:description xml:lang="en">"This vocabulary extends the data cube vocabulary (https://www.w3.org/TR/vocab-data-cube/) to support publication of statistical data in RDF, using an information model based on SDMX."</cmd:description>
-                <cmd:dateIssued>2010-02-05</cmd:dateIssued>
-                <cmd:language>eng</cmd:language>
-                <cmd:topicUnesco>Statistical data</cmd:topicUnesco>
-                <cmd:topicNwo>Probability theory, statistics</cmd:topicNwo>
-            </cmd:Description>
-            <cmd:Type>
-                <cmd:syntax>rdfs</cmd:syntax>
-                <cmd:kos>ontology</cmd:kos>
-                <cmd:entity>Concept</cmd:entity>
-            </cmd:Type>
-            <cmd:License>
-                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
-                <cmd:label xml:lang="en">Copyright Undetermined</cmd:label>
-            </cmd:License>
-            <cmd:IsReferencedBy>
-                <cmd:Registry>
-                    <cmd:title>YALC</cmd:title>
-                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
-                    <cmd:landingPage>https://triplydb.com/sdmx/core</cmd:landingPage>
-                </cmd:Registry>
-            </cmd:IsReferencedBy>
+<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+   <cmd:Header>
+      <cmd:MdCreator>vocabs</cmd:MdCreator>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298642">2025-04-22</cmd:MdCreationDate>
+      <cmd:MdSelfLink>unl://20</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName/>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList/>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+      <cmd:IsPartOfList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <cmd:Vocabulary>
+         <cmd:InternalCuration>
+            <cmd:Status>
+               <cmd:status>to-review</cmd:status>
+               <cmd:dateFrom>2024-02-05</cmd:dateFrom>
+               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>to-review</cmd:status>
+               <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>reviewed-publish</cmd:status>
+               <cmd:dateFrom>2025-03-10</cmd:dateFrom>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+         </cmd:InternalCuration>
+         <cmd:Identification>
+            <cmd:identifier>sdmx_core</cmd:identifier>
+            <cmd:title xml:lang="en">Vocabulary for publishing SDMX statistical data in RDF</cmd:title>
+            <cmd:Namespace>
+               <cmd:uri>http://purl.org/linked-data/sdmx#</cmd:uri>
+               <cmd:prefix>sdmx</cmd:prefix>
+            </cmd:Namespace>
+         </cmd:Identification>
+         <cmd:Responsibility>
+            <cmd:Creator>
+               <cmd:uri>https://sdmx.org/</cmd:uri>
+               <cmd:label>Statistical Data and Metadata eXchange (SDMX)</cmd:label>
+            </cmd:Creator>
+         </cmd:Responsibility>
+         <cmd:Description>
+            <cmd:description xml:lang="en">"This vocabulary extends the data cube vocabulary (https://www.w3.org/TR/vocab-data-cube/) to support publication of statistical data in RDF, using an information model based on SDMX."</cmd:description>
+            <cmd:dateIssued>2010-02-05</cmd:dateIssued>
+            <cmd:language>eng</cmd:language>
+            <cmd:topicUnesco>Statistical data</cmd:topicUnesco>
+            <cmd:topicNwo>Probability theory, statistics</cmd:topicNwo>
+         </cmd:Description>
+         <cmd:Type>
+            <cmd:syntax>rdfs</cmd:syntax>
+            <cmd:kos>ontology</cmd:kos>
+            <cmd:entity>Concept</cmd:entity>
+         </cmd:Type>
+         <cmd:License>
+            <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            <cmd:label xml:lang="en">Copyright Undetermined</cmd:label>
+         </cmd:License>
+         <cmd:IsReferencedBy>
+            <cmd:Registry>
+               <cmd:title>YALC</cmd:title>
+               <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+               <cmd:landingPage>https://triplydb.com/sdmx/core</cmd:landingPage>
+            </cmd:Registry>
+         </cmd:IsReferencedBy>
+         <cmd:Location>
+            <cmd:uri>https://sdmx.org</cmd:uri>
+            <cmd:type>homepage</cmd:type>
+         </cmd:Location>
+         <cmd:Version>
+            <cmd:version>0.3</cmd:version>
+            <cmd:validFrom>2010-07-22</cmd:validFrom>
             <cmd:Location>
-                <cmd:uri>https://sdmx.org</cmd:uri>
-                <cmd:type>homepage</cmd:type>
+               <cmd:uri>https://raw.githubusercontent.com/UKGovLD/publishing-statistical-data/master/specs/src/main/vocab/sdmx.ttl#</cmd:uri>
+               <cmd:type>dump</cmd:type>
+               <cmd:recipe>rdf</cmd:recipe>
             </cmd:Location>
-            <cmd:Version>
-                <cmd:version>0.3</cmd:version>
-                <cmd:validFrom>2010-07-22</cmd:validFrom>
-                <cmd:Location>
-                    <cmd:uri>https://raw.githubusercontent.com/UKGovLD/publishing-statistical-data/master/specs/src/main/vocab/sdmx.ttl#</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>rdf</cmd:recipe>
-                </cmd:Location>
-                <cmd:Location>
-                    <cmd:uri>https://localhost:5000/cache/sdmx_core/0.3.ttl</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
-                </cmd:Location>
-                <cmd:Location>
-                    <cmd:uri>https://localhost:5000/docs/sdmx_core/0.3.html</cmd:uri>
-                    <cmd:type>homepage</cmd:type>
-                    <cmd:recipe>doc</cmd:recipe>
-                </cmd:Location>
-            </cmd:Version>
-        </cmd:Vocabulary>
-    </cmd:Components>
+         </cmd:Version>
+      </cmd:Vocabulary>
+   </cmd:Components>
 </cmd:CMD>

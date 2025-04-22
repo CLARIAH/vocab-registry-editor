@@ -1,76 +1,76 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lat="http://lat.mpi.nl/" xmlns:cmd="http://www.clarin.eu/cmd/" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-    <cmd:Header>
-        <cmd:MdCreator>HuC DI SD</cmd:MdCreator>
-        <cmd:MdCreationDate>2023-11-14</cmd:MdCreationDate>
-        <cmd:MdSelfLink>unl://157</cmd:MdSelfLink>
-        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-    </cmd:Header>
-    <cmd:Resources>
-        <cmd:ResourceProxyList/>
-        <cmd:JournalFileProxyList/>
-        <cmd:ResourceRelationList/>
-        <cmd:IsPartOfList/>
-    </cmd:Resources>
-    <cmd:Components>
-        <cmd:Vocabulary>
-            <cmd:License>
-                <cmd:label xml:lang="en">unknown</cmd:label>
-                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
-            </cmd:License>
-            <cmd:Location>
-                <cmd:uri>http://pav-ontology.github.io/pav/</cmd:uri>
-                <cmd:type>homepage</cmd:type>
-            </cmd:Location>
-            <cmd:Version>
-                <cmd:version>2.3.1</cmd:version>
-                <cmd:validFrom>2015-03-16</cmd:validFrom>
-                <cmd:Location>
-                    <cmd:uri>https://cdn.jsdelivr.net/gh/pav-ontology/pav@2.3.1/pav.owl</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>rdf</cmd:recipe>
-                </cmd:Location>
-            </cmd:Version>
-            <cmd:Type>
-                <cmd:syntax>owl</cmd:syntax>
-            </cmd:Type>
-            <cmd:InternalCuration>
-                <cmd:Status>
-                    <cmd:status>reviewed-publish</cmd:status>
-                    <cmd:dateFrom>2023-11-14</cmd:dateFrom>
-                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
-                </cmd:Status>
-                <cmd:Status>
-                    <cmd:status>published</cmd:status>
-                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
-                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
-                </cmd:Status>
-                <cmd:Status>
-                    <cmd:status>published_to-review</cmd:status>
-                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
-                </cmd:Status>
-            </cmd:InternalCuration>
-            <cmd:Identification>
-                <cmd:identifier>pav</cmd:identifier>
-                <cmd:title xml:lang="en">Provenance, Authoring and Versioning (PAV)</cmd:title>
-                <cmd:Namespace>
-                    <cmd:prefix>pav</cmd:prefix>
-                    <cmd:uri>http://purl.org/pav/</cmd:uri>
-                </cmd:Namespace>
-            </cmd:Identification>
-            <cmd:Description>
-                <cmd:description xml:lang="en">PAV is a lightweight ontology for tracking Provenance, Authoring and
+<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+   <cmd:Header>
+      <cmd:MdCreator>vocabs</cmd:MdCreator>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745299181">2025-04-22</cmd:MdCreationDate>
+      <cmd:MdSelfLink>unl://255</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName/>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList/>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+      <cmd:IsPartOfList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <cmd:Vocabulary>
+         <cmd:InternalCuration>
+            <cmd:Status>
+               <cmd:status>reviewed-publish</cmd:status>
+               <cmd:dateFrom>2023-11-14</cmd:dateFrom>
+               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>published</cmd:status>
+               <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+               <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status/>
+               <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+            </cmd:Status>
+         </cmd:InternalCuration>
+         <cmd:Identification>
+            <cmd:identifier>pav</cmd:identifier>
+            <cmd:title xml:lang="en">Provenance, Authoring and Versioning (PAV)</cmd:title>
+            <cmd:Namespace>
+               <cmd:uri>http://purl.org/pav/</cmd:uri>
+               <cmd:prefix>pav</cmd:prefix>
+            </cmd:Namespace>
+         </cmd:Identification>
+         <cmd:Description>
+            <cmd:description xml:lang="en">PAV is a lightweight ontology for tracking Provenance, Authoring and
                     Versioning. PAV specializes the W3C provenance ontology [PROV-O](http://www.w3.org/TR/prov-o/) in
                     order to describe authorship, curation and digital creation of online resources.
                 </cmd:description>
-            </cmd:Description>
-            <cmd:IsReferencedBy>
-                <cmd:Registry>
-                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
-                    <cmd:landingPage>https://triplydb.com/mind-informatics/pav</cmd:landingPage>
-                    <cmd:title>YALC</cmd:title>
-                </cmd:Registry>
-            </cmd:IsReferencedBy>
-        </cmd:Vocabulary>
-    </cmd:Components>
+         </cmd:Description>
+         <cmd:Type>
+            <cmd:syntax>owl</cmd:syntax>
+         </cmd:Type>
+         <cmd:License>
+            <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+            <cmd:label xml:lang="en">unknown</cmd:label>
+         </cmd:License>
+         <cmd:IsReferencedBy>
+            <cmd:Registry>
+               <cmd:title>YALC</cmd:title>
+               <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+               <cmd:landingPage>https://triplydb.com/mind-informatics/pav</cmd:landingPage>
+            </cmd:Registry>
+         </cmd:IsReferencedBy>
+         <cmd:Location>
+            <cmd:uri>http://pav-ontology.github.io/pav/</cmd:uri>
+            <cmd:type>homepage</cmd:type>
+         </cmd:Location>
+         <cmd:Version>
+            <cmd:version>2.3.1</cmd:version>
+            <cmd:validFrom>2015-03-16</cmd:validFrom>
+            <cmd:Location>
+               <cmd:uri>https://cdn.jsdelivr.net/gh/pav-ontology/pav@2.3.1/pav.owl</cmd:uri>
+               <cmd:type>dump</cmd:type>
+               <cmd:recipe>rdf</cmd:recipe>
+            </cmd:Location>
+         </cmd:Version>
+      </cmd:Vocabulary>
+   </cmd:Components>
 </cmd:CMD>
