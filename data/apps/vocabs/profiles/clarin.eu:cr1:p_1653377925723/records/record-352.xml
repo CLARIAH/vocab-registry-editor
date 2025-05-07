@@ -95,6 +95,11 @@
                     <cmd:type>dump</cmd:type>
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/gold/2008.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
             </cmd:Version>
             <cmd:Version>
                 <cmd:version>2009</cmd:version>
@@ -104,6 +109,11 @@
                     <cmd:type>dump</cmd:type>
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/gold/2009.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
             </cmd:Version>
             <cmd:Version>
                 <cmd:version>2010</cmd:version>
@@ -112,6 +122,11 @@
                     <cmd:uri>http://www.linguistics-ontology.org/gold-2010.owl</cmd:uri>
                     <cmd:type>dump</cmd:type>
                     <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/gold/2010.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

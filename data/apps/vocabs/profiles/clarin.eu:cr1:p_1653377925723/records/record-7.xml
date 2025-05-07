@@ -1,119 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-   <cmd:Header>
-      <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298578">2025-04-22</cmd:MdCreationDate>
-      <cmd:MdSelfLink>unl://7</cmd:MdSelfLink>
-      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-      <cmd:MdCollectionDisplayName/>
-   </cmd:Header>
-   <cmd:Resources>
-      <cmd:ResourceProxyList/>
-      <cmd:JournalFileProxyList/>
-      <cmd:ResourceRelationList/>
-      <cmd:IsPartOfList/>
-   </cmd:Resources>
-   <cmd:Components>
-      <cmd:Vocabulary>
-         <cmd:InternalCuration>
-            <cmd:Status>
-               <cmd:status>reviewed-publish</cmd:status>
-               <cmd:dateFrom>2024-06-11</cmd:dateFrom>
-               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status>to-review</cmd:status>
-               <cmd:dateFrom>2024-01-30</cmd:dateFrom>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status>reviewed-publish</cmd:status>
-               <cmd:dateFrom>2025-03-03</cmd:dateFrom>
-               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
-            </cmd:Status>
-         </cmd:InternalCuration>
-         <cmd:Identification>
-            <cmd:identifier>agrovoc-core</cmd:identifier>
-            <cmd:title xml:lang="en">AGROVOC Core</cmd:title>
-            <cmd:Namespace>
-               <cmd:uri>http://aims.fao.org/aos/agrovoc</cmd:uri>
-               <cmd:prefix>agrovoc</cmd:prefix>
-            </cmd:Namespace>
-         </cmd:Identification>
-         <cmd:Responsibility>
-            <cmd:Creator>
-               <cmd:uri>Food and Agriculture Organization</cmd:uri>
-               <cmd:label>https://viaf.org/en/viaf/148396178</cmd:label>
-            </cmd:Creator>
-            <cmd:Maintainer>
-               <cmd:uri>Food and Agriculture Organization</cmd:uri>
-               <cmd:label>https://viaf.org/en/viaf/148396178</cmd:label>
-            </cmd:Maintainer>
-         </cmd:Responsibility>
-         <cmd:Description>
-            <cmd:description xml:lang="en">Since the early 1980’s, the Food and Agriculture Organization of the United Nations (FAO) has coordinated AGROVOC, a valuable tool for classifying data homogeneously, facilitating interoperability and reuse.
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298578">2025-04-22</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://7</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-06-11</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-03-03</cmd:dateFrom>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>agrovoc-core</cmd:identifier>
+                <cmd:title xml:lang="en">AGROVOC Core</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://aims.fao.org/aos/agrovoc</cmd:uri>
+                    <cmd:prefix>agrovoc</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:uri>Food and Agriculture Organization</cmd:uri>
+                    <cmd:label>https://viaf.org/en/viaf/148396178</cmd:label>
+                </cmd:Creator>
+                <cmd:Maintainer>
+                    <cmd:uri>Food and Agriculture Organization</cmd:uri>
+                    <cmd:label>https://viaf.org/en/viaf/148396178</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Since the early 1980’s, the Food and Agriculture Organization of the United Nations (FAO) has coordinated AGROVOC, a valuable tool for classifying data homogeneously, facilitating interoperability and reuse.
 
 "AGROVOC is a multilingual and controlled vocabulary designed to cover concepts and terminology under FAO's areas of interest. It is the largest Linked Open Data set about agriculture available for public use and its greatest impact is through providing the access and visibility of data across domains and languages.
 
 AGROVOC provides a way to organize knowledge for subsequent data retrieval and consists of a structured collection of concepts, terms, definitions and relationships. Concepts represent anything in food and agriculture, such as maize, hunger, aquaculture, value chains or forestry; these concepts are used to unambiguously identify resources, allowing standardized indexing processes to make searching more efficient. Each AGROVOC concept also has terms used to express it in various languages, known as lexicalizations. Today, AGROVOC consists of more than 41 000 concepts and 1 157 000 terms in up to 41 languages.
 
 Over recent years, AGROVOC has evolved to become a valued information resource worldwide with considerable use." (https://data.apps.fao.org/catalog/organization/about/agrovoc)</cmd:description>
-            <cmd:dateIssued>1982</cmd:dateIssued>
-            <cmd:language>ara</cmd:language>
-            <cmd:language>spa</cmd:language>
-            <cmd:language>rus</cmd:language>
-            <cmd:language>fra</cmd:language>
-            <cmd:language>eng</cmd:language>
-            <cmd:language>zho</cmd:language>
-            <cmd:topicUnesco>Agriculture</cmd:topicUnesco>
-            <cmd:topicUnesco>Environmental policy</cmd:topicUnesco>
-            <cmd:topicUnesco>Development policy</cmd:topicUnesco>
-            <cmd:topicUnesco>Climate change</cmd:topicUnesco>
-            <cmd:topicUnesco>Nutrition</cmd:topicUnesco>
-            <cmd:topicUnesco>Food</cmd:topicUnesco>
-            <cmd:topicNwo>Environmental science</cmd:topicNwo>
-         </cmd:Description>
-         <cmd:Type>
-            <cmd:syntax>owl</cmd:syntax>
-            <cmd:kos>thesaurus</cmd:kos>
-            <cmd:entity>Concept</cmd:entity>
-         </cmd:Type>
-         <cmd:License>
-            <cmd:uri>https://creativecommons.org/licenses/by/3.0/igo/deed.en</cmd:uri>
-            <cmd:label xml:lang="en">Creative Commons Attribution 3.0 IGO</cmd:label>
-         </cmd:License>
-         <cmd:IsReferencedBy>
-            <cmd:Registry>
-               <cmd:title>YALC</cmd:title>
-               <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
-               <cmd:landingPage>https://triplydb.com/fao/agrovoc-core</cmd:landingPage>
-            </cmd:Registry>
-            <cmd:Registry>
-               <cmd:title>Bartoc</cmd:title>
-               <cmd:url>https://bartoc.org/</cmd:url>
-               <cmd:landingPage>https://bartoc.org/en/node/305</cmd:landingPage>
-            </cmd:Registry>
-         </cmd:IsReferencedBy>
-         <cmd:Location>
-            <cmd:uri>https://agrovoc.fao.org/browse/agrovoc/en/</cmd:uri>
-            <cmd:type>homepage</cmd:type>
-         </cmd:Location>
-         <cmd:Version>
-            <cmd:version>2023-10</cmd:version>
-            <cmd:validFrom>2023-10-04</cmd:validFrom>
+                <cmd:dateIssued>1982</cmd:dateIssued>
+                <cmd:language>ara</cmd:language>
+                <cmd:language>spa</cmd:language>
+                <cmd:language>rus</cmd:language>
+                <cmd:language>fra</cmd:language>
+                <cmd:language>eng</cmd:language>
+                <cmd:language>zho</cmd:language>
+                <cmd:topicUnesco>Agriculture</cmd:topicUnesco>
+                <cmd:topicUnesco>Environmental policy</cmd:topicUnesco>
+                <cmd:topicUnesco>Development policy</cmd:topicUnesco>
+                <cmd:topicUnesco>Climate change</cmd:topicUnesco>
+                <cmd:topicUnesco>Nutrition</cmd:topicUnesco>
+                <cmd:topicUnesco>Food</cmd:topicUnesco>
+                <cmd:topicNwo>Environmental science</cmd:topicNwo>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+                <cmd:kos>thesaurus</cmd:kos>
+                <cmd:entity>Concept</cmd:entity>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/licenses/by/3.0/igo/deed.en</cmd:uri>
+                <cmd:label xml:lang="en">Creative Commons Attribution 3.0 IGO</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>YALC</cmd:title>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/fao/agrovoc-core</cmd:landingPage>
+                </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>Bartoc</cmd:title>
+                    <cmd:url>https://bartoc.org/</cmd:url>
+                    <cmd:landingPage>https://bartoc.org/en/node/305</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
             <cmd:Location>
-               <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.rdf.zip#agrovoc_2024-03-05_core.rdf</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
+                <cmd:uri>https://agrovoc.fao.org/browse/agrovoc/en/</cmd:uri>
+                <cmd:type>homepage</cmd:type>
             </cmd:Location>
-         </cmd:Version>
-         <cmd:Version>
-            <cmd:version>2025-02</cmd:version>
-            <cmd:validFrom>2025-02-03</cmd:validFrom>
-            <cmd:Location>
-               <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nq.zip</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
-            </cmd:Location>
-         </cmd:Version>
-      </cmd:Vocabulary>
-   </cmd:Components>
+            <cmd:Version>
+                <cmd:version>2023-10</cmd:version>
+                <cmd:validFrom>2023-10-04</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.rdf.zip#agrovoc_2024-03-05_core.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>2025-02</cmd:version>
+                <cmd:validFrom>2025-02-03</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nq.zip</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/agrovoc-core/2025-02.zip</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
 </cmd:CMD>
