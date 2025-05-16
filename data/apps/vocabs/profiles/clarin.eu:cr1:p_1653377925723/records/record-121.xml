@@ -96,6 +96,11 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                     <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
                     <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
                 </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>LOV</cmd:title>
+                    <cmd:url>https://lov.linkeddata.es</cmd:url>
+                    <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/lemon</cmd:landingPage>
+                </cmd:Registry>
             </cmd:IsReferencedBy>
             <cmd:Location>
                 <cmd:uri>http://www.lemon-model.net</cmd:uri>
@@ -110,7 +115,7 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/lemon/version/1.0</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/lemon/version/1.0</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -130,14 +135,14 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                             <cmd:count>19</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>657</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                     <cmd:prefix>rdf</cmd:prefix>
                                     <cmd:count>220</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>657</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -157,34 +162,22 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                                         <cmd:count>109</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                        <cmd:prefix>rdfs</cmd:prefix>
-                                        <cmd:count>35</cmd:count>
-                                    </cmd:Namespace>
-                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                         <cmd:prefix>rdf</cmd:prefix>
                                         <cmd:count>54</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:count>35</cmd:count>
                                     </cmd:Namespace>
                                 </cmd:Namespaces>
                                 <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Restriction</cmd:name>
-                                        <cmd:count>18</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>ObjectProperty</cmd:name>
                                         <cmd:count>47</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>InverseFunctionalProperty</cmd:name>
-                                        <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -195,14 +188,14 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>FunctionalProperty</cmd:name>
-                                        <cmd:count>3</cmd:count>
+                                        <cmd:name>Restriction</cmd:name>
+                                        <cmd:count>18</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>SymmetricProperty</cmd:name>
-                                        <cmd:count>2</cmd:count>
+                                        <cmd:name>FunctionalProperty</cmd:name>
+                                        <cmd:count>3</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -213,20 +206,26 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>TransitiveProperty</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>SymmetricProperty</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>Ontology</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>TransitiveProperty</cmd:name>
+                                        <cmd:name>InverseFunctionalProperty</cmd:name>
                                         <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                        <cmd:prefix>rdfs</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>35</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -234,15 +233,17 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                                         <cmd:name>Property</cmd:name>
                                         <cmd:count>54</cmd:count>
                                     </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>35</cmd:count>
+                                    </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Classes>
                             <cmd:Literals>
                                 <cmd:count>507</cmd:count>
                                 <cmd:Languages>
-                                    <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>79</cmd:count>
-                                    </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>de</cmd:code>
                                         <cmd:count>78</cmd:count>
@@ -256,12 +257,16 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                                         <cmd:count>79</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>ru</cmd:code>
-                                        <cmd:count>25</cmd:count>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>79</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>nl</cmd:code>
                                         <cmd:count>80</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ru</cmd:code>
+                                        <cmd:count>25</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
@@ -327,11 +332,6 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                             <cmd:count>1120</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                            <cmd:prefix>rdfs</cmd:prefix>
-                            <cmd:count>692</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                             <cmd:prefix>rdf</cmd:prefix>
                             <cmd:count>286</cmd:count>
@@ -340,6 +340,11 @@ Lemon was developed by the Monnet project as a collaboration between: CITEC at B
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                             <cmd:prefix>owl</cmd:prefix>
                             <cmd:count>219</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>692</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>

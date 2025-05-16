@@ -89,7 +89,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2016-09-21</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2016-09-21</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -109,24 +109,9 @@
                             <cmd:count>15</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                                    <cmd:prefix>at</cmd:prefix>
-                                    <cmd:count>24</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>152</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                                    <cmd:prefix>atold</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dc</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -134,13 +119,28 @@
                                     <cmd:count>7</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                                    <cmd:prefix>at</cmd:prefix>
+                                    <cmd:count>24</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                                    <cmd:prefix>atold</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
@@ -175,55 +175,7 @@
                                 <cmd:count>184</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>bg</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pl</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cs</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ro</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>el</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>et</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>da</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>mt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lv</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>7</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
+                                        <cmd:code>fi</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -231,27 +183,27 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>hr</cmd:code>
+                                        <cmd:code>sl</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>hu</cmd:code>
+                                        <cmd:code>lv</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>en</cmd:code>
-                                        <cmd:count>8</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>it</cmd:code>
+                                        <cmd:code>de</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>lt</cmd:code>
+                                        <cmd:code>no</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ro</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>fi</cmd:code>
+                                        <cmd:code>et</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -259,83 +211,116 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>sl</cmd:code>
+                                        <cmd:code>cs</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>ga</cmd:code>
-                                        <cmd:count>2</cmd:count>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>8</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hr</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pl</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>el</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>it</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hu</cmd:code>
+                                        <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>sv</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>no</cmd:code>
-                                        <cmd:count>5</cmd:count>
+                                        <cmd:code>bg</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>7</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>mt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>da</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>lt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ga</cmd:code>
+                                        <cmd:count>2</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
-                                    <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:count>36</cmd:count>
-                                    </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                         <cmd:prefix>rdf</cmd:prefix>
                                         <cmd:count>148</cmd:count>
                                     </cmd:Namespace>
-                                </cmd:Namespaces>
-                                <cmd:NamespaceItems>
-                                    <cmd:NamespaceItem>
+                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>string</cmd:name>
                                         <cmd:count>36</cmd:count>
-                                    </cmd:NamespaceItem>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                         <cmd:prefix>rdf</cmd:prefix>
                                         <cmd:name>langString</cmd:name>
                                         <cmd:count>148</cmd:count>
                                     </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>string</cmd:name>
+                                        <cmd:count>36</cmd:count>
+                                    </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                                    <cmd:prefix>atold</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>7</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                                    <cmd:prefix>atold</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>
                         <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                            <cmd:prefix>at</cmd:prefix>
-                            <cmd:count>24</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                             <cmd:prefix>skos</cmd:prefix>
                             <cmd:count>159</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                            <cmd:prefix>atold</cmd:prefix>
-                            <cmd:count>18</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                            <cmd:prefix>dc</cmd:prefix>
-                            <cmd:count>6</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -343,13 +328,28 @@
                             <cmd:count>7</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                            <cmd:prefix>owl</cmd:prefix>
-                            <cmd:count>1</cmd:count>
+                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:count>6</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                            <cmd:prefix>at</cmd:prefix>
+                            <cmd:count>24</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                            <cmd:prefix>atold</cmd:prefix>
+                            <cmd:count>18</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                             <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
                             <cmd:count>1</cmd:count>
                         </cmd:Namespace>
                     </cmd:Namespaces>
@@ -374,7 +374,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2016-03-16</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2016-03-16</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -394,19 +394,14 @@
                             <cmd:count>15</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                                    <cmd:prefix>at</cmd:prefix>
-                                    <cmd:count>24</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>153</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                                    <cmd:prefix>atold</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>7</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
@@ -414,9 +409,14 @@
                                     <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>7</cmd:count>
+                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                                    <cmd:prefix>at</cmd:prefix>
+                                    <cmd:count>24</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                                    <cmd:prefix>atold</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -460,55 +460,7 @@
                                 <cmd:count>185</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>bg</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pl</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cs</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ro</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>el</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>et</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>da</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>mt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lv</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>7</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
+                                        <cmd:code>fi</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -516,27 +468,27 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>hr</cmd:code>
+                                        <cmd:code>sl</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>hu</cmd:code>
+                                        <cmd:code>lv</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>en</cmd:code>
-                                        <cmd:count>9</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>it</cmd:code>
+                                        <cmd:code>de</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>lt</cmd:code>
+                                        <cmd:code>no</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ro</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>fi</cmd:code>
+                                        <cmd:code>et</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -544,78 +496,121 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>sl</cmd:code>
+                                        <cmd:code>cs</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>ga</cmd:code>
-                                        <cmd:count>2</cmd:count>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>9</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hr</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pl</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>el</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>it</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hu</cmd:code>
+                                        <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>sv</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>no</cmd:code>
-                                        <cmd:count>5</cmd:count>
+                                        <cmd:code>bg</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>7</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>mt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>da</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>lt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ga</cmd:code>
+                                        <cmd:count>2</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
-                                    <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:count>36</cmd:count>
-                                    </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                         <cmd:prefix>rdf</cmd:prefix>
                                         <cmd:count>149</cmd:count>
                                     </cmd:Namespace>
-                                </cmd:Namespaces>
-                                <cmd:NamespaceItems>
-                                    <cmd:NamespaceItem>
+                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>string</cmd:name>
                                         <cmd:count>36</cmd:count>
-                                    </cmd:NamespaceItem>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                         <cmd:prefix>rdf</cmd:prefix>
                                         <cmd:name>langString</cmd:name>
                                         <cmd:count>149</cmd:count>
                                     </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>string</cmd:name>
+                                        <cmd:count>36</cmd:count>
+                                    </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                                    <cmd:prefix>atold</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>7</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                                    <cmd:prefix>atold</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>
                         <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                            <cmd:prefix>at</cmd:prefix>
-                            <cmd:count>24</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                             <cmd:prefix>skos</cmd:prefix>
                             <cmd:count>160</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                            <cmd:prefix>atold</cmd:prefix>
-                            <cmd:count>19</cmd:count>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>7</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
@@ -623,9 +618,14 @@
                             <cmd:count>6</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                            <cmd:prefix>rdf</cmd:prefix>
-                            <cmd:count>7</cmd:count>
+                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                            <cmd:prefix>at</cmd:prefix>
+                            <cmd:count>24</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                            <cmd:prefix>atold</cmd:prefix>
+                            <cmd:count>19</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -659,7 +659,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2015-11-18</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2015-11-18</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -679,19 +679,14 @@
                             <cmd:count>14</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                                    <cmd:prefix>at</cmd:prefix>
-                                    <cmd:count>24</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>147</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                                    <cmd:prefix>atold</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>7</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
@@ -699,9 +694,14 @@
                                     <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>7</cmd:count>
+                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                                    <cmd:prefix>at</cmd:prefix>
+                                    <cmd:count>24</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                                    <cmd:prefix>atold</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
@@ -740,55 +740,7 @@
                                 <cmd:count>178</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>bg</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pl</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cs</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ro</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>el</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>et</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>da</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>mt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lv</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>7</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
+                                        <cmd:code>fi</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -796,27 +748,23 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>hr</cmd:code>
+                                        <cmd:code>sl</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>hu</cmd:code>
+                                        <cmd:code>lv</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>en</cmd:code>
-                                        <cmd:count>8</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>it</cmd:code>
+                                        <cmd:code>de</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>lt</cmd:code>
+                                        <cmd:code>ro</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>fi</cmd:code>
+                                        <cmd:code>et</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -824,74 +772,121 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>sl</cmd:code>
+                                        <cmd:code>cs</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>8</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hr</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pl</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>el</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>it</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hu</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sv</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>bg</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>7</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>mt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>da</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>lt</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>ga</cmd:code>
                                         <cmd:count>2</cmd:count>
                                     </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>sv</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
-                                    <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:count>35</cmd:count>
-                                    </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                         <cmd:prefix>rdf</cmd:prefix>
                                         <cmd:count>143</cmd:count>
                                     </cmd:Namespace>
-                                </cmd:Namespaces>
-                                <cmd:NamespaceItems>
-                                    <cmd:NamespaceItem>
+                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>string</cmd:name>
                                         <cmd:count>35</cmd:count>
-                                    </cmd:NamespaceItem>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                         <cmd:prefix>rdf</cmd:prefix>
                                         <cmd:name>langString</cmd:name>
                                         <cmd:count>143</cmd:count>
                                     </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>string</cmd:name>
+                                        <cmd:count>35</cmd:count>
+                                    </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                                    <cmd:prefix>atold</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>7</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                                    <cmd:prefix>atold</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>
                         <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                            <cmd:prefix>at</cmd:prefix>
-                            <cmd:count>24</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                             <cmd:prefix>skos</cmd:prefix>
                             <cmd:count>154</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                            <cmd:prefix>atold</cmd:prefix>
-                            <cmd:count>17</cmd:count>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>7</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
@@ -899,9 +894,14 @@
                             <cmd:count>6</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                            <cmd:prefix>rdf</cmd:prefix>
-                            <cmd:count>7</cmd:count>
+                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                            <cmd:prefix>at</cmd:prefix>
+                            <cmd:count>24</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                            <cmd:prefix>atold</cmd:prefix>
+                            <cmd:count>17</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
@@ -930,7 +930,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2022-07-15</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2022-07-15</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -955,14 +955,9 @@
                                     <cmd:count>178</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                                    <cmd:prefix>at</cmd:prefix>
-                                    <cmd:count>27</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
-                                    <cmd:prefix>atold</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>7</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
@@ -970,14 +965,19 @@
                                     <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>7</cmd:count>
+                                    <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                                    <cmd:prefix>at</cmd:prefix>
+                                    <cmd:count>27</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                     <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
+                                    <cmd:prefix>atold</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
@@ -1016,15 +1016,7 @@
                                 <cmd:count>207</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>ga</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>bg</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pl</cmd:code>
+                                        <cmd:code>fi</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -1032,83 +1024,7 @@
                                         <cmd:count>14</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>nn</cmd:code>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cs</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ro</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>el</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>et</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>da</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>mt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lv</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>7</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>no</cmd:code>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
                                         <cmd:code>nl</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>hr</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>hu</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>it</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fi</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>sk</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -1116,12 +1032,96 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>nb</cmd:code>
+                                        <cmd:code>lv</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ga</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>de</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ro</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>et</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>no</cmd:code>
                                         <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sk</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>cs</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hr</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pl</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>el</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>it</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hu</cmd:code>
+                                        <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>sv</cmd:code>
                                         <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>7</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>mt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>da</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nb</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>bg</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>lt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nn</cmd:code>
+                                        <cmd:count>5</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
@@ -1172,14 +1172,14 @@
                             <cmd:count>185</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                            <cmd:prefix>at</cmd:prefix>
-                            <cmd:count>27</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
                             <cmd:prefix>atold</cmd:prefix>
                             <cmd:count>25</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>7</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
@@ -1187,9 +1187,9 @@
                             <cmd:count>6</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                            <cmd:prefix>rdf</cmd:prefix>
-                            <cmd:count>7</cmd:count>
+                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                            <cmd:prefix>at</cmd:prefix>
+                            <cmd:count>27</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -1223,7 +1223,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2022-03-16</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/dataset-status/version/2022-03-16</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -1248,6 +1248,16 @@
                                     <cmd:count>168</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>7</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
                                     <cmd:prefix>at</cmd:prefix>
                                     <cmd:count>27</cmd:count>
@@ -1258,23 +1268,13 @@
                                     <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dc</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>7</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
@@ -1309,15 +1309,7 @@
                                 <cmd:count>197</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>ga</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>bg</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pl</cmd:code>
+                                        <cmd:code>fi</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -1325,75 +1317,7 @@
                                         <cmd:count>14</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cs</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ro</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>el</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>et</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>da</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>mt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lv</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>7</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
                                         <cmd:code>nl</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>hr</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>hu</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>it</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lt</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fi</cmd:code>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>sk</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -1401,12 +1325,88 @@
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>sv</cmd:code>
+                                        <cmd:code>lv</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ga</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>de</cmd:code>
                                         <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>no</cmd:code>
                                         <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ro</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>et</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sk</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>cs</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hr</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pl</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>el</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>it</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hu</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sv</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>7</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>mt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>da</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>bg</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>lt</cmd:code>
+                                        <cmd:count>6</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
@@ -1457,19 +1457,9 @@
                             <cmd:count>175</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
-                            <cmd:prefix>at</cmd:prefix>
-                            <cmd:count>27</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://publications.europa.eu/resource/authority/</cmd:URI>
                             <cmd:prefix>atold</cmd:prefix>
                             <cmd:count>25</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                            <cmd:prefix>dc</cmd:prefix>
-                            <cmd:count>6</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -1477,13 +1467,23 @@
                             <cmd:count>7</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                            <cmd:prefix>rdfs</cmd:prefix>
-                            <cmd:count>1</cmd:count>
+                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:count>6</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://publications.europa.eu/ontology/authority/</cmd:URI>
+                            <cmd:prefix>at</cmd:prefix>
+                            <cmd:count>27</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                             <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
                             <cmd:count>1</cmd:count>
                         </cmd:Namespace>
                     </cmd:Namespaces>

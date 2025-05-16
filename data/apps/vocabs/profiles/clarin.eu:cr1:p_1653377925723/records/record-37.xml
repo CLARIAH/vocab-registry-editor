@@ -40,7 +40,7 @@
                 <cmd:identifier>fabio</cmd:identifier>
                 <cmd:title xml:lang="en">FRBR-aligned Bibliographic Ontology (FaBiO)</cmd:title>
                 <cmd:Namespace>
-                    <cmd:uri>http://purl.org/spar/fabio#</cmd:uri>
+                    <cmd:uri>http://purl.org/spar/fabio/</cmd:uri>
                     <cmd:prefix>fabio</cmd:prefix>
                 </cmd:Namespace>
             </cmd:Identification>
@@ -101,6 +101,11 @@
                     <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
                     <cmd:landingPage>https://triplydb.com/spar/fabio</cmd:landingPage>
                 </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>LOV</cmd:title>
+                    <cmd:url>https://lov.linkeddata.es</cmd:url>
+                    <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/fabio</cmd:landingPage>
+                </cmd:Registry>
             </cmd:IsReferencedBy>
             <cmd:Location>
                 <cmd:uri>https://sparontologies.github.io/fabio/current/fabio.html</cmd:uri>
@@ -115,7 +120,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/fabio/version/2.1</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/fabio/version/2.1</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -130,6 +135,11 @@
                                     <cmd:count>1511</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
                                     <cmd:prefix>dcterms</cmd:prefix>
                                     <cmd:count>72</cmd:count>
@@ -140,24 +150,9 @@
                                     <cmd:count>96</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>13</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
-                                    <cmd:prefix>vann</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
                                     <cmd:prefix>frbr</cmd:prefix>
                                     <cmd:count>30</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dc</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
@@ -165,14 +160,24 @@
                                     <cmd:count>3</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>13</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                     <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>4</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
+                                    <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
+                                    <cmd:prefix>vann</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Subjects>
@@ -190,14 +195,14 @@
                                     <cmd:count>1277</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>225</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
                                     <cmd:prefix>dc</cmd:prefix>
                                     <cmd:count>20</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>225</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
@@ -236,20 +241,32 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>271</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>DatatypeProperty</cmd:name>
                                         <cmd:count>67</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>AnnotationProperty</cmd:name>
+                                        <cmd:count>12</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>271</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>FunctionalProperty</cmd:name>
                                         <cmd:count>27</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>NamedIndividual</cmd:name>
+                                        <cmd:count>15</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -262,18 +279,6 @@
                                         <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>ObjectProperty</cmd:name>
                                         <cmd:count>31</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>AnnotationProperty</cmd:name>
-                                        <cmd:count>12</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>NamedIndividual</cmd:name>
-                                        <cmd:count>15</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -360,14 +365,14 @@
                                     <cmd:count>399</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dcterms</cmd:prefix>
+                                    <cmd:count>45</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                     <cmd:prefix>xsd</cmd:prefix>
                                     <cmd:count>34</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>13</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
@@ -375,9 +380,9 @@
                                     <cmd:count>161</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dcterms</cmd:prefix>
-                                    <cmd:count>45</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>13</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -409,6 +414,11 @@
                             <cmd:count>774</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
+                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:count>26</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                             <cmd:prefix>rdfs</cmd:prefix>
                             <cmd:count>1285</cmd:count>
@@ -419,19 +429,14 @@
                             <cmd:count>117</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                            <cmd:prefix>xsd</cmd:prefix>
-                            <cmd:count>38</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://prismstandard.org/namespaces/basic/2.0/</cmd:URI>
                             <cmd:prefix>prism</cmd:prefix>
                             <cmd:count>96</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                            <cmd:prefix>skos</cmd:prefix>
-                            <cmd:count>26</cmd:count>
+                            <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                            <cmd:prefix>xsd</cmd:prefix>
+                            <cmd:count>38</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
@@ -439,8 +444,8 @@
                             <cmd:count>191</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                            <cmd:prefix>skos</cmd:prefix>
                             <cmd:count>26</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
@@ -470,7 +475,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/fabio/version/2.2</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/fabio/version/2.2</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -485,6 +490,11 @@
                                     <cmd:count>1511</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
                                     <cmd:prefix>dcterms</cmd:prefix>
                                     <cmd:count>72</cmd:count>
@@ -495,24 +505,9 @@
                                     <cmd:count>96</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>13</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
-                                    <cmd:prefix>vann</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
                                     <cmd:prefix>frbr</cmd:prefix>
                                     <cmd:count>30</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dc</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
@@ -520,20 +515,35 @@
                                     <cmd:count>3</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>13</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                     <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>4</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
+                                    <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
+                                    <cmd:prefix>vann</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Subjects>
                         <cmd:Predicates>
                             <cmd:count>37</cmd:count>
                             <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>225</cmd:count>
+                                </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                     <cmd:prefix>rdf</cmd:prefix>
@@ -545,24 +555,19 @@
                                     <cmd:count>1277</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>225</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
                                     <cmd:prefix>dc</cmd:prefix>
                                     <cmd:count>20</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
-                                    <cmd:prefix>vann</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                     <cmd:prefix>xsd</cmd:prefix>
                                     <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
+                                    <cmd:prefix>vann</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Predicates>
@@ -577,22 +582,22 @@
                                         <cmd:count>518</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
-                                        <cmd:URI>http://purl.org/spar/fabio/</cmd:URI>
-                                        <cmd:prefix/>
-                                        <cmd:count>15</cmd:count>
-                                    </cmd:Namespace>
-                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                         <cmd:prefix>rdfs</cmd:prefix>
                                         <cmd:count>5</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://purl.org/spar/fabio/</cmd:URI>
+                                        <cmd:prefix/>
+                                        <cmd:count>15</cmd:count>
                                     </cmd:Namespace>
                                 </cmd:Namespaces>
                                 <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>271</cmd:count>
+                                        <cmd:name>DatatypeProperty</cmd:name>
+                                        <cmd:count>67</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -603,8 +608,14 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>DatatypeProperty</cmd:name>
-                                        <cmd:count>67</cmd:count>
+                                        <cmd:name>AnnotationProperty</cmd:name>
+                                        <cmd:count>12</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>271</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -615,20 +626,14 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>ObjectProperty</cmd:name>
-                                        <cmd:count>31</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>AnnotationProperty</cmd:name>
-                                        <cmd:count>12</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>NamedIndividual</cmd:name>
                                         <cmd:count>15</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>ObjectProperty</cmd:name>
+                                        <cmd:count>31</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -643,6 +648,12 @@
                                         <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:name>Datatype</cmd:name>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
                                         <cmd:URI>http://purl.org/spar/fabio/</cmd:URI>
                                         <cmd:prefix/>
                                         <cmd:name>DigitalStorageMedium</cmd:name>
@@ -653,12 +664,6 @@
                                         <cmd:prefix/>
                                         <cmd:name>AnalogStorageMedium</cmd:name>
                                         <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                        <cmd:prefix>rdfs</cmd:prefix>
-                                        <cmd:name>Datatype</cmd:name>
-                                        <cmd:count>5</cmd:count>
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Classes>
@@ -710,24 +715,9 @@
                                     <cmd:count>545</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
-                                    <cmd:prefix>frbr</cmd:prefix>
-                                    <cmd:count>161</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/spar/fabio/</cmd:URI>
                                     <cmd:prefix/>
                                     <cmd:count>399</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                    <cmd:prefix>xsd</cmd:prefix>
-                                    <cmd:count>34</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>13</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
@@ -735,19 +725,39 @@
                                     <cmd:count>45</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>20</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                    <cmd:prefix>xsd</cmd:prefix>
+                                    <cmd:count>34</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
+                                    <cmd:prefix>frbr</cmd:prefix>
+                                    <cmd:count>161</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
                                     <cmd:count>5</cmd:count>
                                 </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>20</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>13</cmd:count>
+                                </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>774</cmd:count>
+                        </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/spar/fabio/</cmd:URI>
                             <cmd:prefix/>
@@ -759,9 +769,9 @@
                             <cmd:count>646</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                            <cmd:prefix>owl</cmd:prefix>
-                            <cmd:count>774</cmd:count>
+                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:count>26</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
@@ -769,19 +779,9 @@
                             <cmd:count>1285</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
-                            <cmd:prefix>frbr</cmd:prefix>
-                            <cmd:count>191</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
                             <cmd:prefix>dcterms</cmd:prefix>
                             <cmd:count>117</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                            <cmd:prefix>xsd</cmd:prefix>
-                            <cmd:count>38</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://prismstandard.org/namespaces/basic/2.0/</cmd:URI>
@@ -789,13 +789,18 @@
                             <cmd:count>96</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                            <cmd:prefix>skos</cmd:prefix>
-                            <cmd:count>26</cmd:count>
+                            <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                            <cmd:prefix>xsd</cmd:prefix>
+                            <cmd:count>38</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:URI>http://purl.org/vocab/frbr/core#</cmd:URI>
+                            <cmd:prefix>frbr</cmd:prefix>
+                            <cmd:count>191</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                            <cmd:prefix>skos</cmd:prefix>
                             <cmd:count>26</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>

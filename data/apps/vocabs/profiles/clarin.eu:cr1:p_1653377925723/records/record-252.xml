@@ -99,7 +99,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/owl-time/version/20221115</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/owl-time/version/20221115</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -124,14 +124,9 @@
                             <cmd:count>46</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>141</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>533</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
+                                    <cmd:prefix/>
+                                    <cmd:count>70</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
@@ -139,9 +134,9 @@
                                     <cmd:count>423</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dct</cmd:prefix>
-                                    <cmd:count>10</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>533</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -149,14 +144,19 @@
                                     <cmd:count>184</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
-                                    <cmd:prefix/>
-                                    <cmd:count>70</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                     <cmd:prefix>xsd</cmd:prefix>
                                     <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>141</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dct</cmd:prefix>
+                                    <cmd:count>10</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Predicates>
@@ -185,18 +185,6 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>DatatypeProperty</cmd:name>
-                                        <cmd:count>25</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>23</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>Restriction</cmd:name>
                                         <cmd:count>54</cmd:count>
                                     </cmd:NamespaceItem>
@@ -209,20 +197,20 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>DeprecatedClass</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Ontology</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>TransitiveProperty</cmd:name>
                                         <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>DatatypeProperty</cmd:name>
+                                        <cmd:count>25</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>23</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -237,16 +225,28 @@
                                         <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
-                                        <cmd:prefix/>
-                                        <cmd:name>DayOfWeek</cmd:name>
-                                        <cmd:count>7</cmd:count>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>DeprecatedClass</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Ontology</cmd:name>
+                                        <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
                                         <cmd:prefix/>
                                         <cmd:name>TemporalUnit</cmd:name>
                                         <cmd:count>10</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
+                                        <cmd:prefix/>
+                                        <cmd:name>DayOfWeek</cmd:name>
+                                        <cmd:count>7</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
@@ -264,35 +264,23 @@
                                         <cmd:count>264</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
+                                        <cmd:code>zh</cmd:code>
+                                        <cmd:count>18</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
                                         <cmd:code>en</cmd:code>
                                         <cmd:count>288</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pl</cmd:code>
+                                        <cmd:count>18</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>ru</cmd:code>
                                         <cmd:count>16</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>nl</cmd:code>
-                                        <cmd:count>18</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ja</cmd:code>
-                                        <cmd:count>18</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
-                                        <cmd:count>18</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>zh</cmd:code>
-                                        <cmd:count>18</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>17</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
+                                        <cmd:code>it</cmd:code>
                                         <cmd:count>18</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -300,36 +288,48 @@
                                         <cmd:count>18</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>it</cmd:code>
+                                        <cmd:code>ja</cmd:code>
+                                        <cmd:count>18</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>18</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>18</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>17</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>de</cmd:code>
                                         <cmd:count>18</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>kr</cmd:code>
                                         <cmd:count>10</cmd:count>
                                     </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pl</cmd:code>
-                                        <cmd:count>18</cmd:count>
-                                    </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
-                                    <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:count>739</cmd:count>
-                                    </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
                                         <cmd:count>141</cmd:count>
                                     </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:count>739</cmd:count>
+                                    </cmd:Namespace>
                                 </cmd:Namespaces>
                                 <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:name>langString</cmd:name>
-                                        <cmd:count>739</cmd:count>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>decimal</cmd:name>
+                                        <cmd:count>70</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
@@ -346,12 +346,6 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>decimal</cmd:name>
-                                        <cmd:count>70</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
                                         <cmd:name>date</cmd:name>
                                         <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
@@ -361,9 +355,20 @@
                                         <cmd:name>boolean</cmd:name>
                                         <cmd:count>4</cmd:count>
                                     </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:name>langString</cmd:name>
+                                        <cmd:count>739</cmd:count>
+                                    </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
                             <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>144</cmd:count>
+                                </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
                                     <cmd:prefix/>
@@ -373,11 +378,6 @@
                                     <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                     <cmd:prefix>xsd</cmd:prefix>
                                     <cmd:count>35</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>144</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -394,19 +394,9 @@
                     </cmd:Statements>
                     <cmd:Namespaces>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                            <cmd:prefix>owl</cmd:prefix>
-                            <cmd:count>285</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
                             <cmd:prefix/>
                             <cmd:count>1425</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                            <cmd:prefix>rdfs</cmd:prefix>
-                            <cmd:count>536</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
@@ -414,9 +404,19 @@
                             <cmd:count>423</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                            <cmd:prefix>dct</cmd:prefix>
-                            <cmd:count>10</cmd:count>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>536</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>191</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>285</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
@@ -424,9 +424,9 @@
                             <cmd:count>39</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                            <cmd:prefix>rdf</cmd:prefix>
-                            <cmd:count>191</cmd:count>
+                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                            <cmd:prefix>dct</cmd:prefix>
+                            <cmd:count>10</cmd:count>
                         </cmd:Namespace>
                     </cmd:Namespaces>
                 </cmd:Summary>

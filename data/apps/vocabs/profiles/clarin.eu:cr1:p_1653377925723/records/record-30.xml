@@ -85,6 +85,11 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                     <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
                     <cmd:landingPage>https://triplydb.com/lemon/ontolex</cmd:landingPage>
                 </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>LOV</cmd:title>
+                    <cmd:url>https://lov.linkeddata.es</cmd:url>
+                    <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/ontolex</cmd:landingPage>
+                </cmd:Registry>
             </cmd:IsReferencedBy>
             <cmd:Location>
                 <cmd:uri>https://www.w3.org/2016/05/ontolex/</cmd:uri>
@@ -99,7 +104,7 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/ontolex/version/1.1</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/ontolex/version/1.1</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -124,13 +129,13 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:count>5</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:URI>http://www.w3.org/2003/06/sw-vocab-status/ns#</cmd:URI>
+                                    <cmd:prefix>vs</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2003/06/sw-vocab-status/ns#</cmd:URI>
-                                    <cmd:prefix>vs</cmd:prefix>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
@@ -159,16 +164,6 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:count>74</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>29</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dc</cmd:prefix>
-                                    <cmd:count>18</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2003/06/sw-vocab-status/ns#</cmd:URI>
                                     <cmd:prefix>vs</cmd:prefix>
                                     <cmd:count>28</cmd:count>
@@ -179,9 +174,19 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>29</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://creativecommons.org/ns#</cmd:URI>
                                     <cmd:prefix>cc</cmd:prefix>
                                     <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:count>18</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Predicates>
@@ -205,8 +210,8 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Restriction</cmd:name>
-                                        <cmd:count>6</cmd:count>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>18</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -217,20 +222,8 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>18</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>DatatypeProperty</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>AnnotationProperty</cmd:name>
-                                        <cmd:count>2</cmd:count>
+                                        <cmd:name>Restriction</cmd:name>
+                                        <cmd:count>6</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -241,7 +234,19 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>DatatypeProperty</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>InverseFunctionalProperty</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>AnnotationProperty</cmd:name>
                                         <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -262,16 +267,32 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                 <cmd:count>393</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>de</cmd:code>
-                                        <cmd:count>28</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
                                         <cmd:code>en</cmd:code>
                                         <cmd:count>64</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
+                                        <cmd:code>de</cmd:code>
+                                        <cmd:count>28</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>af</cmd:code>
+                                        <cmd:count>26</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sv</cmd:code>
+                                        <cmd:count>26</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
                                         <cmd:code>ru</cmd:code>
                                         <cmd:count>56</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>28</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>28</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>it</cmd:code>
@@ -282,28 +303,12 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                         <cmd:count>28</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>15</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>28</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>af</cmd:code>
-                                        <cmd:count>26</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
                                         <cmd:code>ro</cmd:code>
                                         <cmd:count>26</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>sv</cmd:code>
-                                        <cmd:count>26</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>28</cmd:count>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>15</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
@@ -328,26 +333,26 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>nonNegativeInteger</cmd:name>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
                                         <cmd:name>string</cmd:name>
                                         <cmd:count>31</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>date</cmd:name>
-                                        <cmd:count>2</cmd:count>
+                                        <cmd:name>nonNegativeInteger</cmd:name>
+                                        <cmd:count>6</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
                                         <cmd:name>decimal</cmd:name>
                                         <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>date</cmd:name>
+                                        <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
@@ -358,24 +363,24 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                                     <cmd:count>55</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>8</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                     <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>58</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#</cmd:URI>
-                                    <cmd:prefix>semiotics</cmd:prefix>
-                                    <cmd:count>4</cmd:count>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>8</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
                                     <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#</cmd:URI>
+                                    <cmd:prefix>semiotics</cmd:prefix>
+                                    <cmd:count>4</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Objects>
@@ -392,6 +397,11 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                             <cmd:count>443</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
+                            <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                            <cmd:prefix>foaf</cmd:prefix>
+                            <cmd:count>2</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                             <cmd:prefix>rdf</cmd:prefix>
                             <cmd:count>83</cmd:count>
@@ -402,19 +412,9 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                             <cmd:count>89</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                            <cmd:prefix>dc</cmd:prefix>
-                            <cmd:count>18</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2003/06/sw-vocab-status/ns#</cmd:URI>
                             <cmd:prefix>vs</cmd:prefix>
                             <cmd:count>29</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#</cmd:URI>
-                            <cmd:prefix>semiotics</cmd:prefix>
-                            <cmd:count>9</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
@@ -422,14 +422,19 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                             <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                            <cmd:prefix>foaf</cmd:prefix>
-                            <cmd:count>2</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://creativecommons.org/ns#</cmd:URI>
                             <cmd:prefix>cc</cmd:prefix>
                             <cmd:count>2</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:count>18</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#</cmd:URI>
+                            <cmd:prefix>semiotics</cmd:prefix>
+                            <cmd:count>9</cmd:count>
                         </cmd:Namespace>
                     </cmd:Namespaces>
                 </cmd:Summary>

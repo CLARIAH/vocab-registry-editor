@@ -98,7 +98,7 @@ Note: it's multilingual.</cmd:description>
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/periodo/version/1</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/periodo/version/1</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -112,14 +112,9 @@ Note: it's multilingual.</cmd:description>
                             <cmd:count>35</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>65924</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/ontology/bibo/</cmd:URI>
-                                    <cmd:prefix>bibo</cmd:prefix>
-                                    <cmd:count>1499</cmd:count>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dcterms</cmd:prefix>
+                                    <cmd:count>30490</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
@@ -127,19 +122,9 @@ Note: it's multilingual.</cmd:description>
                                     <cmd:count>52735</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dcelements</cmd:prefix>
-                                    <cmd:count>8974</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
                                     <cmd:prefix>foaf</cmd:prefix>
                                     <cmd:count>5600</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dcterms</cmd:prefix>
-                                    <cmd:count>30490</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://n2t.net/ark:/99152/p0v#</cmd:URI>
@@ -152,19 +137,34 @@ Note: it's multilingual.</cmd:description>
                                     <cmd:count>9244</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>65924</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dcelements</cmd:prefix>
+                                    <cmd:count>8974</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                     <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>1342</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>269</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/ns/prov#</cmd:URI>
                                     <cmd:prefix>prov</cmd:prefix>
                                     <cmd:count>585</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/ontology/bibo/</cmd:URI>
+                                    <cmd:prefix>bibo</cmd:prefix>
+                                    <cmd:count>1499</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>269</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://lexvo.org/ontology#</cmd:URI>
@@ -223,23 +223,79 @@ Note: it's multilingual.</cmd:description>
                                         <cmd:count>11456</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>sl</cmd:code>
-                                        <cmd:count>207</cmd:count>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>1645</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ja</cmd:code>
+                                        <cmd:count>283</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>da</cmd:code>
+                                        <cmd:count>362</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>hu</cmd:code>
+                                        <cmd:count>208</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sv</cmd:code>
+                                        <cmd:count>256</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>cs</cmd:code>
+                                        <cmd:count>324</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>402</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>sk</cmd:code>
                                         <cmd:count>176</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
+                                        <cmd:code>pl</cmd:code>
+                                        <cmd:count>204</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
                                         <cmd:code>ro</cmd:code>
                                         <cmd:count>215</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>1645</cmd:count>
+                                        <cmd:code>es</cmd:code>
+                                        <cmd:count>520</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>fi</cmd:code>
+                                        <cmd:code>de</cmd:code>
+                                        <cmd:count>444</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>pt</cmd:code>
+                                        <cmd:count>205</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>zh</cmd:code>
+                                        <cmd:count>190</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>no</cmd:code>
+                                        <cmd:count>203</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>el</cmd:code>
+                                        <cmd:count>371</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ar</cmd:code>
+                                        <cmd:count>398</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>gd-Latg</cmd:code>
+                                        <cmd:count>42</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>et</cmd:code>
                                         <cmd:count>176</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -247,23 +303,11 @@ Note: it's multilingual.</cmd:description>
                                         <cmd:count>441</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>ar</cmd:code>
-                                        <cmd:count>398</cmd:count>
+                                        <cmd:code>cmn-Latn</cmd:code>
+                                        <cmd:count>37</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>es</cmd:code>
-                                        <cmd:count>520</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>zh</cmd:code>
-                                        <cmd:count>190</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>sv</cmd:code>
-                                        <cmd:count>256</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>et</cmd:code>
+                                        <cmd:code>lt</cmd:code>
                                         <cmd:count>176</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
@@ -271,147 +315,103 @@ Note: it's multilingual.</cmd:description>
                                         <cmd:count>210</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>da</cmd:code>
-                                        <cmd:count>362</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>el</cmd:code>
-                                        <cmd:count>371</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>no</cmd:code>
-                                        <cmd:count>203</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cmn-Latn</cmd:code>
-                                        <cmd:count>37</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pl</cmd:code>
-                                        <cmd:count>204</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
-                                        <cmd:count>444</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>hu</cmd:code>
-                                        <cmd:count>208</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>pt</cmd:code>
-                                        <cmd:count>205</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cs</cmd:code>
-                                        <cmd:count>324</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ja</cmd:code>
-                                        <cmd:count>283</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>nl</cmd:code>
-                                        <cmd:count>402</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lt</cmd:code>
-                                        <cmd:count>176</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cmn-Hans</cmd:code>
+                                        <cmd:code>cmn-Hant</cmd:code>
                                         <cmd:count>52</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>tr</cmd:code>
-                                        <cmd:count>41</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ota-Arab</cmd:code>
-                                        <cmd:count>40</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>sr-Cyrl</cmd:code>
-                                        <cmd:count>26</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>sq</cmd:code>
                                         <cmd:count>51</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
+                                        <cmd:code>fi</cmd:code>
+                                        <cmd:count>176</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sl</cmd:code>
+                                        <cmd:count>207</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
                                         <cmd:code>af</cmd:code>
                                         <cmd:count>19</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>ja-Latn</cmd:code>
-                                        <cmd:count>6</cmd:count>
+                                        <cmd:code>sr-Cyrl</cmd:code>
+                                        <cmd:count>26</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>uk</cmd:code>
                                         <cmd:count>31</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>en-GB</cmd:code>
-                                        <cmd:count>10</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>gd-Latg</cmd:code>
-                                        <cmd:count>42</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>en-US</cmd:code>
-                                        <cmd:count>10</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cmn-Hant</cmd:code>
+                                        <cmd:code>cmn-Hans</cmd:code>
                                         <cmd:count>52</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>sr</cmd:code>
-                                        <cmd:count>21</cmd:count>
+                                        <cmd:code>ota-Arab</cmd:code>
+                                        <cmd:count>40</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>en-GB</cmd:code>
+                                        <cmd:count>10</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>he</cmd:code>
                                         <cmd:count>28</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>ko-Latn</cmd:code>
-                                        <cmd:count>4</cmd:count>
+                                        <cmd:code>mk</cmd:code>
+                                        <cmd:count>14</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>tr</cmd:code>
+                                        <cmd:count>41</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sr</cmd:code>
+                                        <cmd:count>21</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>en-US</cmd:code>
+                                        <cmd:count>10</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>uk-Latn</cmd:code>
                                         <cmd:count>3</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
+                                        <cmd:code>ko-Latn</cmd:code>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ja-Latn</cmd:code>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
                                         <cmd:code>zh-Latn</cmd:code>
                                         <cmd:count>3</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>scn-Latn</cmd:code>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>mk</cmd:code>
-                                        <cmd:count>14</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ar-Latn</cmd:code>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>mi-Latn</cmd:code>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>la</cmd:code>
-                                        <cmd:count>1</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>vi</cmd:code>
                                         <cmd:count>4</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
+                                        <cmd:code>mi-Latn</cmd:code>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
                                         <cmd:code>ca</cmd:code>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>scn-Latn</cmd:code>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ar-Latn</cmd:code>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>la</cmd:code>
                                         <cmd:count>1</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
@@ -431,14 +431,14 @@ Note: it's multilingual.</cmd:description>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>string</cmd:name>
-                                        <cmd:count>54631</cmd:count>
+                                        <cmd:name>gYear</cmd:name>
+                                        <cmd:count>19039</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
                                         <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>gYear</cmd:name>
-                                        <cmd:count>19039</cmd:count>
+                                        <cmd:name>string</cmd:name>
+                                        <cmd:count>54631</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
@@ -470,14 +470,9 @@ Note: it's multilingual.</cmd:description>
                     </cmd:Statements>
                     <cmd:Namespaces>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                            <cmd:prefix>skos</cmd:prefix>
-                            <cmd:count>75167</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://purl.org/ontology/bibo/</cmd:URI>
-                            <cmd:prefix>bibo</cmd:prefix>
-                            <cmd:count>1499</cmd:count>
+                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                            <cmd:prefix>dcterms</cmd:prefix>
+                            <cmd:count>30490</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2006/time#</cmd:URI>
@@ -485,19 +480,9 @@ Note: it's multilingual.</cmd:description>
                             <cmd:count>52735</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                            <cmd:prefix>dcelements</cmd:prefix>
-                            <cmd:count>8974</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
                             <cmd:prefix>foaf</cmd:prefix>
                             <cmd:count>5600</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                            <cmd:prefix>dcterms</cmd:prefix>
-                            <cmd:count>30490</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://n2t.net/ark:/99152/p0v#</cmd:URI>
@@ -510,19 +495,34 @@ Note: it's multilingual.</cmd:description>
                             <cmd:count>9245</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                            <cmd:prefix>skos</cmd:prefix>
+                            <cmd:count>75167</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                            <cmd:prefix>dcelements</cmd:prefix>
+                            <cmd:count>8974</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                             <cmd:prefix>owl</cmd:prefix>
                             <cmd:count>1342</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                            <cmd:prefix>rdfs</cmd:prefix>
-                            <cmd:count>269</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/ns/prov#</cmd:URI>
                             <cmd:prefix>prov</cmd:prefix>
                             <cmd:count>585</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/ontology/bibo/</cmd:URI>
+                            <cmd:prefix>bibo</cmd:prefix>
+                            <cmd:count>1499</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>269</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://lexvo.org/ontology#</cmd:URI>

@@ -80,7 +80,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/sdmx_core/version/0.3</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/sdmx_core/version/0.3</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -110,11 +110,6 @@
                                     <cmd:count>30</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>43</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
                                     <cmd:prefix>foaf</cmd:prefix>
                                     <cmd:count>5</cmd:count>
@@ -123,6 +118,11 @@
                                     <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
                                     <cmd:prefix>dcterms</cmd:prefix>
                                     <cmd:count>10</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>43</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -142,14 +142,14 @@
                                 <cmd:count>30</cmd:count>
                                 <cmd:Namespaces>
                                     <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:count>14</cmd:count>
-                                    </cmd:Namespace>
-                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                         <cmd:prefix>rdfs</cmd:prefix>
                                         <cmd:count>12</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:count>1</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>http://purl.org/linked-data/sdmx#</cmd:URI>
@@ -157,17 +157,41 @@
                                         <cmd:count>2</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:count>14</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                         <cmd:prefix>skos</cmd:prefix>
                                         <cmd:count>1</cmd:count>
                                     </cmd:Namespace>
-                                    <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:Namespace>
                                 </cmd:Namespaces>
                                 <cmd:NamespaceItems>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>12</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:name>Property</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://purl.org/linked-data/sdmx#</cmd:URI>
+                                        <cmd:prefix>sdmx</cmd:prefix>
+                                        <cmd:name>ConceptRole</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://purl.org/linked-data/sdmx#</cmd:URI>
+                                        <cmd:prefix>sdmx</cmd:prefix>
+                                        <cmd:name>MeasureTypeRole</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
@@ -187,33 +211,9 @@
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                        <cmd:prefix>rdfs</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>12</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://purl.org/linked-data/sdmx#</cmd:URI>
-                                        <cmd:prefix>sdmx</cmd:prefix>
-                                        <cmd:name>ConceptRole</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://purl.org/linked-data/sdmx#</cmd:URI>
-                                        <cmd:prefix>sdmx</cmd:prefix>
-                                        <cmd:name>MeasureTypeRole</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                         <cmd:prefix>skos</cmd:prefix>
                                         <cmd:name>Concept</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:name>Property</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
@@ -261,14 +261,14 @@
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>14</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
                                     <cmd:count>12</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/linked-data/sdmx#</cmd:URI>
@@ -276,14 +276,14 @@
                                     <cmd:count>13</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>14</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>3</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/linked-data/cube#</cmd:URI>
@@ -305,19 +305,9 @@
                             <cmd:count>31</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                            <cmd:prefix>owl</cmd:prefix>
-                            <cmd:count>15</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                             <cmd:prefix>rdfs</cmd:prefix>
                             <cmd:count>55</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                            <cmd:prefix>skos</cmd:prefix>
-                            <cmd:count>3</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
@@ -330,6 +320,16 @@
                             <cmd:count>10</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>15</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                            <cmd:prefix>skos</cmd:prefix>
+                            <cmd:count>3</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
                             <cmd:URI>http://purl.org/linked-data/cube#</cmd:URI>
                             <cmd:prefix>qb</cmd:prefix>
                             <cmd:count>4</cmd:count>
@@ -337,14 +337,14 @@
                     </cmd:Namespaces>
                 </cmd:Summary>
                 <cmd:Location>
-                    <cmd:uri>https://static.vocabs.clariah.nl/cache/sdmx_core/0.3.ttl</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
-                </cmd:Location>
-                <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/docs/sdmx_core/0.3.html</cmd:uri>
                     <cmd:type>homepage</cmd:type>
                     <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/sdmx_core/0.3.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

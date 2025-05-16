@@ -97,6 +97,11 @@
                     <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
                     <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
                 </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>LOV</cmd:title>
+                    <cmd:url>https://lov.linkeddata.es</cmd:url>
+                    <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/sem</cmd:landingPage>
+                </cmd:Registry>
             </cmd:IsReferencedBy>
             <cmd:Location>
                 <cmd:uri>https://semanticweb.cs.vu.nl/2009/11/sem/</cmd:uri>
@@ -111,7 +116,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/sem/version/2009-11</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/sem/version/2009-11</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -126,18 +131,13 @@
                                     <cmd:count>215</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.ontologyportal.org/translations/SUMO.owl.txt#</cmd:URI>
-                                    <cmd:prefix>sumo</cmd:prefix>
-                                    <cmd:count>5</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#</cmd:URI>
                                     <cmd:prefix>cidoc</cmd:prefix>
                                     <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://linkedevents.org/ontology/</cmd:URI>
-                                    <cmd:prefix>lode</cmd:prefix>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dcterms</cmd:prefix>
                                     <cmd:count>4</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
@@ -146,19 +146,24 @@
                                     <cmd:count>5</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
-                                    <cmd:prefix>dctype</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2006/time</cmd:URI>
-                                    <cmd:prefix>time</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
+                                    <cmd:URI>http://linkedevents.org/ontology/</cmd:URI>
+                                    <cmd:prefix>lode</cmd:prefix>
+                                    <cmd:count>4</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.kulttuurisampo.fi/ebkr/</cmd:URI>
                                     <cmd:prefix>cs</cmd:prefix>
                                     <cmd:count>4</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://sw.opencyc.org/2009/04/07/concept/en/</cmd:URI>
+                                    <cmd:prefix>cyc</cmd:prefix>
+                                    <cmd:count>5</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.ontologyportal.org/translations/SUMO.owl.txt#</cmd:URI>
+                                    <cmd:prefix>sumo</cmd:prefix>
+                                    <cmd:count>5</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/NET/c4dm/event.owl#</cmd:URI>
@@ -171,23 +176,23 @@
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                                    <cmd:prefix>foaf</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dcterms</cmd:prefix>
-                                    <cmd:count>4</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2006/time</cmd:URI>
+                                    <cmd:prefix>time</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://sw.opencyc.org/2009/04/07/concept/en/</cmd:URI>
-                                    <cmd:prefix>cyc</cmd:prefix>
-                                    <cmd:count>5</cmd:count>
+                                    <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
+                                    <cmd:prefix>dctype</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                                    <cmd:prefix>foaf</cmd:prefix>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
@@ -195,6 +200,11 @@
                         <cmd:Predicates>
                             <cmd:count>14</cmd:count>
                             <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>39</cmd:count>
+                                </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
@@ -204,11 +214,6 @@
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>45</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>39</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -270,29 +275,9 @@
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://semanticweb.cs.vu.nl/2009/11/sem/</cmd:URI>
-                                    <cmd:prefix>sem</cmd:prefix>
-                                    <cmd:count>51</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://sw.opencyc.org/2009/04/07/concept/en/</cmd:URI>
-                                    <cmd:prefix>cyc</cmd:prefix>
-                                    <cmd:count>11</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.ontologyportal.org/translations/SUMO.owl.txt#</cmd:URI>
-                                    <cmd:prefix>sumo</cmd:prefix>
-                                    <cmd:count>10</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                     <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>39</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www8.informatik.uni-erlangen.de/IMMD8/Services/cidoc-crm/erlangen-crm_090330_5_0_1.owl#</cmd:URI>
@@ -300,9 +285,14 @@
                                     <cmd:count>12</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://linkedevents.org/ontology/</cmd:URI>
-                                    <cmd:prefix>lode</cmd:prefix>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dcterms</cmd:prefix>
                                     <cmd:count>8</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://semanticweb.cs.vu.nl/2009/11/sem/</cmd:URI>
+                                    <cmd:prefix>sem</cmd:prefix>
+                                    <cmd:count>51</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#</cmd:URI>
@@ -310,13 +300,28 @@
                                     <cmd:count>11</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
-                                    <cmd:prefix>dctype</cmd:prefix>
-                                    <cmd:count>4</cmd:count>
+                                    <cmd:URI>http://linkedevents.org/ontology/</cmd:URI>
+                                    <cmd:prefix>lode</cmd:prefix>
+                                    <cmd:count>8</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dcterms</cmd:prefix>
+                                    <cmd:URI>http://www.kulttuurisampo.fi/ebkr/</cmd:URI>
+                                    <cmd:prefix>cs</cmd:prefix>
+                                    <cmd:count>8</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://sw.opencyc.org/2009/04/07/concept/en/</cmd:URI>
+                                    <cmd:prefix>cyc</cmd:prefix>
+                                    <cmd:count>11</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/NET/c4dm/event.owl#</cmd:URI>
+                                    <cmd:prefix>eo</cmd:prefix>
                                     <cmd:count>8</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
@@ -325,14 +330,24 @@
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.kulttuurisampo.fi/ebkr/</cmd:URI>
-                                    <cmd:prefix>cs</cmd:prefix>
-                                    <cmd:count>8</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/NET/c4dm/event.owl#</cmd:URI>
-                                    <cmd:prefix>eo</cmd:prefix>
-                                    <cmd:count>8</cmd:count>
+                                    <cmd:URI>http://www.ontologyportal.org/translations/SUMO.owl.txt#</cmd:URI>
+                                    <cmd:prefix>sumo</cmd:prefix>
+                                    <cmd:count>10</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
+                                    <cmd:prefix>dctype</cmd:prefix>
+                                    <cmd:count>4</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                                    <cmd:prefix>foaf</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2003/01/geo/wgs84_pos#</cmd:URI>
@@ -344,16 +359,6 @@
                                     <cmd:prefix>dc</cmd:prefix>
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                                    <cmd:prefix>foaf</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
@@ -362,26 +367,6 @@
                             <cmd:URI>http://semanticweb.cs.vu.nl/2009/11/sem/</cmd:URI>
                             <cmd:prefix>sem</cmd:prefix>
                             <cmd:count>266</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                            <cmd:prefix>rdfs</cmd:prefix>
-                            <cmd:count>173</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                            <cmd:prefix>skos</cmd:prefix>
-                            <cmd:count>45</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://sw.opencyc.org/2009/04/07/concept/en/</cmd:URI>
-                            <cmd:prefix>cyc</cmd:prefix>
-                            <cmd:count>16</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.ontologyportal.org/translations/SUMO.owl.txt#</cmd:URI>
-                            <cmd:prefix>sumo</cmd:prefix>
-                            <cmd:count>15</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -399,8 +384,18 @@
                             <cmd:count>18</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://linkedevents.org/ontology/</cmd:URI>
-                            <cmd:prefix>lode</cmd:prefix>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>173</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                            <cmd:prefix>skos</cmd:prefix>
+                            <cmd:count>45</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                            <cmd:prefix>dcterms</cmd:prefix>
                             <cmd:count>12</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
@@ -409,13 +404,23 @@
                             <cmd:count>16</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
-                            <cmd:prefix>dctype</cmd:prefix>
-                            <cmd:count>6</cmd:count>
+                            <cmd:URI>http://linkedevents.org/ontology/</cmd:URI>
+                            <cmd:prefix>lode</cmd:prefix>
+                            <cmd:count>12</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                            <cmd:prefix>dcterms</cmd:prefix>
+                            <cmd:URI>http://www.kulttuurisampo.fi/ebkr/</cmd:URI>
+                            <cmd:prefix>cs</cmd:prefix>
+                            <cmd:count>12</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://sw.opencyc.org/2009/04/07/concept/en/</cmd:URI>
+                            <cmd:prefix>cyc</cmd:prefix>
+                            <cmd:count>16</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/NET/c4dm/event.owl#</cmd:URI>
+                            <cmd:prefix>eo</cmd:prefix>
                             <cmd:count>12</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
@@ -424,14 +429,19 @@
                             <cmd:count>3</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.kulttuurisampo.fi/ebkr/</cmd:URI>
-                            <cmd:prefix>cs</cmd:prefix>
-                            <cmd:count>12</cmd:count>
+                            <cmd:URI>http://www.ontologyportal.org/translations/SUMO.owl.txt#</cmd:URI>
+                            <cmd:prefix>sumo</cmd:prefix>
+                            <cmd:count>15</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.org/NET/c4dm/event.owl#</cmd:URI>
-                            <cmd:prefix>eo</cmd:prefix>
-                            <cmd:count>12</cmd:count>
+                            <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
+                            <cmd:prefix>dctype</cmd:prefix>
+                            <cmd:count>6</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                            <cmd:prefix>foaf</cmd:prefix>
+                            <cmd:count>3</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2003/01/geo/wgs84_pos#</cmd:URI>
@@ -441,11 +451,6 @@
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
                             <cmd:prefix>dc</cmd:prefix>
-                            <cmd:count>3</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                            <cmd:prefix>foaf</cmd:prefix>
                             <cmd:count>3</cmd:count>
                         </cmd:Namespace>
                     </cmd:Namespaces>

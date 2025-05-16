@@ -40,7 +40,7 @@
                 <cmd:identifier>schema</cmd:identifier>
                 <cmd:title xml:lang="en">schema.org</cmd:title>
                 <cmd:Namespace>
-                    <cmd:uri>https://schema.org/</cmd:uri>
+                    <cmd:uri>http://schema.org/</cmd:uri>
                     <cmd:prefix>schema</cmd:prefix>
                 </cmd:Namespace>
             </cmd:Identification>
@@ -85,6 +85,11 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                     <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
                     <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
                 </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>LOV</cmd:title>
+                    <cmd:url>https://lov.linkeddata.es</cmd:url>
+                    <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/schema</cmd:landingPage>
+                </cmd:Registry>
             </cmd:IsReferencedBy>
             <cmd:Location>
                 <cmd:uri>https://schema.org/</cmd:uri>
@@ -99,7 +104,7 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/schema/version/29.0</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/schema/version/29.0</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -119,11 +124,6 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                             <cmd:count>17</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>https://schema.org/</cmd:URI>
-                                    <cmd:prefix>schema</cmd:prefix>
-                                    <cmd:count>7128</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
                                     <cmd:count>7027</cmd:count>
@@ -134,14 +134,19 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:count>2949</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>50</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                     <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>54</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>https://schema.org/</cmd:URI>
+                                    <cmd:prefix>schema</cmd:prefix>
+                                    <cmd:count>7128</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>50</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Predicates>
@@ -151,14 +156,14 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                 <cmd:count>2949</cmd:count>
                                 <cmd:Namespaces>
                                     <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:count>1504</cmd:count>
-                                    </cmd:Namespace>
-                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                         <cmd:prefix>rdfs</cmd:prefix>
                                         <cmd:count>919</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:count>1504</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>https://schema.org/</cmd:URI>
@@ -168,58 +173,22 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                 </cmd:Namespaces>
                                 <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:name>Property</cmd:name>
-                                        <cmd:count>1504</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                         <cmd:prefix>rdfs</cmd:prefix>
                                         <cmd:name>Class</cmd:name>
                                         <cmd:count>919</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>WearableMeasurementTypeEnumeration</cmd:name>
-                                        <cmd:count>12</cmd:count>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:name>Property</cmd:name>
+                                        <cmd:count>1504</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>WearableSizeGroupEnumeration</cmd:name>
-                                        <cmd:count>17</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MusicReleaseFormatType</cmd:name>
+                                        <cmd:name>PhysicalActivityCategory</cmd:name>
                                         <cmd:count>7</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>ReturnLabelSourceEnumeration</cmd:name>
-                                        <cmd:count>3</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicineSystem</cmd:name>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>BodyMeasurementTypeEnumeration</cmd:name>
-                                        <cmd:count>13</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>FulfillmentTypeEnumeration</cmd:name>
-                                        <cmd:count>5</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
@@ -230,128 +199,14 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>IPTCDigitalSourceEnumeration</cmd:name>
-                                        <cmd:count>17</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>CarUsageType</cmd:name>
-                                        <cmd:count>3</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DrugPrescriptionStatus</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>ItemAvailability</cmd:name>
-                                        <cmd:count>12</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalAudienceType</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>HealthAspectEnumeration</cmd:name>
-                                        <cmd:count>29</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalSpecialty</cmd:name>
-                                        <cmd:count>42</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DrugPregnancyCategory</cmd:name>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>InfectiousAgentClass</cmd:name>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>RefundTypeEnumeration</cmd:name>
-                                        <cmd:count>3</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>USNonprofitType</cmd:name>
-                                        <cmd:count>36</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>SteeringPositionValue</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DigitalPlatformEnumeration</cmd:name>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>AdultOrientedEnumeration</cmd:name>
-                                        <cmd:count>10</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DigitalDocumentPermissionType</cmd:name>
-                                        <cmd:count>3</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>PriceTypeEnumeration</cmd:name>
+                                        <cmd:name>GovernmentBenefitsType</cmd:name>
                                         <cmd:count>8</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalImagingTechnique</cmd:name>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DriveWheelConfigurationValue</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MediaManipulationRatingEnumeration</cmd:name>
-                                        <cmd:count>6</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalProcedureType</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MerchantReturnEnumeration</cmd:name>
-                                        <cmd:count>4</cmd:count>
+                                        <cmd:name>WearableMeasurementTypeEnumeration</cmd:name>
+                                        <cmd:count>12</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
@@ -362,32 +217,20 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalSpecialty</cmd:name>
+                                        <cmd:count>42</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>WearableSizeSystemEnumeration</cmd:name>
+                                        <cmd:count>14</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
                                         <cmd:name>PriceComponentTypeEnumeration</cmd:name>
                                         <cmd:count>6</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DayOfWeek</cmd:name>
-                                        <cmd:count>8</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>EventStatusType</cmd:name>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MusicAlbumReleaseType</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DrugCostCategory</cmd:name>
-                                        <cmd:count>3</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
@@ -398,13 +241,25 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>EUEnergyEfficiencyEnumeration</cmd:name>
-                                        <cmd:count>10</cmd:count>
+                                        <cmd:name>DayOfWeek</cmd:name>
+                                        <cmd:count>8</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>SizeSystemEnumeration</cmd:name>
+                                        <cmd:name>WearableSizeGroupEnumeration</cmd:name>
+                                        <cmd:count>17</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>RestrictedDiet</cmd:name>
+                                        <cmd:count>11</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>BoardingPolicyType</cmd:name>
                                         <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -416,8 +271,272 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>PhysicalActivityCategory</cmd:name>
+                                        <cmd:name>DigitalDocumentPermissionType</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>PurchaseType</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>PhysicalExam</cmd:name>
+                                        <cmd:count>14</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalImagingTechnique</cmd:name>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>ReturnFeesEnumeration</cmd:name>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalStudyStatus</cmd:name>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MerchantReturnEnumeration</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>GenderType</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>DriveWheelConfigurationValue</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>EnergyStarEnergyEfficiencyEnumeration</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>BodyMeasurementTypeEnumeration</cmd:name>
+                                        <cmd:count>13</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>DrugCostCategory</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>EUEnergyEfficiencyEnumeration</cmd:name>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>PriceTypeEnumeration</cmd:name>
+                                        <cmd:count>8</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>HealthAspectEnumeration</cmd:name>
+                                        <cmd:count>29</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>IPTCDigitalSourceEnumeration</cmd:name>
+                                        <cmd:count>17</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>SteeringPositionValue</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>PaymentStatusType</cmd:name>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>CarUsageType</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>ItemListOrderType</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>InfectiousAgentClass</cmd:name>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>OfferItemCondition</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>DeliveryMethod</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>DigitalPlatformEnumeration</cmd:name>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>GameServerStatus</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>TierBenefitEnumeration</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>OrderStatus</cmd:name>
+                                        <cmd:count>8</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MediaManipulationRatingEnumeration</cmd:name>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalObservationalStudyDesign</cmd:name>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>USNonprofitType</cmd:name>
+                                        <cmd:count>36</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>ItemAvailability</cmd:name>
+                                        <cmd:count>12</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalDevicePurpose</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MusicReleaseFormatType</cmd:name>
                                         <cmd:count>7</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicineSystem</cmd:name>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>IncentiveType</cmd:name>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MapCategoryType</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalEvidenceLevel</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>ActionStatusType</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalAudienceType</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>ContactPointOption</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>FulfillmentTypeEnumeration</cmd:name>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>ReturnMethodEnumeration</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>IncentiveQualifiedExpenseType</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>RefundTypeEnumeration</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>BookFormatType</cmd:name>
+                                        <cmd:count>5</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
@@ -428,14 +547,32 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>RestrictedDiet</cmd:name>
-                                        <cmd:count>11</cmd:count>
+                                        <cmd:name>PaymentMethodType</cmd:name>
+                                        <cmd:count>8</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>EnergyStarEnergyEfficiencyEnumeration</cmd:name>
-                                        <cmd:count>1</cmd:count>
+                                        <cmd:name>MusicAlbumReleaseType</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>DrugPregnancyCategory</cmd:name>
+                                        <cmd:count>6</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>AdultOrientedEnumeration</cmd:name>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>GameAvailabilityEnumeration</cmd:name>
+                                        <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
@@ -452,97 +589,7 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>IncentiveType</cmd:name>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalStudyStatus</cmd:name>
-                                        <cmd:count>10</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>WearableSizeSystemEnumeration</cmd:name>
-                                        <cmd:count>14</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>EventAttendanceModeEnumeration</cmd:name>
-                                        <cmd:count>3</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>PaymentMethodType</cmd:name>
-                                        <cmd:count>8</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>PurchaseType</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>ReturnFeesEnumeration</cmd:name>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>PhysicalExam</cmd:name>
-                                        <cmd:count>14</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>BookFormatType</cmd:name>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalDevicePurpose</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>LegalValueLevel</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
                                         <cmd:name>ReservationStatusType</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>GenderType</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>PaymentStatusType</cmd:name>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>GovernmentBenefitsType</cmd:name>
-                                        <cmd:count>8</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>OfferItemCondition</cmd:name>
                                         <cmd:count>4</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -554,13 +601,25 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalObservationalStudyDesign</cmd:name>
-                                        <cmd:count>6</cmd:count>
+                                        <cmd:name>LegalValueLevel</cmd:name>
+                                        <cmd:count>4</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MedicalEvidenceLevel</cmd:name>
+                                        <cmd:name>DrugPrescriptionStatus</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MeasurementMethodEnum</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>EventAttendanceModeEnumeration</cmd:name>
                                         <cmd:count>3</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -578,85 +637,31 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>OrderStatus</cmd:name>
-                                        <cmd:count>8</cmd:count>
+                                        <cmd:name>EventStatusType</cmd:name>
+                                        <cmd:count>5</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>BoardingPolicyType</cmd:name>
+                                        <cmd:name>SizeSystemEnumeration</cmd:name>
                                         <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>TierBenefitEnumeration</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>ActionStatusType</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>GameAvailabilityEnumeration</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>ReturnMethodEnumeration</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>IncentiveQualifiedExpenseType</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>GameServerStatus</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MapCategoryType</cmd:name>
-                                        <cmd:count>4</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>DeliveryMethod</cmd:name>
+                                        <cmd:name>ReturnLabelSourceEnumeration</cmd:name>
                                         <cmd:count>3</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>ItemListOrderType</cmd:name>
-                                        <cmd:count>3</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>ContactPointOption</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://schema.org/</cmd:URI>
-                                        <cmd:prefix>schema</cmd:prefix>
-                                        <cmd:name>MeasurementMethodEnum</cmd:name>
-                                        <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://schema.org/</cmd:URI>
                                         <cmd:prefix>schema</cmd:prefix>
                                         <cmd:name>CertificationStatusEnumeration</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://schema.org/</cmd:URI>
+                                        <cmd:prefix>schema</cmd:prefix>
+                                        <cmd:name>MedicalProcedureType</cmd:name>
                                         <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
@@ -698,6 +703,11 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>922</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>https://schema.org/</cmd:URI>
                                     <cmd:prefix>schema</cmd:prefix>
                                     <cmd:count>6173</cmd:count>
@@ -708,14 +718,9 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:count>1506</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>922</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dcterms</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
+                                    <cmd:URI>http://www.w3.org/ns/dcat#</cmd:URI>
+                                    <cmd:prefix>dcat</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
@@ -723,18 +728,18 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                                     <cmd:count>4</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/ns/dcat#</cmd:URI>
-                                    <cmd:prefix>dcat</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                                    <cmd:prefix>foaf</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dcterms</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://rdfs.org/ns/void#</cmd:URI>
                                     <cmd:prefix>void</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                                    <cmd:prefix>foaf</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
@@ -757,24 +762,9 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                             <cmd:count>4455</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                            <cmd:prefix>skos</cmd:prefix>
-                            <cmd:count>50</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                             <cmd:prefix>owl</cmd:prefix>
                             <cmd:count>54</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                            <cmd:prefix>dcterms</cmd:prefix>
-                            <cmd:count>6</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
-                            <cmd:prefix>dcmitype</cmd:prefix>
-                            <cmd:count>4</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/ns/dcat#</cmd:URI>
@@ -782,13 +772,28 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                             <cmd:count>3</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                            <cmd:prefix>foaf</cmd:prefix>
-                            <cmd:count>1</cmd:count>
+                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                            <cmd:prefix>skos</cmd:prefix>
+                            <cmd:count>50</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/dc/dcmitype/</cmd:URI>
+                            <cmd:prefix>dcmitype</cmd:prefix>
+                            <cmd:count>4</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                            <cmd:prefix>dcterms</cmd:prefix>
+                            <cmd:count>6</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://rdfs.org/ns/void#</cmd:URI>
                             <cmd:prefix>void</cmd:prefix>
+                            <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                            <cmd:prefix>foaf</cmd:prefix>
                             <cmd:count>1</cmd:count>
                         </cmd:Namespace>
                     </cmd:Namespaces>

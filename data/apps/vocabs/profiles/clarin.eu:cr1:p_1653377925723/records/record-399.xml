@@ -122,7 +122,7 @@ ELSST is currently available in 15 languages: Czech, Dutch, English, Finnish, Fr
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/elsst/version/5</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/elsst/version/5</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -137,13 +137,13 @@ ELSST is currently available in 15 languages: Czech, Dutch, English, Finnish, Fr
                                     <cmd:count>236617</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dct</cmd:prefix>
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dct</cmd:prefix>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
@@ -219,64 +219,64 @@ ELSST is currently available in 15 languages: Czech, Dutch, English, Finnish, Fr
                                 <cmd:count>210326</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>fr</cmd:code>
-                                        <cmd:count>14388</cmd:count>
+                                        <cmd:code>is</cmd:code>
+                                        <cmd:count>10787</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>fi</cmd:code>
                                         <cmd:count>14334</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
-                                        <cmd:code>de</cmd:code>
-                                        <cmd:count>22793</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>en</cmd:code>
-                                        <cmd:count>18258</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
                                         <cmd:code>no</cmd:code>
                                         <cmd:count>13616</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>lt</cmd:code>
-                                        <cmd:count>15134</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>is</cmd:code>
-                                        <cmd:count>10787</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>el</cmd:code>
-                                        <cmd:count>13157</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>sv</cmd:code>
-                                        <cmd:count>14588</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>nl</cmd:code>
-                                        <cmd:count>11512</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>cs</cmd:code>
-                                        <cmd:count>12429</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>sl</cmd:code>
-                                        <cmd:count>10524</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>ro</cmd:code>
-                                        <cmd:count>12166</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>es</cmd:code>
                                         <cmd:count>14198</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
+                                        <cmd:code>de</cmd:code>
+                                        <cmd:count>22793</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>14388</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>lt</cmd:code>
+                                        <cmd:count>15134</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>18258</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sl</cmd:code>
+                                        <cmd:count>10524</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>11512</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
                                         <cmd:code>hu</cmd:code>
                                         <cmd:count>10308</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>cs</cmd:code>
+                                        <cmd:count>12429</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>ro</cmd:code>
+                                        <cmd:count>12166</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>sv</cmd:code>
+                                        <cmd:count>14588</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>el</cmd:code>
+                                        <cmd:count>13157</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
                                 <cmd:Namespaces>
@@ -314,14 +314,14 @@ ELSST is currently available in 15 languages: Czech, Dutch, English, Finnish, Fr
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>https://elsst.cessda.eu/id/5/</cmd:URI>
-                                    <cmd:prefix/>
-                                    <cmd:count>12620</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>3436</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>https://elsst.cessda.eu/id/5/</cmd:URI>
+                                    <cmd:prefix/>
+                                    <cmd:count>12620</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>

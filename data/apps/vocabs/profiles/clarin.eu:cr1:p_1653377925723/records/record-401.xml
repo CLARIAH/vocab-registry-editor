@@ -136,21 +136,21 @@
                                 <cmd:count>21</cmd:count>
                                 <cmd:Namespaces>
                                     <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                        <cmd:prefix>rdfs</cmd:prefix>
-                                        <cmd:count>10</cmd:count>
-                                    </cmd:Namespace>
-                                    <cmd:Namespace>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
                                         <cmd:count>11</cmd:count>
                                     </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:Namespace>
                                 </cmd:Namespaces>
                                 <cmd:NamespaceItems>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                        <cmd:prefix>rdfs</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>ObjectProperty</cmd:name>
                                         <cmd:count>10</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -160,9 +160,9 @@
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>ObjectProperty</cmd:name>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
                                         <cmd:count>10</cmd:count>
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
@@ -171,19 +171,19 @@
                                 <cmd:count>107</cmd:count>
                                 <cmd:Languages>
                                     <cmd:Language>
-                                        <cmd:code>it</cmd:code>
-                                        <cmd:count>20</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>de</cmd:code>
-                                        <cmd:count>20</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
                                         <cmd:code>en</cmd:code>
                                         <cmd:count>46</cmd:count>
                                     </cmd:Language>
                                     <cmd:Language>
                                         <cmd:code>fr</cmd:code>
+                                        <cmd:count>20</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>it</cmd:code>
+                                        <cmd:count>20</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>de</cmd:code>
                                         <cmd:count>20</cmd:count>
                                     </cmd:Language>
                                 </cmd:Languages>
@@ -216,14 +216,29 @@
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
-                                    <cmd:prefix>letter-corresponding</cmd:prefix>
-                                    <cmd:count>39</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>11</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                                     <cmd:prefix>rdfs</cmd:prefix>
                                     <cmd:count>11</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
+                                    <cmd:prefix>human</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
+                                    <cmd:prefix>letter-corresponding</cmd:prefix>
+                                    <cmd:count>39</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
+                                    <cmd:prefix>creating</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://e-editiones.ch/ontology/text-structure#</cmd:URI>
@@ -236,14 +251,9 @@
                                     <cmd:count>5</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>11</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
-                                    <cmd:prefix>human</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
+                                    <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
+                                    <cmd:prefix>event</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://e-editiones.ch/ontology/text-expression#</cmd:URI>
@@ -251,23 +261,13 @@
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
-                                    <cmd:prefix>creating</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
+                                    <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
+                                    <cmd:prefix>frbroo</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://e-editiones.ch/ontology/physical-entity#</cmd:URI>
                                     <cmd:prefix>physical</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
-                                    <cmd:prefix>event</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
-                                    <cmd:prefix>frbroo</cmd:prefix>
                                     <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
@@ -290,9 +290,24 @@
                             <cmd:count>21</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>12</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
+                            <cmd:prefix>human</cmd:prefix>
+                            <cmd:count>3</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
                             <cmd:prefix>dct</cmd:prefix>
                             <cmd:count>7</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
+                            <cmd:prefix>creating</cmd:prefix>
+                            <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://e-editiones.ch/ontology/text-structure#</cmd:URI>
@@ -305,14 +320,9 @@
                             <cmd:count>5</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                            <cmd:prefix>owl</cmd:prefix>
-                            <cmd:count>12</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
-                            <cmd:prefix>human</cmd:prefix>
-                            <cmd:count>3</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
+                            <cmd:prefix>event</cmd:prefix>
+                            <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://e-editiones.ch/ontology/text-expression#</cmd:URI>
@@ -320,36 +330,26 @@
                             <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
-                            <cmd:prefix>creating</cmd:prefix>
-                            <cmd:count>2</cmd:count>
+                            <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
+                            <cmd:prefix>frbroo</cmd:prefix>
+                            <cmd:count>1</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://e-editiones.ch/ontology/physical-entity#</cmd:URI>
                             <cmd:prefix>physical</cmd:prefix>
                             <cmd:count>1</cmd:count>
                         </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
-                            <cmd:prefix>event</cmd:prefix>
-                            <cmd:count>2</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
-                            <cmd:prefix>frbroo</cmd:prefix>
-                            <cmd:count>1</cmd:count>
-                        </cmd:Namespace>
                     </cmd:Namespaces>
                 </cmd:Summary>
-                <cmd:Location>
-                    <cmd:uri>https://static.vocabs.clariah.nl/cache/letter-corresponding/2020-06-11.ttl</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
-                </cmd:Location>
                 <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/docs/letter-corresponding/2020-06-11.html</cmd:uri>
                     <cmd:type>homepage</cmd:type>
                     <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/letter-corresponding/2020-06-11.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

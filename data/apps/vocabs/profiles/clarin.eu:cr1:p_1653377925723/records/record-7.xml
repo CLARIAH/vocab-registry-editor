@@ -100,23 +100,38 @@ Over recent years, AGROVOC has evolved to become a valued information resource w
                 <cmd:version>2023-10</cmd:version>
                 <cmd:validFrom>2023-10-04</cmd:validFrom>
                 <cmd:Location>
-                    <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.rdf.zip#agrovoc_2024-03-05_core.rdf</cmd:uri>
+                    <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.rdf.zip#agrovoc_core.rdf</cmd:uri>
                     <cmd:type>dump</cmd:type>
                     <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/agrovoc-core/2023-10.rdf</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/docs/agrovoc-core/2023-10.html</cmd:uri>
+                    <cmd:type>homepage</cmd:type>
+                    <cmd:recipe>doc</cmd:recipe>
                 </cmd:Location>
             </cmd:Version>
             <cmd:Version>
                 <cmd:version>2025-02</cmd:version>
                 <cmd:validFrom>2025-02-03</cmd:validFrom>
                 <cmd:Location>
-                    <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nq.zip</cmd:uri>
+                    <cmd:uri>https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nq.zip#agrovoc_lod.nq</cmd:uri>
                     <cmd:type>dump</cmd:type>
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://static.vocabs.clariah.nl/cache/agrovoc-core/2025-02.zip</cmd:uri>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/agrovoc-core/2025-02.nq</cmd:uri>
                     <cmd:type>dump</cmd:type>
                     <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/docs/agrovoc-core/2025-02.html</cmd:uri>
+                    <cmd:type>homepage</cmd:type>
+                    <cmd:recipe>doc</cmd:recipe>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

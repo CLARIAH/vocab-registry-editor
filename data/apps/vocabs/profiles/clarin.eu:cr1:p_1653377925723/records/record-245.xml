@@ -90,7 +90,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/bfo/version/2.0</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/bfo/version/2.0</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -105,9 +105,9 @@
                                     <cmd:count>615</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                                    <cmd:prefix>foaf</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
@@ -115,9 +115,9 @@
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
-                                    <cmd:prefix>dc</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
+                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                                    <cmd:prefix>foaf</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Subjects>
@@ -125,9 +125,14 @@
                             <cmd:count>28</cmd:count>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>176</cmd:count>
+                                    <cmd:URI>http://purl.obolibrary.org/obo/</cmd:URI>
+                                    <cmd:prefix>obo</cmd:prefix>
+                                    <cmd:count>490</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>153</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -135,19 +140,14 @@
                                     <cmd:count>379</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.obolibrary.org/obo/</cmd:URI>
-                                    <cmd:prefix>obo</cmd:prefix>
-                                    <cmd:count>490</cmd:count>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>176</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
                                     <cmd:prefix>dc</cmd:prefix>
                                     <cmd:count>28</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>153</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
@@ -171,6 +171,12 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>35</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>Axiom</cmd:name>
                                         <cmd:count>120</cmd:count>
                                     </cmd:NamespaceItem>
@@ -179,12 +185,6 @@
                                         <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>AnnotationProperty</cmd:name>
                                         <cmd:count>20</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>35</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -231,14 +231,14 @@
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>176</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://purl.obolibrary.org/obo/</cmd:URI>
                                     <cmd:prefix>obo</cmd:prefix>
                                     <cmd:count>340</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>176</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
@@ -250,9 +250,14 @@
                     </cmd:Statements>
                     <cmd:Namespaces>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                            <cmd:prefix>rdf</cmd:prefix>
-                            <cmd:count>176</cmd:count>
+                            <cmd:URI>http://purl.obolibrary.org/obo/</cmd:URI>
+                            <cmd:prefix>obo</cmd:prefix>
+                            <cmd:count>1445</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>157</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -260,19 +265,14 @@
                             <cmd:count>555</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://purl.obolibrary.org/obo/</cmd:URI>
-                            <cmd:prefix>obo</cmd:prefix>
-                            <cmd:count>1445</cmd:count>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>176</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
                             <cmd:prefix>dc</cmd:prefix>
                             <cmd:count>30</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                            <cmd:prefix>rdfs</cmd:prefix>
-                            <cmd:count>157</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>

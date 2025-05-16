@@ -99,7 +99,7 @@
                     <cmd:recipe>rdf</cmd:recipe>
                 </cmd:Location>
                 <cmd:Location>
-                    <cmd:uri>https://graphdb.vocabs.clariah.nl/repositories/vocabs?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/brick/version/1.3.0</cmd:uri>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/brick/version/1.3.0</cmd:uri>
                     <cmd:type>endpoint</cmd:type>
                     <cmd:recipe>sparql</cmd:recipe>
                 </cmd:Location>
@@ -119,14 +119,14 @@
                                     <cmd:count>1156</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>https://brickschema.org/schema/BrickShape#</cmd:URI>
-                                    <cmd:prefix>bsh</cmd:prefix>
-                                    <cmd:count>571</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>https://brickschema.org/schema/BrickTag#</cmd:URI>
                                     <cmd:prefix>tag</cmd:prefix>
                                     <cmd:count>970</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>https://brickschema.org/schema/BrickShape#</cmd:URI>
+                                    <cmd:prefix>bsh</cmd:prefix>
+                                    <cmd:count>571</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>https://brickschema.org/schema/Brick/ref#</cmd:URI>
@@ -139,14 +139,14 @@
                                     <cmd:count>38</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/ns/sosa/</cmd:URI>
-                                    <cmd:prefix>sosa</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
                                     <cmd:prefix>skos</cmd:prefix>
                                     <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/ns/sosa/</cmd:URI>
+                                    <cmd:prefix>sosa</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2006/vcard/ns#</cmd:URI>
@@ -164,19 +164,14 @@
                                     <cmd:count>25518</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>4250</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                     <cmd:prefix>rdf</cmd:prefix>
                                     <cmd:count>12817</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>1257</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
-                                    <cmd:prefix>qudt</cmd:prefix>
-                                    <cmd:count>1292</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
@@ -184,19 +179,24 @@
                                     <cmd:count>6722</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>4250</cmd:count>
+                                    <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
+                                    <cmd:prefix>qudt</cmd:prefix>
+                                    <cmd:count>1292</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>231</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>1257</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://data.ashrae.org/bacnet/2020#</cmd:URI>
                                     <cmd:prefix>bacnet</cmd:prefix>
                                     <cmd:count>15</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>231</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://schema.org/</cmd:URI>
@@ -221,9 +221,9 @@
                                         <cmd:count>7692</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
-                                        <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
-                                        <cmd:prefix>qudt</cmd:prefix>
-                                        <cmd:count>444</cmd:count>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:count>1535</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
@@ -231,14 +231,9 @@
                                         <cmd:count>672</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:count>1535</cmd:count>
-                                    </cmd:Namespace>
-                                    <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:count>5</cmd:count>
+                                        <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
+                                        <cmd:prefix>qudt</cmd:prefix>
+                                        <cmd:count>444</cmd:count>
                                     </cmd:Namespace>
                                     <cmd:Namespace>
                                         <cmd:URI>http://data.ashrae.org/bacnet/2020#</cmd:URI>
@@ -250,14 +245,13 @@
                                         <cmd:prefix>sdo</cmd:prefix>
                                         <cmd:count>3</cmd:count>
                                     </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Namespace>
                                 </cmd:Namespaces>
                                 <cmd:NamespaceItems>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
-                                        <cmd:prefix>sh</cmd:prefix>
-                                        <cmd:name>NodeShape</cmd:name>
-                                        <cmd:count>1452</cmd:count>
-                                    </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
                                         <cmd:prefix>sh</cmd:prefix>
@@ -267,8 +261,8 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
                                         <cmd:prefix>sh</cmd:prefix>
-                                        <cmd:name>PropertyShape</cmd:name>
-                                        <cmd:count>212</cmd:count>
+                                        <cmd:name>NodeShape</cmd:name>
+                                        <cmd:count>1452</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
@@ -279,14 +273,50 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
                                         <cmd:prefix>sh</cmd:prefix>
+                                        <cmd:name>PropertyShape</cmd:name>
+                                        <cmd:count>212</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
+                                        <cmd:prefix>sh</cmd:prefix>
                                         <cmd:name>SPARQLConstraint</cmd:name>
                                         <cmd:count>3</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
-                                        <cmd:prefix>qudt</cmd:prefix>
-                                        <cmd:name>Unit</cmd:name>
-                                        <cmd:count>444</cmd:count>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>1438</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>ObjectProperty</cmd:name>
+                                        <cmd:count>33</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>AsymmetricProperty</cmd:name>
+                                        <cmd:count>22</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>IrreflexiveProperty</cmd:name>
+                                        <cmd:count>22</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>DatatypeProperty</cmd:name>
+                                        <cmd:count>19</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Ontology</cmd:name>
+                                        <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
@@ -303,31 +333,7 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Glycol</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>EntityProperty</cmd:name>
-                                        <cmd:count>44</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>CO</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Bypass_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Solid</cmd:name>
+                                        <cmd:name>Hail</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -339,133 +345,19 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Condenser_Water</cmd:name>
+                                        <cmd:name>CO2</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Hail</cmd:name>
-                                        <cmd:count>1</cmd:count>
+                                        <cmd:name>EntityProperty</cmd:name>
+                                        <cmd:count>44</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
                                         <cmd:name>Domestic_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Exhaust_Air</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Natural_Gas</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Leaving_Hot_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Chilled_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Gasoline</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Return_Air</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Discharge_Air</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Air</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Soil</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Potable_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Leaving_Chilled_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Makeup_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Blowdown_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Leaving_Condenser_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Collection_Basin_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Entering_Condenser_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Oil</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Liquid_CO2</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Supply_Air</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -477,49 +369,19 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Hot_Water</cmd:name>
+                                        <cmd:name>Blowdown_Water</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Entering_Water</cmd:name>
+                                        <cmd:name>Return_Air</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Frost</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Zone_Air</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Entering_Chilled_Water</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Building_Air</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Bypass_Air</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
-                                        <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Gas</cmd:name>
+                                        <cmd:name>Makeup_Water</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -531,13 +393,163 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Condenser_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Chilled_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Hot_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Collection_Basin_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Oil</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Building_Air</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Entering_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Outside_Air</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Entering_Condenser_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Leaving_Condenser_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Supply_Air</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Entering_Hot_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Soil</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Solid</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Discharge_Air</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Gasoline</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Steam</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Frost</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Exhaust_Air</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Glycol</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
                                         <cmd:name>Fluid</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>CO2</cmd:name>
+                                        <cmd:name>Zone_Air</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Mixed_Air</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Leaving_Chilled_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Deionized_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Air</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
@@ -555,86 +567,62 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Deionized_Water</cmd:name>
+                                        <cmd:name>Entering_Chilled_Water</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Entering_Hot_Water</cmd:name>
+                                        <cmd:name>CO</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Outside_Air</cmd:name>
+                                        <cmd:name>Bypass_Air</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Water</cmd:name>
+                                        <cmd:name>Gas</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Mixed_Air</cmd:name>
+                                        <cmd:name>Liquid_CO2</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                         <cmd:prefix>brick</cmd:prefix>
-                                        <cmd:name>Steam</cmd:name>
+                                        <cmd:name>Bypass_Water</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Class</cmd:name>
-                                        <cmd:count>1438</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>DatatypeProperty</cmd:name>
-                                        <cmd:count>19</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>ObjectProperty</cmd:name>
-                                        <cmd:count>33</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>IrreflexiveProperty</cmd:name>
-                                        <cmd:count>22</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>AsymmetricProperty</cmd:name>
-                                        <cmd:count>22</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>Ontology</cmd:name>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Natural_Gas</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:name>List</cmd:name>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Leaving_Hot_Water</cmd:name>
                                         <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                        <cmd:prefix>rdf</cmd:prefix>
-                                        <cmd:name>Property</cmd:name>
-                                        <cmd:count>4</cmd:count>
+                                        <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
+                                        <cmd:prefix>brick</cmd:prefix>
+                                        <cmd:name>Potable_Water</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
+                                        <cmd:prefix>qudt</cmd:prefix>
+                                        <cmd:name>Unit</cmd:name>
+                                        <cmd:count>444</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://data.ashrae.org/bacnet/2020#</cmd:URI>
@@ -645,14 +633,26 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://schema.org/</cmd:URI>
                                         <cmd:prefix>sdo</cmd:prefix>
-                                        <cmd:name>Consortium</cmd:name>
-                                        <cmd:count>1</cmd:count>
+                                        <cmd:name>Person</cmd:name>
+                                        <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://schema.org/</cmd:URI>
                                         <cmd:prefix>sdo</cmd:prefix>
-                                        <cmd:name>Person</cmd:name>
-                                        <cmd:count>2</cmd:count>
+                                        <cmd:name>Consortium</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:name>Property</cmd:name>
+                                        <cmd:count>4</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:name>List</cmd:name>
+                                        <cmd:count>1</cmd:count>
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Classes>
@@ -709,6 +709,16 @@
                             </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
+                                    <cmd:URI>https://brickschema.org/schema/BrickTag#</cmd:URI>
+                                    <cmd:prefix>tag</cmd:prefix>
+                                    <cmd:count>11888</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
+                                    <cmd:prefix>sh</cmd:prefix>
+                                    <cmd:count>13644</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
                                     <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                                     <cmd:prefix>brick</cmd:prefix>
                                     <cmd:count>9347</cmd:count>
@@ -719,19 +729,14 @@
                                     <cmd:count>2013</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
-                                    <cmd:prefix>sh</cmd:prefix>
-                                    <cmd:count>13644</cmd:count>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>209</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>https://brickschema.org/schema/BrickTag#</cmd:URI>
-                                    <cmd:prefix>tag</cmd:prefix>
-                                    <cmd:count>11888</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://qudt.org/vocab/quantitykind/</cmd:URI>
-                                    <cmd:prefix>qudtqk</cmd:prefix>
-                                    <cmd:count>70</cmd:count>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>1545</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
@@ -742,21 +747,6 @@
                                     <cmd:URI>https://brickschema.org/schema/BrickShape#</cmd:URI>
                                     <cmd:prefix>bsh</cmd:prefix>
                                     <cmd:count>236</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>1545</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>209</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://schema.org/</cmd:URI>
-                                    <cmd:prefix>sdo</cmd:prefix>
-                                    <cmd:count>5</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://data.ashrae.org/bacnet/2020#</cmd:URI>
@@ -774,9 +764,14 @@
                                     <cmd:count>29</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/ns/sosa/</cmd:URI>
-                                    <cmd:prefix>sosa</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
+                                    <cmd:URI>http://qudt.org/vocab/quantitykind/</cmd:URI>
+                                    <cmd:prefix>qudtqk</cmd:prefix>
+                                    <cmd:count>70</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
@@ -784,9 +779,14 @@
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
+                                    <cmd:URI>http://schema.org/</cmd:URI>
+                                    <cmd:prefix>sdo</cmd:prefix>
+                                    <cmd:count>5</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/ns/sosa/</cmd:URI>
+                                    <cmd:prefix>sosa</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/2006/vcard/ns#</cmd:URI>
@@ -803,34 +803,14 @@
                     </cmd:Statements>
                     <cmd:Namespaces>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
-                            <cmd:prefix>sh</cmd:prefix>
-                            <cmd:count>39162</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>https://brickschema.org/schema/Brick#</cmd:URI>
                             <cmd:prefix>brick</cmd:prefix>
                             <cmd:count>37077</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                            <cmd:prefix>rdf</cmd:prefix>
-                            <cmd:count>13026</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://qudt.org/vocab/unit/</cmd:URI>
-                            <cmd:prefix>unit</cmd:prefix>
-                            <cmd:count>3169</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                            <cmd:prefix>skos</cmd:prefix>
-                            <cmd:count>1260</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
-                            <cmd:prefix>qudt</cmd:prefix>
-                            <cmd:count>1741</cmd:count>
+                            <cmd:URI>http://www.w3.org/ns/shacl#</cmd:URI>
+                            <cmd:prefix>sh</cmd:prefix>
+                            <cmd:count>39162</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>https://brickschema.org/schema/BrickTag#</cmd:URI>
@@ -838,19 +818,29 @@
                             <cmd:count>12858</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
+                            <cmd:URI>http://qudt.org/vocab/unit/</cmd:URI>
+                            <cmd:prefix>unit</cmd:prefix>
+                            <cmd:count>3169</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
                             <cmd:prefix>rdfs</cmd:prefix>
                             <cmd:count>4256</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://qudt.org/vocab/quantitykind/</cmd:URI>
-                            <cmd:prefix>qudtqk</cmd:prefix>
-                            <cmd:count>70</cmd:count>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>13026</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>https://brickschema.org/schema/BrickShape#</cmd:URI>
-                            <cmd:prefix>bsh</cmd:prefix>
-                            <cmd:count>807</cmd:count>
+                            <cmd:URI>http://qudt.org/schema/qudt/</cmd:URI>
+                            <cmd:prefix>qudt</cmd:prefix>
+                            <cmd:count>1741</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                            <cmd:prefix>skos</cmd:prefix>
+                            <cmd:count>1260</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -858,14 +848,14 @@
                             <cmd:count>1776</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
+                            <cmd:URI>https://brickschema.org/schema/BrickShape#</cmd:URI>
+                            <cmd:prefix>bsh</cmd:prefix>
+                            <cmd:count>807</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
                             <cmd:URI>https://brickschema.org/schema/Brick/ref#</cmd:URI>
                             <cmd:prefix>ref</cmd:prefix>
                             <cmd:count>106</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                            <cmd:URI>http://schema.org/</cmd:URI>
-                            <cmd:prefix>sdo</cmd:prefix>
-                            <cmd:count>11</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://data.ashrae.org/bacnet/2020#</cmd:URI>
@@ -878,14 +868,24 @@
                             <cmd:count>29</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/ns/sosa/</cmd:URI>
-                            <cmd:prefix>sosa</cmd:prefix>
-                            <cmd:count>4</cmd:count>
+                            <cmd:URI>http://qudt.org/vocab/quantitykind/</cmd:URI>
+                            <cmd:prefix>qudtqk</cmd:prefix>
+                            <cmd:count>70</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://schema.org/</cmd:URI>
+                            <cmd:prefix>sdo</cmd:prefix>
+                            <cmd:count>11</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
                             <cmd:prefix>dcterms</cmd:prefix>
                             <cmd:count>5</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/ns/sosa/</cmd:URI>
+                            <cmd:prefix>sosa</cmd:prefix>
+                            <cmd:count>4</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/2006/vcard/ns#</cmd:URI>
@@ -900,14 +900,14 @@
                     </cmd:Namespaces>
                 </cmd:Summary>
                 <cmd:Location>
-                    <cmd:uri>https://static.vocabs.clariah.nl/cache/brick/1.3.0.ttl</cmd:uri>
-                    <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
-                </cmd:Location>
-                <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/docs/brick/1.3.0.html</cmd:uri>
                     <cmd:type>homepage</cmd:type>
                     <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/brick/1.3.0.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

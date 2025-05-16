@@ -34,7 +34,7 @@
                 <cmd:identifier>lio</cmd:identifier>
                 <cmd:title xml:lang="en">Lightweight Image Ontology (LIO)</cmd:title>
                 <cmd:Namespace>
-                    <cmd:uri>https://w3id.org/lio/v1#</cmd:uri>
+                    <cmd:uri>http://purl.org/net/lio#</cmd:uri>
                     <cmd:prefix>lio</cmd:prefix>
                 </cmd:Namespace>
             </cmd:Identification>
@@ -76,6 +76,11 @@
                 <cmd:Registry>
                     <cmd:title>LOV</cmd:title>
                     <cmd:url>https://lov.linkeddata.es/dataset/lov</cmd:url>
+                    <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/lio</cmd:landingPage>
+                </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>LOV</cmd:title>
+                    <cmd:url>https://lov.linkeddata.es</cmd:url>
                     <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/lio</cmd:landingPage>
                 </cmd:Registry>
             </cmd:IsReferencedBy>
@@ -122,24 +127,24 @@
                                     <cmd:count>90</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>22</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                                     <cmd:prefix>rdf</cmd:prefix>
                                     <cmd:count>48</cmd:count>
                                 </cmd:Namespace>
                                 <cmd:Namespace>
-                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                                    <cmd:prefix>dcterms</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
                                     <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
                                     <cmd:prefix>vann</cmd:prefix>
                                     <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>22</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dcterms</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
                         </cmd:Predicates>
@@ -164,20 +169,14 @@
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
                                         <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>DatatypeProperty</cmd:name>
-                                        <cmd:count>10</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
-                                        <cmd:name>TransitiveProperty</cmd:name>
-                                        <cmd:count>2</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                        <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>AnnotationProperty</cmd:name>
                                         <cmd:count>5</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>DatatypeProperty</cmd:name>
+                                        <cmd:count>10</cmd:count>
                                     </cmd:NamespaceItem>
                                     <cmd:NamespaceItem>
                                         <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
@@ -190,6 +189,12 @@
                                         <cmd:prefix>owl</cmd:prefix>
                                         <cmd:name>Ontology</cmd:name>
                                         <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>TransitiveProperty</cmd:name>
+                                        <cmd:count>2</cmd:count>
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Classes>
@@ -248,14 +253,14 @@
                             <cmd:count>90</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                            <cmd:prefix>owl</cmd:prefix>
-                            <cmd:count>70</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
                             <cmd:prefix>rdf</cmd:prefix>
                             <cmd:count>48</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>70</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
                             <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
@@ -263,14 +268,14 @@
                             <cmd:count>6</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                            <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                            <cmd:prefix>xsd</cmd:prefix>
-                            <cmd:count>5</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
                             <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
                             <cmd:prefix>vann</cmd:prefix>
                             <cmd:count>4</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                            <cmd:prefix>xsd</cmd:prefix>
+                            <cmd:count>5</cmd:count>
                         </cmd:Namespace>
                     </cmd:Namespaces>
                 </cmd:Summary>
