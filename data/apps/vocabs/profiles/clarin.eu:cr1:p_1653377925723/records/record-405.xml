@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+   <cmd:Header>
+      <cmd:MdCreator>vocabs</cmd:MdCreator>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748241643">2025-05-26</cmd:MdCreationDate>
+      <cmd:MdSelfLink>unl://405</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName/>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList/>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+      <cmd:IsPartOfList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <cmd:Vocabulary>
+         <cmd:InternalCuration>
+            <cmd:Status>
+               <cmd:dateFrom>2025-04-25</cmd:dateFrom>
+               <cmd:dateUntil>2025-04-25</cmd:dateUntil>
+               <cmd:accrualMethod>found in curated list</cmd:accrualMethod>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>review-in-progress</cmd:status>
+               <cmd:dateFrom>2025-04-25</cmd:dateFrom>
+               <cmd:dateUntil>2025-05-26</cmd:dateUntil>
+               <cmd:comments>Reference only, not machine readable</cmd:comments>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>reviewed-publish</cmd:status>
+               <cmd:dateFrom>2025-05-26</cmd:dateFrom>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+         </cmd:InternalCuration>
+         <cmd:Identification>
+            <cmd:identifier>sage-glossary</cmd:identifier>
+            <cmd:title xml:lang="en">The SAGE Glossary of the Social and Behavioral Sciences</cmd:title>
+         </cmd:Identification>
+         <cmd:Responsibility>
+            <cmd:Creator>
+               <cmd:uri>http://viaf.org/viaf/261806653</cmd:uri>
+               <cmd:label>SAGE Publications, Inc.</cmd:label>
+            </cmd:Creator>
+            <cmd:Maintainer>
+               <cmd:typeAgent>Organization</cmd:typeAgent>
+               <cmd:uri>http://viaf.org/viaf/261806653</cmd:uri>
+               <cmd:label>SAGE Publications, Inc.</cmd:label>
+            </cmd:Maintainer>
+         </cmd:Responsibility>
+         <cmd:Description>
+            <cmd:description xml:lang="en">Online edition. "The SAGE Glossary of the Social and Behavioral Sciences provides college and university students with a highly accessible, curriculum-driven reference work, both in print and on-line, defining the major terms needed to achieve fluency in the social and behavioral sciences. Comprehensive and inclusive, its interdisciplinary scope covers such varied fields as anthropology, communication and media studies, criminal justice, economics, education, geography, human services, management, political science, psychology, and sociology. In addition, while not a discipline, methodology is at the core of these fields and thus receives due and equal consideration." (https://sk.sagepub.com/dict/edvol/behavioralsciences/toc)</cmd:description>
+            <cmd:dateIssued>2009</cmd:dateIssued>
+            <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
+            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/COL405">Social sciences</cmd:topicUnesco>
+            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00354">Behavioural sciences</cmd:topicUnesco>
+            <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#Sociology">Sociology</cmd:topicNwo>
+         </cmd:Description>
+         <cmd:Type>
+            <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#glossary">glossary</cmd:kos>
+            <cmd:entity>Concept</cmd:entity>
+         </cmd:Type>
+         <cmd:IsReferencedBy>
+            <cmd:Registry>
+               <cmd:title>Awesome Social Sciences</cmd:title>
+               <cmd:url>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:url>
+               <cmd:landingPage>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:landingPage>
+            </cmd:Registry>
+         </cmd:IsReferencedBy>
+         <cmd:Distribution>
+            <cmd:distributionType>accessURL</cmd:distributionType>
+         </cmd:Distribution>
+         <cmd:Location>
+            <cmd:uri>https://doi.org/10.4135/9781412972024</cmd:uri>
+            <cmd:type>homepage</cmd:type>
+         </cmd:Location>
+      </cmd:Vocabulary>
+   </cmd:Components>
+</cmd:CMD>
