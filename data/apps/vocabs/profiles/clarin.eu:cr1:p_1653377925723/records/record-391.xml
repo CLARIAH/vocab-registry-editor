@@ -81,6 +81,11 @@
                <cmd:type>dump</cmd:type>
                <cmd:recipe>rdf</cmd:recipe>
             </cmd:Location>
+            <cmd:Location>
+               <cmd:uri>https://static.vocabs.clariah.nl/cache/gsso/1.0.0.owl</cmd:uri>
+               <cmd:type>dump</cmd:type>
+               <cmd:recipe>cache</cmd:recipe>
+            </cmd:Location>
          </cmd:Version>
       </cmd:Vocabulary>
    </cmd:Components>

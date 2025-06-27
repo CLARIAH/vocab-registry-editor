@@ -92,6 +92,15 @@
             <cmd:uri>http://viaf.org</cmd:uri>
             <cmd:type>homepage</cmd:type>
          </cmd:Location>
+         <cmd:Version>
+              <cmd:version>2024-08-04</cmd:version>
+              <cmd:validFrom>2024-08-04</cmd:validFrom>
+              <cmd:Location>
+                  <cmd:uri>https://downloads.viaf.org/download/yearly/viaf-20240804-clusters-rdf.nt.gz</cmd:uri>
+                  <cmd:type>dump</cmd:type>
+                  <cmd:recipe>rdf</cmd:recipe>
+              </cmd:Location>
+         </cmd:Version>
       </cmd:Vocabulary>
    </cmd:Components>
 </cmd:CMD>

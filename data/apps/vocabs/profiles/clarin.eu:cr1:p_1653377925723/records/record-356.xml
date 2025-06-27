@@ -98,15 +98,6 @@
             <cmd:type>homepage</cmd:type>
          </cmd:Location>
          <cmd:Version>
-            <cmd:version>unspecified</cmd:version>
-            <cmd:validFrom>Monday, June 3, 2024 16:39:30</cmd:validFrom>
-            <cmd:Location>
-               <cmd:uri>https://vocabularies.unesco.org/exports/thesaurus/latest/unesco-thesaurus.rdf</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
-            </cmd:Location>
-         </cmd:Version>
-         <cmd:Version>
             <cmd:version>2024-10-08</cmd:version>
             <cmd:validFrom>2024-10-08</cmd:validFrom>
             <cmd:Location>
