@@ -33,13 +33,3 @@ xpath="string(cmd:CMD/cmd:Components/cmd:Vocabulary/cmd:InternalCuration/cmd:Sta
 label="RecordCreated"
 sort="true"
 filter="'select'"
-
-[app.hooks.record]
-create_pre="create_record_pre"
-create_post="create_record_post"
-#read_pre=
-read_post="count"
-#update_pre=
-update_post="count"
-#delete_pre=
-delete_post="count"
