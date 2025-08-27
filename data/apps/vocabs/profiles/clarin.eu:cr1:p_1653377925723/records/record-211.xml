@@ -92,9 +92,6 @@ In addition to people from the founding companies (Google, Microsoft, Yahoo and 
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/schema</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://schema.org/</cmd:uri>
             <cmd:type>homepage</cmd:type>

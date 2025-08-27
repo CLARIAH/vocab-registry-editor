@@ -85,9 +85,6 @@
                <cmd:landingPage>https://bartoc.org/en/node/2053</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>accessURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>http://viaf.org</cmd:uri>
             <cmd:type>homepage</cmd:type>

@@ -81,9 +81,6 @@ As a generally re-usable concept system it is used by universities, research ins
                <cmd:landingPage>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://zbw.eu/stw/version/latest/about</cmd:uri>
             <cmd:type>homepage</cmd:type>

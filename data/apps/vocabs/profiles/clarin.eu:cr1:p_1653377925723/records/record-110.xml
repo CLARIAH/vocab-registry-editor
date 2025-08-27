@@ -91,9 +91,6 @@
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/juso</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>http://rdfs.co/juso/</cmd:uri>
             <cmd:type>homepage</cmd:type>

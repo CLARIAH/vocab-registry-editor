@@ -115,9 +115,6 @@
                <cmd:landingPage>https://triplydb.com/bio</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://vocab.org/bio/</cmd:uri>
             <cmd:type>homepage</cmd:type>

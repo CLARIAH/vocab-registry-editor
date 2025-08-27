@@ -101,9 +101,6 @@ This vocabulary is a work in progress, it includes RDF classes for the group 1, 
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/frbr</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://vocab.org/frbr/frbr-core-20050810.html</cmd:uri>
             <cmd:type>homepage</cmd:type>

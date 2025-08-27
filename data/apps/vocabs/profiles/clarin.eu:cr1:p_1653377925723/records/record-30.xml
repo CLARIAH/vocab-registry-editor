@@ -92,9 +92,6 @@ The aim of the lexicon model for ontologies (lemon) is to provide rich linguisti
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/ontolex</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://www.w3.org/2016/05/ontolex/</cmd:uri>
             <cmd:type>homepage</cmd:type>

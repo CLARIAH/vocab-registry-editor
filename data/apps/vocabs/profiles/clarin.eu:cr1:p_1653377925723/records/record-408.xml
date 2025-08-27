@@ -78,9 +78,6 @@
                <cmd:landingPage>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>accessURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001</cmd:uri>
             <cmd:type>homepage</cmd:type>

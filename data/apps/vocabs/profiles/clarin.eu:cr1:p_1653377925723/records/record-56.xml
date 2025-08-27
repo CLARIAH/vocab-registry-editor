@@ -96,9 +96,6 @@
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/owl</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://www.w3.org/TR/owl2-overview</cmd:uri>
             <cmd:type>homepage</cmd:type>

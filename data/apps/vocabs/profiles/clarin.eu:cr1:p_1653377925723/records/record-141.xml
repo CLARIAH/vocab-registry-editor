@@ -105,9 +105,6 @@
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/prov</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>http://www.w3.org/ns/prov#</cmd:uri>
             <cmd:type>homepage</cmd:type>

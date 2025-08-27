@@ -99,9 +99,6 @@ The CIDOC CRM is the culmination of over 10 years work by the CIDOC Documentatio
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/crm</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://cidoc-crm.org</cmd:uri>
             <cmd:type>homepage</cmd:type>

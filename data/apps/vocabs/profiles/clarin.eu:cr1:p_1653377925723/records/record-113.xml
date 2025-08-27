@@ -100,9 +100,6 @@ Starting from Ian Davis's RDF vocabulary that expresses the basic concepts and r
                <cmd:landingPage>https://triplydb.com/spar/frbr</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://github.com/sparontologies/frbr</cmd:uri>
             <cmd:type>githubRepository</cmd:type>

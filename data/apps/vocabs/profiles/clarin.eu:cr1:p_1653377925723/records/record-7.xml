@@ -93,9 +93,6 @@ Over recent years, AGROVOC has evolved to become a valued information resource w
                <cmd:landingPage>https://bartoc.org/en/node/305</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://agrovoc.fao.org/browse/agrovoc/en/</cmd:uri>
             <cmd:type>homepage</cmd:type>

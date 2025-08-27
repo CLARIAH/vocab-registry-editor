@@ -83,9 +83,6 @@
                <cmd:landingPage>https://triplydb.com</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>http://www.disease-ontology.org</cmd:uri>
             <cmd:type>homepage</cmd:type>

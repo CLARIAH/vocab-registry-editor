@@ -85,9 +85,6 @@
                <cmd:landingPage>https://triplydb.com/lemon/lexicog</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://www.w3.org/2019/09/lexicog/</cmd:uri>
             <cmd:type>homepage</cmd:type>

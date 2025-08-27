@@ -97,9 +97,6 @@ A Question a document using this ontology might not answer:
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/ecpo</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>http://purl.org/ontology/ecpo</cmd:uri>
             <cmd:type>homepage</cmd:type>

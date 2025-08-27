@@ -82,9 +82,6 @@
                <cmd:landingPage>https://triplydb.com/rda/rdafmn</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>http://www.rdaregistry.info/termList/MusNotation/</cmd:uri>
             <cmd:type>homepage</cmd:type>

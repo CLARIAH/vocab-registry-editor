@@ -89,9 +89,6 @@
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/earl</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://www.w3.org/TR/EARL10/</cmd:uri>
             <cmd:type>homepage</cmd:type>

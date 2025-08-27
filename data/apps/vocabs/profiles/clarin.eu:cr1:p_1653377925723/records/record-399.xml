@@ -110,9 +110,6 @@ ELSST is currently available in 15 languages: Czech, Dutch, English, Finnish, Fr
                <cmd:landingPage>https://vocabs.datastations.nl/en/</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://elsst.cessda.eu/</cmd:uri>
             <cmd:type>homepage</cmd:type>

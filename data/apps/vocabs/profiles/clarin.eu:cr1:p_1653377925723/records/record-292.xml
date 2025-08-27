@@ -104,9 +104,6 @@
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/foaf</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>http://xmlns.com/foaf/spec</cmd:uri>
             <cmd:type>homepage</cmd:type>

@@ -58,9 +58,6 @@
             <cmd:kos>thesaurus</cmd:kos>
             <cmd:entity>Concept</cmd:entity>
          </cmd:Type>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://vocabularies.cessda.eu/vocabulary/DataSourceType</cmd:uri>
             <cmd:type>homepage</cmd:type>

@@ -111,9 +111,6 @@ The GeoSPARQL standard is actively maintained. To follow its progress, visit the
                <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://www.ogc.org/standard/geosparql/</cmd:uri>
             <cmd:type>homepage</cmd:type>

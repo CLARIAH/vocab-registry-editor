@@ -94,9 +94,6 @@
                <cmd:landingPage>https://triplydb.com/brick/brick</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://brickschema.org/</cmd:uri>
             <cmd:type>homepage</cmd:type>

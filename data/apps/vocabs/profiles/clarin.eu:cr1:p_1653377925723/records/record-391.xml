@@ -66,9 +66,6 @@
             <cmd:uri>https://creativecommons.org/licenses/by-nc-nd/4.0/</cmd:uri>
             <cmd:label xml:lang="en">CC BY-NC-ND 4.0</cmd:label>
          </cmd:License>
-         <cmd:Distribution>
-            <cmd:distributionType>accessURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://github.com/Superraptor/GSSO</cmd:uri>
             <cmd:type>homepage</cmd:type>

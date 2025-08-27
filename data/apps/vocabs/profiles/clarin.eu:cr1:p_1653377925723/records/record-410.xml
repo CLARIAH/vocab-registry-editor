@@ -91,9 +91,6 @@ Lisena, P., Schwabe, D., van Erp, M., Troncy, R., Tullet, W., Leemans, I., Marx,
             <cmd:uri>https://creativecommons.org/licenses/by/4.0/</cmd:uri>
             <cmd:label xml:lang="en">CC BY 4.0</cmd:label>
          </cmd:License>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://odeuropa.eu/</cmd:uri>
             <cmd:type>homepage</cmd:type>

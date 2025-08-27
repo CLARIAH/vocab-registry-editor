@@ -86,9 +86,6 @@ Note: it's multilingual.</cmd:description>
                <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://periodo/en/</cmd:uri>
             <cmd:type>homepage</cmd:type>

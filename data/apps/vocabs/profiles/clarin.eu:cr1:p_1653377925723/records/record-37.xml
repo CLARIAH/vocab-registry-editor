@@ -108,9 +108,6 @@
                <cmd:landingPage>https://lov.linkeddata.es/dataset/lov/vocabs/fabio</cmd:landingPage>
             </cmd:Registry>
          </cmd:IsReferencedBy>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
          <cmd:Location>
             <cmd:uri>https://sparontologies.github.io/fabio/current/fabio.html</cmd:uri>
             <cmd:type>homepage</cmd:type>
