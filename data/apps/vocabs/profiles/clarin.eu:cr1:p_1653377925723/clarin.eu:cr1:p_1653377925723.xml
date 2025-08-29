@@ -340,6 +340,13 @@
                         </Component>
                     </Component>
                 </Component>
+                <Component name="Namespaces" ComponentRef="clarin.eu:cr1:c_1659015263837" CardinalityMin="1" CardinalityMax="1">
+                    <Component name="Namespace" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                        <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
+                    </Component>
+                </Component>
             </Component>
         </Component>
         <Component name="Review" ComponentRef="clarin.eu:cr1:c_1712653174412" CardinalityMin="0" CardinalityMax="unbounded">
