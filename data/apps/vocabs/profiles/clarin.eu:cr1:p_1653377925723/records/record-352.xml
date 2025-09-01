@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
    <cmd:Header>
       <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748100307">2025-05-24</cmd:MdCreationDate>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1756714822">2025-09-01</cmd:MdCreationDate>
       <cmd:MdSelfLink>unl://352</cmd:MdSelfLink>
       <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
       <cmd:MdCollectionDisplayName/>
@@ -27,7 +27,12 @@
             <cmd:Status>
                <cmd:status>reviewed-publish</cmd:status>
                <cmd:dateFrom>2025-03-05</cmd:dateFrom>
+               <cmd:dateUntil>2025-06-03</cmd:dateUntil>
                <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>published</cmd:status>
+               <cmd:dateFrom>2025-06-03</cmd:dateFrom>
             </cmd:Status>
          </cmd:InternalCuration>
          <cmd:Identification>
@@ -100,12 +105,12 @@
             <cmd:Location>
                <cmd:uri>https://static.vocabs.clariah.nl/cache/gold/2008.owl</cmd:uri>
                <cmd:type>dump</cmd:type>
-               <cmd:recipe>cache</cmd:recipe>
+               <cmd:recipe/>
             </cmd:Location>
             <cmd:Location>
                <cmd:uri>https://static.vocabs.clariah.nl/docs/gold/2008.html</cmd:uri>
                <cmd:type>homepage</cmd:type>
-               <cmd:recipe>doc</cmd:recipe>
+               <cmd:recipe/>
             </cmd:Location>
             <cmd:Location>
                <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/gold/version/2008</cmd:uri>
@@ -161,6 +166,23 @@
                   </cmd:Predicates>
                   <cmd:Objects>
                      <cmd:count>1208</cmd:count>
+                     <cmd:Namespaces>
+                        <cmd:Namespace>
+                           <cmd:URI>http://purl.org/linguistics/gold/</cmd:URI>
+                           <cmd:prefix>gold</cmd:prefix>
+                           <cmd:count>593</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                           <cmd:prefix>owl</cmd:prefix>
+                           <cmd:count>592</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                           <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                           <cmd:prefix>xsd</cmd:prefix>
+                           <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                     </cmd:Namespaces>
                      <cmd:Classes>
                         <cmd:count>589</cmd:count>
                         <cmd:Namespaces>
@@ -238,23 +260,6 @@
                            </cmd:NamespaceItem>
                         </cmd:NamespaceItems>
                      </cmd:Literals>
-                     <cmd:Namespaces>
-                        <cmd:Namespace>
-                           <cmd:URI>http://purl.org/linguistics/gold/</cmd:URI>
-                           <cmd:prefix>gold</cmd:prefix>
-                           <cmd:count>593</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                           <cmd:prefix>owl</cmd:prefix>
-                           <cmd:count>592</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                           <cmd:prefix>xsd</cmd:prefix>
-                           <cmd:count>1</cmd:count>
-                        </cmd:Namespace>
-                     </cmd:Namespaces>
                   </cmd:Objects>
                </cmd:Statements>
                <cmd:Namespaces>
@@ -307,12 +312,12 @@
             <cmd:Location>
                <cmd:uri>https://static.vocabs.clariah.nl/cache/gold/2009.owl</cmd:uri>
                <cmd:type>dump</cmd:type>
-               <cmd:recipe>cache</cmd:recipe>
+               <cmd:recipe/>
             </cmd:Location>
             <cmd:Location>
                <cmd:uri>https://static.vocabs.clariah.nl/docs/gold/2009.html</cmd:uri>
                <cmd:type>homepage</cmd:type>
-               <cmd:recipe>doc</cmd:recipe>
+               <cmd:recipe/>
             </cmd:Location>
             <cmd:Location>
                <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/gold/version/2009</cmd:uri>
@@ -368,6 +373,23 @@
                   </cmd:Predicates>
                   <cmd:Objects>
                      <cmd:count>1253</cmd:count>
+                     <cmd:Namespaces>
+                        <cmd:Namespace>
+                           <cmd:URI>http://purl.org/linguistics/gold/</cmd:URI>
+                           <cmd:prefix>gold</cmd:prefix>
+                           <cmd:count>596</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                           <cmd:prefix>owl</cmd:prefix>
+                           <cmd:count>590</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                           <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                           <cmd:prefix>xsd</cmd:prefix>
+                           <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                     </cmd:Namespaces>
                      <cmd:Classes>
                         <cmd:count>590</cmd:count>
                         <cmd:Namespaces>
@@ -445,23 +467,6 @@
                            </cmd:NamespaceItem>
                         </cmd:NamespaceItems>
                      </cmd:Literals>
-                     <cmd:Namespaces>
-                        <cmd:Namespace>
-                           <cmd:URI>http://purl.org/linguistics/gold/</cmd:URI>
-                           <cmd:prefix>gold</cmd:prefix>
-                           <cmd:count>596</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                           <cmd:prefix>owl</cmd:prefix>
-                           <cmd:count>590</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                           <cmd:prefix>xsd</cmd:prefix>
-                           <cmd:count>1</cmd:count>
-                        </cmd:Namespace>
-                     </cmd:Namespaces>
                   </cmd:Objects>
                </cmd:Statements>
                <cmd:Namespaces>
@@ -514,12 +519,12 @@
             <cmd:Location>
                <cmd:uri>https://static.vocabs.clariah.nl/cache/gold/2010.owl</cmd:uri>
                <cmd:type>dump</cmd:type>
-               <cmd:recipe>cache</cmd:recipe>
+               <cmd:recipe/>
             </cmd:Location>
             <cmd:Location>
                <cmd:uri>https://static.vocabs.clariah.nl/docs/gold/2010.html</cmd:uri>
                <cmd:type>homepage</cmd:type>
-               <cmd:recipe>doc</cmd:recipe>
+               <cmd:recipe/>
             </cmd:Location>
             <cmd:Location>
                <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/gold/version/2010</cmd:uri>
@@ -575,6 +580,23 @@
                   </cmd:Predicates>
                   <cmd:Objects>
                      <cmd:count>1292</cmd:count>
+                     <cmd:Namespaces>
+                        <cmd:Namespace>
+                           <cmd:URI>http://purl.org/linguistics/gold/</cmd:URI>
+                           <cmd:prefix>gold</cmd:prefix>
+                           <cmd:count>595</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                           <cmd:prefix>owl</cmd:prefix>
+                           <cmd:count>586</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                           <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                           <cmd:prefix>xsd</cmd:prefix>
+                           <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                     </cmd:Namespaces>
                      <cmd:Classes>
                         <cmd:count>586</cmd:count>
                         <cmd:Namespaces>
@@ -652,23 +674,6 @@
                            </cmd:NamespaceItem>
                         </cmd:NamespaceItems>
                      </cmd:Literals>
-                     <cmd:Namespaces>
-                        <cmd:Namespace>
-                           <cmd:URI>http://purl.org/linguistics/gold/</cmd:URI>
-                           <cmd:prefix>gold</cmd:prefix>
-                           <cmd:count>595</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                           <cmd:prefix>owl</cmd:prefix>
-                           <cmd:count>586</cmd:count>
-                        </cmd:Namespace>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                           <cmd:prefix>xsd</cmd:prefix>
-                           <cmd:count>1</cmd:count>
-                        </cmd:Namespace>
-                     </cmd:Namespaces>
                   </cmd:Objects>
                </cmd:Statements>
                <cmd:Namespaces>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
    <cmd:Header>
       <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748090811">2025-05-24</cmd:MdCreationDate>
+      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1756715345">2025-09-01</cmd:MdCreationDate>
       <cmd:MdSelfLink>unl://27</cmd:MdSelfLink>
       <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
       <cmd:MdCollectionDisplayName/>
@@ -27,7 +27,13 @@
             <cmd:Status>
                <cmd:status>reviewed-publish</cmd:status>
                <cmd:dateFrom>2025-03-03</cmd:dateFrom>
+               <cmd:dateUntil>2025-06-03</cmd:dateUntil>
                <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>published</cmd:status>
+               <cmd:dateFrom>2025-06-03</cmd:dateFrom>
+               <cmd:downloadable>no</cmd:downloadable>
             </cmd:Status>
          </cmd:InternalCuration>
          <cmd:Identification>
@@ -61,8 +67,8 @@
          <cmd:Type>
             <cmd:kos>authority file</cmd:kos>
             <cmd:entity>Person</cmd:entity>
-            <cmd:entity>Organisation-group</cmd:entity>
             <cmd:entity>Work</cmd:entity>
+            <cmd:entity>Organisation-group</cmd:entity>
          </cmd:Type>
          <cmd:License>
             <cmd:uri>https://opendatacommons.org/licenses/by/1-0/</cmd:uri>
@@ -90,13 +96,13 @@
             <cmd:type>homepage</cmd:type>
          </cmd:Location>
          <cmd:Version>
-              <cmd:version>2024-08-04</cmd:version>
-              <cmd:validFrom>2024-08-04</cmd:validFrom>
-              <cmd:Location>
-                  <cmd:uri>https://downloads.viaf.org/download/yearly/viaf-20240804-clusters-rdf.nt.gz</cmd:uri>
-                  <cmd:type>dump</cmd:type>
-                  <cmd:recipe>rdf</cmd:recipe>
-              </cmd:Location>
+            <cmd:version>2024-08-04</cmd:version>
+            <cmd:validFrom>2024-08-04</cmd:validFrom>
+            <cmd:Location>
+               <cmd:uri>https://downloads.viaf.org/download/yearly/viaf-20240804-clusters-rdf.nt.gz</cmd:uri>
+               <cmd:type>dump</cmd:type>
+               <cmd:recipe>rdf</cmd:recipe>
+            </cmd:Location>
          </cmd:Version>
       </cmd:Vocabulary>
    </cmd:Components>
