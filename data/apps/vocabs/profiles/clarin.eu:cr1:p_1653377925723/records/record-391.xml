@@ -2,7 +2,7 @@
 <cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
     <cmd:Header>
         <cmd:MdCreator>vocabs</cmd:MdCreator>
-        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748103888">2025-05-24</cmd:MdCreationDate>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1756714799">2025-09-01</cmd:MdCreationDate>
         <cmd:MdSelfLink>unl://391</cmd:MdSelfLink>
         <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
         <cmd:MdCollectionDisplayName/>
@@ -19,11 +19,16 @@
                 <cmd:Status>
                     <cmd:status>reviewed-publish</cmd:status>
                     <cmd:dateFrom>2025-02-28</cmd:dateFrom>
-                    <cmd:accrualMethod>recommended by user</cmd:accrualMethod>
+                    <cmd:dateUntil>2025-06-03</cmd:dateUntil>
+               <cmd:accrualMethod>recommended by user</cmd:accrualMethod>
                     <cmd:comments>Suggested by Ricarda Braukmann from DANS</cmd:comments>
                     <cmd:reviewer>Liliana Melgar</cmd:reviewer>
                 </cmd:Status>
-            </cmd:InternalCuration>
+            <cmd:Status>
+               <cmd:status>published</cmd:status>
+               <cmd:dateFrom>2025-06-03</cmd:dateFrom>
+            </cmd:Status>
+         </cmd:InternalCuration>
             <cmd:Identification>
                 <cmd:identifier>gsso</cmd:identifier>
                 <cmd:title xml:lang="en">Gender, Sex, and Sexual Orientation (GSSO) Ontology</cmd:title>
@@ -82,7 +87,7 @@
                 <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/cache/gsso/1.0.0.owl</cmd:uri>
                     <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
+                    <cmd:recipe/>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

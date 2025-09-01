@@ -2,7 +2,7 @@
 <cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
     <cmd:Header>
         <cmd:MdCreator>vocabs</cmd:MdCreator>
-        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748082561">2025-05-24</cmd:MdCreationDate>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1756473563">2025-08-29</cmd:MdCreationDate>
         <cmd:MdSelfLink>unl://7</cmd:MdSelfLink>
         <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
         <cmd:MdCollectionDisplayName/>
@@ -28,6 +28,12 @@
                 <cmd:Status>
                     <cmd:status>reviewed-publish</cmd:status>
                     <cmd:dateFrom>2025-03-03</cmd:dateFrom>
+               <cmd:dateUntil>2025-06-03</cmd:dateUntil>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>published</cmd:status>
+               <cmd:dateFrom>2025-06-03</cmd:dateFrom>
                     <cmd:reviewer>Liliana Melgar</cmd:reviewer>
                 </cmd:Status>
             </cmd:InternalCuration>
@@ -60,17 +66,17 @@ AGROVOC provides a way to organize knowledge for subsequent data retrieval and c
 Over recent years, AGROVOC has evolved to become a valued information resource worldwide with considerable use." (https://data.apps.fao.org/catalog/organization/about/agrovoc)</cmd:description>
                 <cmd:dateIssued>1982</cmd:dateIssued>
                 <cmd:language>ara</cmd:language>
-                <cmd:language>zho</cmd:language>
-                <cmd:language>eng</cmd:language>
-                <cmd:language>fra</cmd:language>
-                <cmd:language>rus</cmd:language>
                 <cmd:language>spa</cmd:language>
+                <cmd:language>rus</cmd:language>
+                <cmd:language>fra</cmd:language>
+                <cmd:language>eng</cmd:language>
+                <cmd:language>zho</cmd:language>
                 <cmd:topicUnesco>Agriculture</cmd:topicUnesco>
-                <cmd:topicUnesco>Food</cmd:topicUnesco>
-                <cmd:topicUnesco>Nutrition</cmd:topicUnesco>
-                <cmd:topicUnesco>Climate change</cmd:topicUnesco>
-                <cmd:topicUnesco>Development policy</cmd:topicUnesco>
                 <cmd:topicUnesco>Environmental policy</cmd:topicUnesco>
+                <cmd:topicUnesco>Development policy</cmd:topicUnesco>
+                <cmd:topicUnesco>Climate change</cmd:topicUnesco>
+                <cmd:topicUnesco>Nutrition</cmd:topicUnesco>
+                <cmd:topicUnesco>Food</cmd:topicUnesco>
                 <cmd:topicNwo>Environmental science</cmd:topicNwo>
             </cmd:Description>
             <cmd:Type>
@@ -109,12 +115,12 @@ Over recent years, AGROVOC has evolved to become a valued information resource w
                 <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/cache/agrovoc-core/2023-10.rdf</cmd:uri>
                     <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
+                    <cmd:recipe/>
                 </cmd:Location>
                 <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/docs/agrovoc-core/2023-10.html</cmd:uri>
                     <cmd:type>homepage</cmd:type>
-                    <cmd:recipe>doc</cmd:recipe>
+                    <cmd:recipe/>
                 </cmd:Location>
             </cmd:Version>
             <cmd:Version>
@@ -128,12 +134,12 @@ Over recent years, AGROVOC has evolved to become a valued information resource w
                 <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/cache/agrovoc-core/2025-02.nq</cmd:uri>
                     <cmd:type>dump</cmd:type>
-                    <cmd:recipe>cache</cmd:recipe>
+                    <cmd:recipe/>
                 </cmd:Location>
                 <cmd:Location>
                     <cmd:uri>https://static.vocabs.clariah.nl/docs/agrovoc-core/2025-02.html</cmd:uri>
                     <cmd:type>homepage</cmd:type>
-                    <cmd:recipe>doc</cmd:recipe>
+                    <cmd:recipe/>
                 </cmd:Location>
             </cmd:Version>
         </cmd:Vocabulary>

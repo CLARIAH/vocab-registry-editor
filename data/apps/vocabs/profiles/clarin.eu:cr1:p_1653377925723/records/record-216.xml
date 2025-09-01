@@ -2,7 +2,7 @@
 <cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
     <cmd:Header>
         <cmd:MdCreator>vocabs</cmd:MdCreator>
-        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748096841">2025-05-24</cmd:MdCreationDate>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1756714589">2025-09-01</cmd:MdCreationDate>
         <cmd:MdSelfLink>unl://216</cmd:MdSelfLink>
         <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
         <cmd:MdCollectionDisplayName/>
@@ -29,7 +29,12 @@
                 <cmd:Status>
                     <cmd:status>reviewed-publish</cmd:status>
                     <cmd:dateFrom>2024-03-31</cmd:dateFrom>
-                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                    <cmd:dateUntil>2025-06-03</cmd:dateUntil>
+               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+            </cmd:Status>
+            <cmd:Status>
+               <cmd:status>published</cmd:status>
+               <cmd:dateFrom>2025-06-03</cmd:dateFrom>
                 </cmd:Status>
             </cmd:InternalCuration>
             <cmd:Identification>
