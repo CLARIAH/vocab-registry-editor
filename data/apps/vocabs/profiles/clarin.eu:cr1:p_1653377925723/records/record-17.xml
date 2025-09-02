@@ -69,6 +69,23 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>87</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.opengis.net/ont/geosparql#</cmd:URI>
+                                    <cmd:prefix>geo</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.opengis.net/ont/gml#</cmd:URI>
+                                    <cmd:prefix>gml</cmd:prefix>
+                                    <cmd:count>55</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>54</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>87</cmd:count>
                                 <cmd:Namespaces>
@@ -426,23 +443,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.opengis.net/ont/geosparql#</cmd:URI>
-                                    <cmd:prefix>geo</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.opengis.net/ont/gml#</cmd:URI>
-                                    <cmd:prefix>gml</cmd:prefix>
-                                    <cmd:count>55</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>54</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

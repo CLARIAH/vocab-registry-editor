@@ -1,358 +1,359 @@
-<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-   <cmd:Header>
-      <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748104112">2025-05-24</cmd:MdCreationDate>
-      <cmd:MdSelfLink>unl://401</cmd:MdSelfLink>
-      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-      <cmd:MdCollectionDisplayName/>
-   </cmd:Header>
-   <cmd:Resources>
-      <cmd:ResourceProxyList/>
-      <cmd:JournalFileProxyList/>
-      <cmd:ResourceRelationList/>
-      <cmd:IsPartOfList/>
-   </cmd:Resources>
-   <cmd:Components>
-      <cmd:Vocabulary>
-         <cmd:InternalCuration>
-            <cmd:Status>
-               <cmd:status>new</cmd:status>
-               <cmd:dateFrom>2025-04-16</cmd:dateFrom>
-               <cmd:dateUntil>2025-04-16</cmd:dateUntil>
-               <cmd:accrualMethod>found in curated list</cmd:accrualMethod>
-               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status>reviewed-publish</cmd:status>
-               <cmd:dateFrom>2025-04-16</cmd:dateFrom>
-               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
-            </cmd:Status>
-         </cmd:InternalCuration>
-         <cmd:Identification>
-            <cmd:identifier>letter-corresponding</cmd:identifier>
-            <cmd:title xml:lang="en">An ontology about letter corresponding</cmd:title>
-            <cmd:Namespace>
-               <cmd:uri>http://e-editiones.ch/ontology/letter-corresponding#</cmd:uri>
-               <cmd:prefix>letter-corresponding</cmd:prefix>
-            </cmd:Namespace>
-         </cmd:Identification>
-         <cmd:Responsibility>
-            <cmd:Creator>
-               <cmd:label>Hans Cools</cmd:label>
-            </cmd:Creator>
-            <cmd:Maintainer>
-               <cmd:typeAgent>Organization</cmd:typeAgent>
-               <cmd:uri>https://e-editiones.ch</cmd:uri>
-               <cmd:label>Nationale Infrastruktur für Editionen</cmd:label>
-            </cmd:Maintainer>
-         </cmd:Responsibility>
-         <cmd:Description>
-            <cmd:description xml:lang="en">Formal description of letter corresponding, related classes, and properties.</cmd:description>
-            <cmd:dateIssued>2020</cmd:dateIssued>
-            <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
-            <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138497-001">German</cmd:language>
-            <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138512-001">French</cmd:language>
-            <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138537-001">Italian</cmd:language>
-            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00810">Correspondence</cmd:topicUnesco>
-            <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#LanguageAndLiterature">Language and literature</cmd:topicNwo>
-            <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#History">History</cmd:topicNwo>
-            <cmd:Keywords>
-               <cmd:uri>https://www.wikidata.org/wiki/Q133492</cmd:uri>
-               <cmd:label>letter</cmd:label>
-            </cmd:Keywords>
-         </cmd:Description>
-         <cmd:Type>
-            <cmd:syntax>rdfs</cmd:syntax>
-            <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#ontology">ontology</cmd:kos>
-            <cmd:entity>Concept</cmd:entity>
-         </cmd:Type>
-         <cmd:License>
-            <cmd:uri>http://creativecommons.org/licenses/by/3.0/</cmd:uri>
-            <cmd:label xml:lang="en">Attribution 3.0 Unported</cmd:label>
-         </cmd:License>
-         <cmd:IsReferencedBy>
-            <cmd:Registry>
-               <cmd:title>e-editiones.ch</cmd:title>
-               <cmd:url>https://e-editiones.ch/ontology</cmd:url>
-               <cmd:landingPage>https://e-editiones.ch/ontology/letter-corresponding</cmd:landingPage>
-            </cmd:Registry>
-            <cmd:Registry>
-               <cmd:title>Awesome Humanities</cmd:title>
-               <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
-               <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
-            </cmd:Registry>
-         </cmd:IsReferencedBy>
-         <cmd:Location>
-            <cmd:uri>https://e-editiones.ch/ontology/letter-corresponding</cmd:uri>
-            <cmd:type>homepage</cmd:type>
-         </cmd:Location>
-         <cmd:Version>
-            <cmd:version>2020-06-11</cmd:version>
-            <cmd:validFrom>2020-06-11</cmd:validFrom>
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748104112">2025-05-24</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://401</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>new</cmd:status>
+                    <cmd:dateFrom>2025-04-16</cmd:dateFrom>
+                    <cmd:dateUntil>2025-04-16</cmd:dateUntil>
+                    <cmd:accrualMethod>found in curated list</cmd:accrualMethod>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-04-16</cmd:dateFrom>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>letter-corresponding</cmd:identifier>
+                <cmd:title xml:lang="en">An ontology about letter corresponding</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://e-editiones.ch/ontology/letter-corresponding#</cmd:uri>
+                    <cmd:prefix>letter-corresponding</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:label>Hans Cools</cmd:label>
+                </cmd:Creator>
+                <cmd:Maintainer>
+                    <cmd:typeAgent>Organization</cmd:typeAgent>
+                    <cmd:uri>https://e-editiones.ch</cmd:uri>
+                    <cmd:label>Nationale Infrastruktur für Editionen</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Formal description of letter corresponding, related classes, and properties.</cmd:description>
+                <cmd:dateIssued>2020</cmd:dateIssued>
+                <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
+                <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138497-001">German</cmd:language>
+                <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138512-001">French</cmd:language>
+                <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138537-001">Italian</cmd:language>
+                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00810">Correspondence</cmd:topicUnesco>
+                <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#LanguageAndLiterature">Language and literature</cmd:topicNwo>
+                <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#History">History</cmd:topicNwo>
+                <cmd:Keywords>
+                    <cmd:uri>https://www.wikidata.org/wiki/Q133492</cmd:uri>
+                    <cmd:label>letter</cmd:label>
+                </cmd:Keywords>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>rdfs</cmd:syntax>
+                <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#ontology">ontology</cmd:kos>
+                <cmd:entity>Concept</cmd:entity>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>http://creativecommons.org/licenses/by/3.0/</cmd:uri>
+                <cmd:label xml:lang="en">Attribution 3.0 Unported</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>e-editiones.ch</cmd:title>
+                    <cmd:url>https://e-editiones.ch/ontology</cmd:url>
+                    <cmd:landingPage>https://e-editiones.ch/ontology/letter-corresponding</cmd:landingPage>
+                </cmd:Registry>
+                <cmd:Registry>
+                    <cmd:title>Awesome Humanities</cmd:title>
+                    <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
+                    <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
             <cmd:Location>
-               <cmd:uri>https://e-editiones.ch/ontology/letter-corresponding.ttl</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
+                <cmd:uri>https://e-editiones.ch/ontology/letter-corresponding</cmd:uri>
+                <cmd:type>homepage</cmd:type>
             </cmd:Location>
-            <cmd:Summary>
-               <cmd:Statements>
-                  <cmd:Subjects>
-                     <cmd:count>21</cmd:count>
-                     <cmd:Namespaces>
+            <cmd:Version>
+                <cmd:version>2020-06-11</cmd:version>
+                <cmd:validFrom>2020-06-11</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://e-editiones.ch/ontology/letter-corresponding.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/docs/letter-corresponding/2020-06-11.html</cmd:uri>
+                    <cmd:type>homepage</cmd:type>
+                    <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/letter-corresponding/2020-06-11.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:Subjects>
+                            <cmd:count>21</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
+                                    <cmd:prefix>letter-corresponding</cmd:prefix>
+                                    <cmd:count>178</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>15</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>158</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>21</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                                    <cmd:prefix>dct</cmd:prefix>
+                                    <cmd:count>7</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>134</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>11</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>11</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
+                                    <cmd:prefix>human</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
+                                    <cmd:prefix>letter-corresponding</cmd:prefix>
+                                    <cmd:count>39</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
+                                    <cmd:prefix>creating</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/text-structure#</cmd:URI>
+                                    <cmd:prefix>text-structure</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/information-carrier#</cmd:URI>
+                                    <cmd:prefix>information-carrier</cmd:prefix>
+                                    <cmd:count>5</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
+                                    <cmd:prefix>event</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/text-expression#</cmd:URI>
+                                    <cmd:prefix>text-expression</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
+                                    <cmd:prefix>frbroo</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://e-editiones.ch/ontology/physical-entity#</cmd:URI>
+                                    <cmd:prefix>physical</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                            <cmd:Classes>
+                                <cmd:count>21</cmd:count>
+                                <cmd:Namespaces>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:count>11</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>ObjectProperty</cmd:name>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Ontology</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                        <cmd:prefix>rdfs</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:NamespaceItem>
+                                </cmd:NamespaceItems>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>107</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>46</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>fr</cmd:code>
+                                        <cmd:count>20</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>it</cmd:code>
+                                        <cmd:count>20</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>de</cmd:code>
+                                        <cmd:count>20</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:count>106</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:name>langString</cmd:name>
+                                        <cmd:count>106</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>date</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                </cmd:NamespaceItems>
+                            </cmd:Literals>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                    <cmd:Namespaces>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
-                           <cmd:prefix>letter-corresponding</cmd:prefix>
-                           <cmd:count>178</cmd:count>
-                        </cmd:Namespace>
-                     </cmd:Namespaces>
-                  </cmd:Subjects>
-                  <cmd:Predicates>
-                     <cmd:count>15</cmd:count>
-                     <cmd:Namespaces>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                           <cmd:prefix>rdfs</cmd:prefix>
-                           <cmd:count>158</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
+                            <cmd:prefix>letter-corresponding</cmd:prefix>
+                            <cmd:count>217</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                           <cmd:prefix>rdf</cmd:prefix>
-                           <cmd:count>21</cmd:count>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>169</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                           <cmd:prefix>dct</cmd:prefix>
-                           <cmd:count>7</cmd:count>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>21</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                           <cmd:prefix>owl</cmd:prefix>
-                           <cmd:count>1</cmd:count>
-                        </cmd:Namespace>
-                     </cmd:Namespaces>
-                  </cmd:Predicates>
-                  <cmd:Objects>
-                     <cmd:count>134</cmd:count>
-                     <cmd:Classes>
-                        <cmd:count>21</cmd:count>
-                        <cmd:Namespaces>
-                           <cmd:Namespace>
-                              <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                              <cmd:prefix>owl</cmd:prefix>
-                              <cmd:count>11</cmd:count>
-                           </cmd:Namespace>
-                           <cmd:Namespace>
-                              <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                              <cmd:prefix>rdfs</cmd:prefix>
-                              <cmd:count>10</cmd:count>
-                           </cmd:Namespace>
-                        </cmd:Namespaces>
-                        <cmd:NamespaceItems>
-                           <cmd:NamespaceItem>
-                              <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                              <cmd:prefix>owl</cmd:prefix>
-                              <cmd:name>ObjectProperty</cmd:name>
-                              <cmd:count>10</cmd:count>
-                           </cmd:NamespaceItem>
-                           <cmd:NamespaceItem>
-                              <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                              <cmd:prefix>owl</cmd:prefix>
-                              <cmd:name>Ontology</cmd:name>
-                              <cmd:count>1</cmd:count>
-                           </cmd:NamespaceItem>
-                           <cmd:NamespaceItem>
-                              <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                              <cmd:prefix>rdfs</cmd:prefix>
-                              <cmd:name>Class</cmd:name>
-                              <cmd:count>10</cmd:count>
-                           </cmd:NamespaceItem>
-                        </cmd:NamespaceItems>
-                     </cmd:Classes>
-                     <cmd:Literals>
-                        <cmd:count>107</cmd:count>
-                        <cmd:Languages>
-                           <cmd:Language>
-                              <cmd:code>en</cmd:code>
-                              <cmd:count>46</cmd:count>
-                           </cmd:Language>
-                           <cmd:Language>
-                              <cmd:code>fr</cmd:code>
-                              <cmd:count>20</cmd:count>
-                           </cmd:Language>
-                           <cmd:Language>
-                              <cmd:code>it</cmd:code>
-                              <cmd:count>20</cmd:count>
-                           </cmd:Language>
-                           <cmd:Language>
-                              <cmd:code>de</cmd:code>
-                              <cmd:count>20</cmd:count>
-                           </cmd:Language>
-                        </cmd:Languages>
-                        <cmd:Namespaces>
-                           <cmd:Namespace>
-                              <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                              <cmd:prefix>rdf</cmd:prefix>
-                              <cmd:count>106</cmd:count>
-                           </cmd:Namespace>
-                           <cmd:Namespace>
-                              <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                              <cmd:prefix>xsd</cmd:prefix>
-                              <cmd:count>1</cmd:count>
-                           </cmd:Namespace>
-                        </cmd:Namespaces>
-                        <cmd:NamespaceItems>
-                           <cmd:NamespaceItem>
-                              <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                              <cmd:prefix>rdf</cmd:prefix>
-                              <cmd:name>langString</cmd:name>
-                              <cmd:count>106</cmd:count>
-                           </cmd:NamespaceItem>
-                           <cmd:NamespaceItem>
-                              <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                              <cmd:prefix>xsd</cmd:prefix>
-                              <cmd:name>date</cmd:name>
-                              <cmd:count>1</cmd:count>
-                           </cmd:NamespaceItem>
-                        </cmd:NamespaceItems>
-                     </cmd:Literals>
-                     <cmd:Namespaces>
-                        <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                           <cmd:prefix>owl</cmd:prefix>
-                           <cmd:count>11</cmd:count>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>12</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                           <cmd:prefix>rdfs</cmd:prefix>
-                           <cmd:count>11</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
+                            <cmd:prefix>human</cmd:prefix>
+                            <cmd:count>3</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
-                           <cmd:prefix>human</cmd:prefix>
-                           <cmd:count>3</cmd:count>
+                            <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
+                            <cmd:prefix>dct</cmd:prefix>
+                            <cmd:count>7</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
-                           <cmd:prefix>letter-corresponding</cmd:prefix>
-                           <cmd:count>39</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
+                            <cmd:prefix>creating</cmd:prefix>
+                            <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
-                           <cmd:prefix>creating</cmd:prefix>
-                           <cmd:count>2</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/text-structure#</cmd:URI>
+                            <cmd:prefix>text-structure</cmd:prefix>
+                            <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/text-structure#</cmd:URI>
-                           <cmd:prefix>text-structure</cmd:prefix>
-                           <cmd:count>2</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/information-carrier#</cmd:URI>
+                            <cmd:prefix>information-carrier</cmd:prefix>
+                            <cmd:count>5</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/information-carrier#</cmd:URI>
-                           <cmd:prefix>information-carrier</cmd:prefix>
-                           <cmd:count>5</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
+                            <cmd:prefix>event</cmd:prefix>
+                            <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
-                           <cmd:prefix>event</cmd:prefix>
-                           <cmd:count>2</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/text-expression#</cmd:URI>
+                            <cmd:prefix>text-expression</cmd:prefix>
+                            <cmd:count>2</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/text-expression#</cmd:URI>
-                           <cmd:prefix>text-expression</cmd:prefix>
-                           <cmd:count>2</cmd:count>
+                            <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
+                            <cmd:prefix>frbroo</cmd:prefix>
+                            <cmd:count>1</cmd:count>
                         </cmd:Namespace>
                         <cmd:Namespace>
-                           <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
-                           <cmd:prefix>frbroo</cmd:prefix>
-                           <cmd:count>1</cmd:count>
+                            <cmd:URI>http://e-editiones.ch/ontology/physical-entity#</cmd:URI>
+                            <cmd:prefix>physical</cmd:prefix>
+                            <cmd:count>1</cmd:count>
                         </cmd:Namespace>
-                        <cmd:Namespace>
-                           <cmd:URI>http://e-editiones.ch/ontology/physical-entity#</cmd:URI>
-                           <cmd:prefix>physical</cmd:prefix>
-                           <cmd:count>1</cmd:count>
-                        </cmd:Namespace>
-                     </cmd:Namespaces>
-                  </cmd:Objects>
-               </cmd:Statements>
-               <cmd:Namespaces>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/letter-corresponding#</cmd:URI>
-                     <cmd:prefix>letter-corresponding</cmd:prefix>
-                     <cmd:count>217</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                     <cmd:prefix>rdfs</cmd:prefix>
-                     <cmd:count>169</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                     <cmd:prefix>rdf</cmd:prefix>
-                     <cmd:count>21</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                     <cmd:prefix>owl</cmd:prefix>
-                     <cmd:count>12</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/human#</cmd:URI>
-                     <cmd:prefix>human</cmd:prefix>
-                     <cmd:count>3</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://purl.org/dc/terms/</cmd:URI>
-                     <cmd:prefix>dct</cmd:prefix>
-                     <cmd:count>7</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/creating#</cmd:URI>
-                     <cmd:prefix>creating</cmd:prefix>
-                     <cmd:count>2</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/text-structure#</cmd:URI>
-                     <cmd:prefix>text-structure</cmd:prefix>
-                     <cmd:count>2</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/information-carrier#</cmd:URI>
-                     <cmd:prefix>information-carrier</cmd:prefix>
-                     <cmd:count>5</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/event#</cmd:URI>
-                     <cmd:prefix>event</cmd:prefix>
-                     <cmd:count>2</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/text-expression#</cmd:URI>
-                     <cmd:prefix>text-expression</cmd:prefix>
-                     <cmd:count>2</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://iflastandards.info/ns/fr/frbr/frbroo/</cmd:URI>
-                     <cmd:prefix>frbroo</cmd:prefix>
-                     <cmd:count>1</cmd:count>
-                  </cmd:Namespace>
-                  <cmd:Namespace>
-                     <cmd:URI>http://e-editiones.ch/ontology/physical-entity#</cmd:URI>
-                     <cmd:prefix>physical</cmd:prefix>
-                     <cmd:count>1</cmd:count>
-                  </cmd:Namespace>
-               </cmd:Namespaces>
-            </cmd:Summary>
-            <cmd:Location>
-               <cmd:uri>https://static.vocabs.clariah.nl/docs/letter-corresponding/2020-06-11.html</cmd:uri>
-               <cmd:type>homepage</cmd:type>
-               <cmd:recipe>doc</cmd:recipe>
-            </cmd:Location>
-            <cmd:Location>
-               <cmd:uri>https://static.vocabs.clariah.nl/cache/letter-corresponding/2020-06-11.ttl</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>cache</cmd:recipe>
-            </cmd:Location>
-         </cmd:Version>
-      </cmd:Vocabulary>
-   </cmd:Components>
+                    </cmd:Namespaces>
+                </cmd:Summary>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
 </cmd:CMD>

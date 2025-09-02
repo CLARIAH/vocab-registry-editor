@@ -119,24 +119,6 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>1458</cmd:count>
-                            <cmd:Classes>
-                                <cmd:count>1458</cmd:count>
-                            </cmd:Classes>
-                            <cmd:Literals>
-                                <cmd:count>2407</cmd:count>
-                                <cmd:Languages>
-                                    <cmd:Language>
-                                        <cmd:code>en</cmd:code>
-                                        <cmd:count>100</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>nl</cmd:code>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:Language>
-                                </cmd:Languages>
-                                <cmd:Namespaces/>
-                                <cmd:NamespaceItems/>
-                            </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
                                     <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
@@ -179,6 +161,24 @@
                                     <cmd:count>405</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
+                            <cmd:Classes>
+                                <cmd:count>1458</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>2407</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces/>
+                                <cmd:NamespaceItems/>
+                            </cmd:Literals>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

@@ -67,6 +67,23 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>25</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.opengis.net/ont/geosparql#</cmd:URI>
+                                    <cmd:prefix>gsp</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>4</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://inspire.ec.europa.eu/ont/bu-base#</cmd:URI>
+                                    <cmd:prefix>bu-base</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>25</cmd:count>
                                 <cmd:Namespaces>
@@ -124,23 +141,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.opengis.net/ont/geosparql#</cmd:URI>
-                                    <cmd:prefix>gsp</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>4</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://inspire.ec.europa.eu/ont/bu-base#</cmd:URI>
-                                    <cmd:prefix>bu-base</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

@@ -63,6 +63,23 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>70</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://creativecommons.org/ns#</cmd:URI>
+                                    <cmd:prefix>cc</cmd:prefix>
+                                    <cmd:count>45</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>11</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>11</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>70</cmd:count>
                                 <cmd:Namespaces>
@@ -126,23 +143,6 @@
                                 <cmd:Namespaces/>
                                 <cmd:NamespaceItems/>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://creativecommons.org/ns#</cmd:URI>
-                                    <cmd:prefix>cc</cmd:prefix>
-                                    <cmd:count>45</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>11</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>11</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

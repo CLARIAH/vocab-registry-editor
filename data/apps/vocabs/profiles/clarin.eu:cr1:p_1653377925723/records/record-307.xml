@@ -78,6 +78,18 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>993</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>488</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>993</cmd:count>
                                 <cmd:Namespaces/>
@@ -98,18 +110,6 @@
                                 <cmd:Namespaces/>
                                 <cmd:NamespaceItems/>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>488</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

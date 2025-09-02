@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
     <cmd:Header>
         <cmd:MdCreator>vocabs</cmd:MdCreator>

@@ -138,42 +138,6 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>556</cmd:count>
-                            <cmd:Classes>
-                                <cmd:count>556</cmd:count>
-                            </cmd:Classes>
-                            <cmd:Literals>
-                                <cmd:count>1734</cmd:count>
-                                <cmd:Languages>
-                                    <cmd:Language>
-                                        <cmd:code>en</cmd:code>
-                                        <cmd:count>100</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>nl</cmd:code>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:Language>
-                                </cmd:Languages>
-                                <cmd:Namespaces>
-                                    <cmd:Namespace>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
-                                    </cmd:Namespace>
-                                </cmd:Namespaces>
-                                <cmd:NamespaceItems>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>string</cmd:name>
-                                        <cmd:count>1733</cmd:count>
-                                    </cmd:NamespaceItem>
-                                    <cmd:NamespaceItem>
-                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                        <cmd:prefix>xsd</cmd:prefix>
-                                        <cmd:name>integer</cmd:name>
-                                        <cmd:count>1</cmd:count>
-                                    </cmd:NamespaceItem>
-                                </cmd:NamespaceItems>
-                            </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
                                     <cmd:URI>http://comicmeta.org/cbo/</cmd:URI>
@@ -221,6 +185,42 @@
                                     <cmd:count>2</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
+                            <cmd:Classes>
+                                <cmd:count>556</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>1734</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>string</cmd:name>
+                                        <cmd:count>1733</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>integer</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                </cmd:NamespaceItems>
+                            </cmd:Literals>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

@@ -59,24 +59,6 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>38</cmd:count>
-                            <cmd:Classes>
-                                <cmd:count>38</cmd:count>
-                            </cmd:Classes>
-                            <cmd:Literals>
-                                <cmd:count>61</cmd:count>
-                                <cmd:Languages>
-                                    <cmd:Language>
-                                        <cmd:code>en</cmd:code>
-                                        <cmd:count>100</cmd:count>
-                                    </cmd:Language>
-                                    <cmd:Language>
-                                        <cmd:code>nl</cmd:code>
-                                        <cmd:count>5</cmd:count>
-                                    </cmd:Language>
-                                </cmd:Languages>
-                                <cmd:Namespaces/>
-                                <cmd:NamespaceItems/>
-                            </cmd:Literals>
                             <cmd:Namespaces>
                                 <cmd:Namespace>
                                     <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
@@ -104,6 +86,24 @@
                                     <cmd:count>11</cmd:count>
                                 </cmd:Namespace>
                             </cmd:Namespaces>
+                            <cmd:Classes>
+                                <cmd:count>38</cmd:count>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>61</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>100</cmd:count>
+                                    </cmd:Language>
+                                    <cmd:Language>
+                                        <cmd:code>nl</cmd:code>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces/>
+                                <cmd:NamespaceItems/>
+                            </cmd:Literals>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

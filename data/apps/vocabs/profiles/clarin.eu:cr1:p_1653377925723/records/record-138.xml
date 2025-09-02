@@ -67,6 +67,53 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>108</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.opengis.net/ont/sf#</cmd:URI>
+                                    <cmd:prefix>sfowl</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.opengis.net/ont/geosparql#</cmd:URI>
+                                    <cmd:prefix>gsp</cmd:prefix>
+                                    <cmd:count>17</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>34</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://inspire.ec.europa.eu/ont/gn#</cmd:URI>
+                                    <cmd:prefix>gn</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://inspire.ec.europa.eu/ont/tn#</cmd:URI>
+                                    <cmd:prefix>tn</cmd:prefix>
+                                    <cmd:count>30</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://inspire.ec.europa.eu/ont/net#</cmd:URI>
+                                    <cmd:prefix>net</cmd:prefix>
+                                    <cmd:count>8</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>https://www.w3.org/ns/locn#</cmd:URI>
+                                    <cmd:prefix>locn</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://inspire.ec.europa.eu/ont/base#</cmd:URI>
+                                    <cmd:prefix>base</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>108</cmd:count>
                                 <cmd:Namespaces>
@@ -220,53 +267,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.opengis.net/ont/sf#</cmd:URI>
-                                    <cmd:prefix>sfowl</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.opengis.net/ont/geosparql#</cmd:URI>
-                                    <cmd:prefix>gsp</cmd:prefix>
-                                    <cmd:count>17</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>34</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://inspire.ec.europa.eu/ont/gn#</cmd:URI>
-                                    <cmd:prefix>gn</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://inspire.ec.europa.eu/ont/tn#</cmd:URI>
-                                    <cmd:prefix>tn</cmd:prefix>
-                                    <cmd:count>30</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://inspire.ec.europa.eu/ont/net#</cmd:URI>
-                                    <cmd:prefix>net</cmd:prefix>
-                                    <cmd:count>8</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>https://www.w3.org/ns/locn#</cmd:URI>
-                                    <cmd:prefix>locn</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://inspire.ec.europa.eu/ont/base#</cmd:URI>
-                                    <cmd:prefix>base</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

@@ -67,6 +67,28 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>103</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso00639/-2/LanguageCodes#</cmd:URI>
+                                    <cmd:prefix>iso00639</cmd:prefix>
+                                    <cmd:count>45</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>47</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                    <cmd:prefix>xsd</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>103</cmd:count>
                                 <cmd:Namespaces>
@@ -112,28 +134,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso00639/-2/LanguageCodes#</cmd:URI>
-                                    <cmd:prefix>iso00639</cmd:prefix>
-                                    <cmd:count>45</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>47</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                    <cmd:prefix>xsd</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

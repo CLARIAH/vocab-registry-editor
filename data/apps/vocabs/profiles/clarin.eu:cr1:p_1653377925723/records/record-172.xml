@@ -45,6 +45,7 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>326</cmd:count>
+                            <cmd:Namespaces/>
                             <cmd:Classes>
                                 <cmd:count>326</cmd:count>
                                 <cmd:Namespaces/>
@@ -65,7 +66,6 @@
                                 <cmd:Namespaces/>
                                 <cmd:NamespaceItems/>
                             </cmd:Literals>
-                            <cmd:Namespaces/>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces/>

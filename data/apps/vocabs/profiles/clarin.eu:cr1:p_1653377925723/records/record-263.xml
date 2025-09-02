@@ -156,6 +156,18 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>13</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
+                                    <cmd:prefix>foaf</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/ns/formats/</cmd:URI>
+                                    <cmd:prefix>formats</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>13</cmd:count>
                             </cmd:Classes>
@@ -186,18 +198,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://xmlns.com/foaf/0.1/</cmd:URI>
-                                    <cmd:prefix>foaf</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/ns/formats/</cmd:URI>
-                                    <cmd:prefix>formats</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>
