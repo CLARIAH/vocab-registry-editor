@@ -229,6 +229,8 @@
                             <item>elastic</item>
                             <item>solr</item>
                             <item>rdf</item>
+                            <item>cache</item>
+                            <item>doc</item>
                         </enumeration>
                     </Vocabulary>
                 </ValueScheme>
@@ -260,6 +262,8 @@
                                 <item>elastic</item>
                                 <item>solr</item>
                                 <item>rdf</item>
+                                <item>cache</item>
+                                <item>doc</item>
                             </enumeration>
                         </Vocabulary>
                     </ValueScheme>
