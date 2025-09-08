@@ -1,45 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-   <cmd:Header>
-      <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298852">2025-04-22</cmd:MdCreationDate>
-      <cmd:MdSelfLink>unl://99</cmd:MdSelfLink>
-      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-      <cmd:MdCollectionDisplayName/>
-   </cmd:Header>
-   <cmd:Resources>
-      <cmd:ResourceProxyList/>
-      <cmd:JournalFileProxyList/>
-      <cmd:ResourceRelationList/>
-      <cmd:IsPartOfList/>
-   </cmd:Resources>
-   <cmd:Components>
-      <cmd:Vocabulary>
-         <cmd:InternalCuration>
-            <cmd:Status>
-               <cmd:status>reviewed-publish</cmd:status>
-               <cmd:dateFrom>2023-11-01</cmd:dateFrom>
-               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status>published</cmd:status>
-               <cmd:dateFrom>2024-06-14</cmd:dateFrom>
-               <cmd:dateUntil>2025-01-29</cmd:dateUntil>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status/>
-               <cmd:dateFrom>2024-01-30</cmd:dateFrom>
-            </cmd:Status>
-         </cmd:InternalCuration>
-         <cmd:Identification>
-            <cmd:identifier>sosa</cmd:identifier>
-            <cmd:title xml:lang="en">Sensor, Observation, Sample, and Actuator (SOSA) Ontology</cmd:title>
-            <cmd:Namespace>
-               <cmd:uri>http://www.w3.org/ns/sosa/</cmd:uri>
-               <cmd:prefix>sosa</cmd:prefix>
-            </cmd:Namespace>
-         </cmd:Identification>
-         <cmd:Description>
-            <cmd:description xml:lang="en">The Semantic Sensor Network (SSN) ontology is an ontology for describing
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298852">2025-04-22</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://99</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2023-11-01</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status/>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>sosa</cmd:identifier>
+                <cmd:title xml:lang="en">Sensor, Observation, Sample, and Actuator (SOSA) Ontology</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://www.w3.org/ns/sosa/</cmd:uri>
+                    <cmd:prefix>sosa</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The Semantic Sensor Network (SSN) ontology is an ontology for describing
                     sensors and their observations, the involved procedures, the studied features of interest, the
                     samples used to do so, and the observed properties, as well as actuators. SSN follows a horizontal
                     and vertical modularization architecture by including a lightweight but self-contained core ontology
@@ -50,34 +51,34 @@
                     observation-driven ontology engineering, and the Web of Things. Both ontologies are described below,
                     and examples of their usage are given.
                 </cmd:description>
-         </cmd:Description>
-         <cmd:Type>
-            <cmd:syntax>owl</cmd:syntax>
-         </cmd:Type>
-         <cmd:License>
-            <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
-            <cmd:label xml:lang="en">unknown</cmd:label>
-         </cmd:License>
-         <cmd:IsReferencedBy>
-            <cmd:Registry>
-               <cmd:title>YALC</cmd:title>
-               <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
-               <cmd:landingPage>https://triplydb.com/w3c/sosa</cmd:landingPage>
-            </cmd:Registry>
-         </cmd:IsReferencedBy>
-         <cmd:Location>
-            <cmd:uri>https://www.w3.org/TR/vocab-ssn/</cmd:uri>
-            <cmd:type>homepage</cmd:type>
-         </cmd:Location>
-         <cmd:Version>
-            <cmd:version>2017-04-17</cmd:version>
-            <cmd:validFrom>2017-04-17</cmd:validFrom>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>YALC</cmd:title>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/w3c/sosa</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
             <cmd:Location>
-               <cmd:uri>https://lov.linkeddata.es/dataset/lov/vocabs/sosa/versions/2017-04-17.n3</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
+                <cmd:uri>https://www.w3.org/TR/vocab-ssn/</cmd:uri>
+                <cmd:type>homepage</cmd:type>
             </cmd:Location>
-         </cmd:Version>
-      </cmd:Vocabulary>
-   </cmd:Components>
+            <cmd:Version>
+                <cmd:version>2017-04-17</cmd:version>
+                <cmd:validFrom>2017-04-17</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://lov.linkeddata.es/dataset/lov/vocabs/sosa/versions/2017-04-17.n3</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
 </cmd:CMD>

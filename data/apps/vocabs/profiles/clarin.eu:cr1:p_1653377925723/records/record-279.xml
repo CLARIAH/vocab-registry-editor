@@ -96,6 +96,71 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>504</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19103/2015/NameTypes#</cmd:URI>
+                                    <cmd:prefix>iso19103_2333</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19103/2015/WebEnvironment#</cmd:URI>
+                                    <cmd:prefix>iso19103_2337</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19103/2015/MeasureTypes#</cmd:URI>
+                                    <cmd:prefix>iso19103_2338</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>
+                                        http://def.isotc211.org/iso19115/-1/2017/CitationAndResponsiblePartyInformation-Copy#
+                                    </cmd:URI>
+                                    <cmd:prefix>iso19115-1_1541</cmd:prefix>
+                                    <cmd:count>4</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#
+                                    </cmd:URI>
+                                    <cmd:prefix>iso19115-1_2086</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19150/-4/2019/Service#</cmd:URI>
+                                    <cmd:prefix>iso19150-4</cmd:prefix>
+                                    <cmd:count>199</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19150/-4/2019/Service/code/</cmd:URI>
+                                    <cmd:prefix>iso19150-4Code</cmd:prefix>
+                                    <cmd:count>186</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso//LanguageCodes#</cmd:URI>
+                                    <cmd:prefix>iso_2197</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>89</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>132</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                    <cmd:prefix>xsd</cmd:prefix>
+                                    <cmd:count>21</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>504</cmd:count>
                                 <cmd:Namespaces>
@@ -261,71 +326,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19103/2015/NameTypes#</cmd:URI>
-                                    <cmd:prefix>iso19103_2333</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19103/2015/WebEnvironment#</cmd:URI>
-                                    <cmd:prefix>iso19103_2337</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19103/2015/MeasureTypes#</cmd:URI>
-                                    <cmd:prefix>iso19103_2338</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>
-                                        http://def.isotc211.org/iso19115/-1/2017/CitationAndResponsiblePartyInformation-Copy#
-                                    </cmd:URI>
-                                    <cmd:prefix>iso19115-1_1541</cmd:prefix>
-                                    <cmd:count>4</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19115/-1/2014/ServiceMetadataInformation#
-                                    </cmd:URI>
-                                    <cmd:prefix>iso19115-1_2086</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19150/-4/2019/Service#</cmd:URI>
-                                    <cmd:prefix>iso19150-4</cmd:prefix>
-                                    <cmd:count>199</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19150/-4/2019/Service/code/</cmd:URI>
-                                    <cmd:prefix>iso19150-4Code</cmd:prefix>
-                                    <cmd:count>186</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso//LanguageCodes#</cmd:URI>
-                                    <cmd:prefix>iso_2197</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>89</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>132</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                    <cmd:prefix>xsd</cmd:prefix>
-                                    <cmd:count>21</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

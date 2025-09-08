@@ -20,6 +20,9 @@
           <Element name="accrualMethod">
             <clariah:explanation src="documentation"/>
           </Element>
+          <Element name="downloadable">
+            <clariah:explanation src="documentation"/>
+          </Element>
           <Element name="comments">
             <clariah:explanation src="documentation"/>
           </Element>

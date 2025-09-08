@@ -73,6 +73,39 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>35</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19111/-2/2009/ExtensionForParametricValues#
+                                    </cmd:URI>
+                                    <cmd:prefix>iso19111-2</cmd:prefix>
+                                    <cmd:count>13</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19111/2007/CoordinateReferenceSystems#</cmd:URI>
+                                    <cmd:prefix>iso19111_562</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19111/2007/CoordinateSystems#</cmd:URI>
+                                    <cmd:prefix>iso19111_563</cmd:prefix>
+                                    <cmd:count>3</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19111/2007/Datums#</cmd:URI>
+                                    <cmd:prefix>iso19111_564</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>13</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                    <cmd:prefix>xsd</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>35</cmd:count>
                                 <cmd:Namespaces>
@@ -144,39 +177,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19111/-2/2009/ExtensionForParametricValues#
-                                    </cmd:URI>
-                                    <cmd:prefix>iso19111-2</cmd:prefix>
-                                    <cmd:count>13</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19111/2007/CoordinateReferenceSystems#</cmd:URI>
-                                    <cmd:prefix>iso19111_562</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19111/2007/CoordinateSystems#</cmd:URI>
-                                    <cmd:prefix>iso19111_563</cmd:prefix>
-                                    <cmd:count>3</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19111/2007/Datums#</cmd:URI>
-                                    <cmd:prefix>iso19111_564</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>13</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                    <cmd:prefix>xsd</cmd:prefix>
-                                    <cmd:count>1</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>

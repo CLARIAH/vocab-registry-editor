@@ -1,77 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-   <cmd:Header>
-      <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298690">2025-04-22</cmd:MdCreationDate>
-      <cmd:MdSelfLink>unl://28</cmd:MdSelfLink>
-      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-      <cmd:MdCollectionDisplayName/>
-   </cmd:Header>
-   <cmd:Resources>
-      <cmd:ResourceProxyList/>
-      <cmd:JournalFileProxyList/>
-      <cmd:ResourceRelationList/>
-      <cmd:IsPartOfList/>
-   </cmd:Resources>
-   <cmd:Components>
-      <cmd:Vocabulary>
-         <cmd:InternalCuration>
-            <cmd:Status>
-               <cmd:status>reviewed-publish</cmd:status>
-               <cmd:dateFrom>2024-06-12</cmd:dateFrom>
-               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status>published</cmd:status>
-               <cmd:dateFrom>2024-06-14</cmd:dateFrom>
-               <cmd:dateUntil>2025-01-29</cmd:dateUntil>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status/>
-               <cmd:dateFrom>2024-01-30</cmd:dateFrom>
-            </cmd:Status>
-         </cmd:InternalCuration>
-         <cmd:Identification>
-            <cmd:identifier>relators</cmd:identifier>
-            <cmd:title xml:lang="en">MARC Code List for Relators Scheme</cmd:title>
-            <cmd:Namespace>
-               <cmd:uri>http://id.loc.gov/vocabulary/relators/</cmd:uri>
-               <cmd:prefix>relator</cmd:prefix>
-            </cmd:Namespace>
-         </cmd:Identification>
-         <cmd:Description>
-            <cmd:description xml:lang="en">Relator terms and their associated codes designate the relationship
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298690">2025-04-22</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://28</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2024-06-12</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>published</cmd:status>
+                    <cmd:dateFrom>2024-06-14</cmd:dateFrom>
+                    <cmd:dateUntil>2025-01-29</cmd:dateUntil>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status/>
+                    <cmd:dateFrom>2024-01-30</cmd:dateFrom>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>relators</cmd:identifier>
+                <cmd:title xml:lang="en">MARC Code List for Relators Scheme</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://id.loc.gov/vocabulary/relators/</cmd:uri>
+                    <cmd:prefix>relator</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Relator terms and their associated codes designate the relationship
                     between a name and a bibliographic resource. The relator codes are three-character lowercase
                     alphabetic strings that serve as identifiers. Either the term or the code may be used as controlled
                     values.
                 </cmd:description>
-         </cmd:Description>
-         <cmd:Type>
-            <cmd:syntax>skos</cmd:syntax>
-         </cmd:Type>
-         <cmd:License>
-            <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
-            <cmd:label xml:lang="en">unknown</cmd:label>
-         </cmd:License>
-         <cmd:IsReferencedBy>
-            <cmd:Registry>
-               <cmd:title>YALC</cmd:title>
-               <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
-               <cmd:landingPage>https://triplydb.com/loc/relators</cmd:landingPage>
-            </cmd:Registry>
-         </cmd:IsReferencedBy>
-         <cmd:Location>
-            <cmd:uri>http://id.loc.gov/vocabulary/relators.html</cmd:uri>
-            <cmd:type>homepage</cmd:type>
-         </cmd:Location>
-         <cmd:Version>
-            <cmd:version>2021-08-02</cmd:version>
-            <cmd:validFrom>2021-08-02</cmd:validFrom>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>skos</cmd:syntax>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>http://rightsstatements.org/vocab/UND/1.0/</cmd:uri>
+                <cmd:label xml:lang="en">unknown</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>YALC</cmd:title>
+                    <cmd:url>https://triplydb.com/Triply/yalc</cmd:url>
+                    <cmd:landingPage>https://triplydb.com/loc/relators</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
             <cmd:Location>
-               <cmd:uri>https://id.loc.gov/download/vocabulary/relators.skosrdf.nt.gz</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
+                <cmd:uri>http://id.loc.gov/vocabulary/relators.html</cmd:uri>
+                <cmd:type>homepage</cmd:type>
             </cmd:Location>
-         </cmd:Version>
-      </cmd:Vocabulary>
-   </cmd:Components>
+            <cmd:Version>
+                <cmd:version>2021-08-02</cmd:version>
+                <cmd:validFrom>2021-08-02</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://id.loc.gov/download/vocabulary/relators.skosrdf.nt.gz</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
 </cmd:CMD>

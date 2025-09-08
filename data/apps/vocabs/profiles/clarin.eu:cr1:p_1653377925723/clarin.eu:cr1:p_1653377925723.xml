@@ -43,6 +43,17 @@
                         </Vocabulary>
                     </ValueScheme>
                 </Element>
+                <Element name="downloadable" CardinalityMin="1" CardinalityMax="1">
+                    <Documentation>Use this to indicate whether the vocabulary can be cached or not. Indicate in the comments what the issue is if the vocabulary cannot be downloaded (e.g., is it a big dataset? there is no way to download it?, etc.)</Documentation>
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item>yes</item>
+                                <item>no</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Element>
                 <Element name="comments" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                     <Documentation>Any comments that explain the current status. E.g., if it is discarded, what was the main reason.</Documentation>
                 </Element>
@@ -73,8 +84,20 @@
                     <Documentation>A literal value that identifies the creator.</Documentation>
                 </Element>
             </Component>
-            <Component name="Maintainer" ConceptLink="https://schema.org/maintainer" CardinalityMin="0" CardinalityMax="unbounded">
+            <Component name="Maintainer" ConceptLink="https://schema.org/maintainer" CardinalityMin="1" CardinalityMax="unbounded">
                 <Documentation>"A maintainer is a Person or Organization that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources." We use it as equivalent to http://purl.org/dc/terms/publisher ("An entity responsible for making the resource available"). If the Creator and Publisher=Maintainer are the same, repeat the name in the Maintainer element (to make it clear who is responsible for this vocabulary). If the nature of the responsibility is ambiguous, the recommended practice is to use Publisher for organizations, and Creator for individuals. In cases of lesser responsibility, other than creation, use Contributor.</Documentation>
+                <Element name="typeAgent" ConceptLink="http://xmlns.com/foaf/0.1/Agent" CardinalityMin="1" CardinalityMax="1">
+                    <Documentation>The Agent class is the class of agents; things that do stuff. A well known sub-class is Person, representing people. Other kinds of agents include Organization and Group. </Documentation>
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item ConceptLink="http://xmlns.com/foaf/spec/#term_Group" AppInfo="">Group</item>
+                                <item ConceptLink="http://xmlns.com/foaf/spec/#term_Person">Person</item>
+                                <item ConceptLink="http://xmlns.com/foaf/spec/#term_Organization">Organization</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Element>
                 <Element name="uri" ConceptLink="http://purl.org/dc/terms/URI" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A literal value that identifies the publisher.</Documentation>
@@ -143,6 +166,7 @@
                             <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E53_Place" AppInfo="Related to places or place descriptions">Place</item>
                             <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span" AppInfo="Related to time or time descriptions">Time-Span</item>
                             <item ConceptLink="http://www.cidoc-crm.org/cidoc-crm/E5_Event" AppInfo="Related to events, activities, processes">Event-Activity</item>
+                            <item ConceptLink="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work" AppInfo="Related to creative works">Work</item>
                         </enumeration>
                     </Vocabulary>
                 </ValueScheme>
@@ -158,8 +182,21 @@
             <Documentation>A related resource that references, cites, or otherwise points to the described resource.</Documentation>
             <Component name="Registry" ConceptLink="http://www.w3.org/ns/dcat#Catalog" CardinalityMin="1" CardinalityMax="unbounded">
                 <Documentation>We consider a vocabulary registry (such as LOV or Bartoc) a data catalog ("Datasets and data services are examples of resources in the context of a data catalog.")</Documentation>
-                <Element name="title" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
+                <Element name="title" ConceptLink="http://purl.org/dc/terms/title" CardinalityMin="1" CardinalityMax="1">
                     <Documentation>The name of the vocabulary registry (e.g., Bartoc, LOV)</Documentation>
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item ConceptLink="Awesome Ontologies for Digital Humanities" AppInfo="Awesome ontologies for the Humanities">Awesome Humanities</item>
+                                <item ConceptLink="https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences" AppInfo="Awesome Ontologies for the Social Sciences">Awesome Social Sciences</item>
+                                <item>YALC</item>
+                                <item>LOV</item>
+                                <item>Bartoc</item>
+                                <item>DANS Data Station SSH</item>
+                                <item>ODISSEI Portal</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
                 </Element>
                 <Element name="url" ConceptLink="http://xmlns.com/foaf/spec/#term_homepage" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>The URL of the vocabulary registry's homepage; example: https://bartoc.org/</Documentation>
@@ -175,9 +212,10 @@
                 <ValueScheme>
                     <Vocabulary>
                         <enumeration>
-                            <item>homepage</item>
-                            <item>endpoint</item>
-                            <item>dump</item>
+                            <item ConceptLink="" AppInfo="">homepage</item>
+                            <item ConceptLink="" AppInfo="">githubRepository</item>
+                            <item ConceptLink="" AppInfo="">endpoint</item>
+                            <item ConceptLink="" AppInfo="">dump</item>
                         </enumeration>
                     </Vocabulary>
                 </ValueScheme>
@@ -191,6 +229,8 @@
                             <item>elastic</item>
                             <item>solr</item>
                             <item>rdf</item>
+                            <item>cache</item>
+                            <item>doc</item>
                         </enumeration>
                     </Vocabulary>
                 </ValueScheme>
@@ -205,9 +245,10 @@
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
-                                <item>homepage</item>
-                                <item>endpoint</item>
-                                <item>dump</item>
+                                <item ConceptLink="" AppInfo="">homepage</item>
+                                <item ConceptLink="" AppInfo="">githubRepository</item>
+                                <item ConceptLink="" AppInfo="">endpoint</item>
+                                <item ConceptLink="" AppInfo="">dump</item>
                             </enumeration>
                         </Vocabulary>
                     </ValueScheme>
@@ -221,6 +262,8 @@
                                 <item>elastic</item>
                                 <item>solr</item>
                                 <item>rdf</item>
+                                <item>cache</item>
+                                <item>doc</item>
                             </enumeration>
                         </Vocabulary>
                     </ValueScheme>
@@ -299,6 +342,13 @@
                                 </Component>
                             </Component>
                         </Component>
+                    </Component>
+                </Component>
+                <Component name="Namespaces" ComponentRef="clarin.eu:cr1:c_1659015263837" CardinalityMin="1" CardinalityMax="1">
+                    <Component name="Namespace" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="URI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
+                        <Element name="prefix" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="count" ValueScheme="int" CardinalityMin="0" CardinalityMax="1"/>
                     </Component>
                 </Component>
             </Component>

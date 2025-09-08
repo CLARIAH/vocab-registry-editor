@@ -1,79 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-   <cmd:Header>
-      <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748103921">2025-05-24</cmd:MdCreationDate>
-      <cmd:MdSelfLink>unl://392</cmd:MdSelfLink>
-      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-      <cmd:MdCollectionDisplayName/>
-   </cmd:Header>
-   <cmd:Resources>
-      <cmd:ResourceProxyList/>
-      <cmd:JournalFileProxyList/>
-      <cmd:ResourceRelationList/>
-      <cmd:IsPartOfList/>
-   </cmd:Resources>
-   <cmd:Components>
-      <cmd:Vocabulary>
-         <cmd:InternalCuration>
-            <cmd:Status>
-               <cmd:status>new</cmd:status>
-               <cmd:dateFrom>2025-01-09</cmd:dateFrom>
-               <cmd:dateUntil>2025-04-30</cmd:dateUntil>
-               <cmd:accrualMethod>found in curated list</cmd:accrualMethod>
-               <cmd:comments>Odissei portal, added from CESSDA</cmd:comments>
-               <cmd:reviewer>André Valdestilhas/Liliana Melgar</cmd:reviewer>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status>reviewed-publish</cmd:status>
-               <cmd:dateFrom>2025-04-30</cmd:dateFrom>
-               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
-            </cmd:Status>
-         </cmd:InternalCuration>
-         <cmd:Identification>
-            <cmd:identifier>ddi_DataSourceType</cmd:identifier>
-            <cmd:title xml:lang="en">DDI Alliance Controlled Vocabulary for Data Source Type</cmd:title>
-            <cmd:Namespace>
-               <cmd:uri>http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/</cmd:uri>
-               <cmd:prefix>DataSourceType</cmd:prefix>
-            </cmd:Namespace>
-         </cmd:Identification>
-         <cmd:Responsibility>
-            <cmd:Creator>
-               <cmd:uri>https://www.wikidata.org/wiki/Q29658528</cmd:uri>
-               <cmd:label>DDI Alliance</cmd:label>
-            </cmd:Creator>
-            <cmd:Maintainer>
-               <cmd:typeAgent>Organization</cmd:typeAgent>
-               <cmd:uri>http://viaf.org/viaf/159763274</cmd:uri>
-               <cmd:label>Consortium of European Social Science Data Archives (CESSDA)</cmd:label>
-            </cmd:Maintainer>
-         </cmd:Responsibility>
-         <cmd:Description>
-            <cmd:description xml:lang="en">Includes a typology of data sources.</cmd:description>
-            <cmd:dateIssued>2019</cmd:dateIssued>
-            <cmd:language>eng</cmd:language>
-         </cmd:Description>
-         <cmd:Type>
-            <cmd:syntax>skos</cmd:syntax>
-            <cmd:kos>thesaurus</cmd:kos>
-            <cmd:entity>Concept</cmd:entity>
-         </cmd:Type>
-         <cmd:Distribution>
-            <cmd:distributionType>downloadURL</cmd:distributionType>
-         </cmd:Distribution>
-         <cmd:Location>
-            <cmd:uri>https://vocabularies.cessda.eu/vocabulary/DataSourceType</cmd:uri>
-            <cmd:type>homepage</cmd:type>
-         </cmd:Location>
-         <cmd:Version>
-            <cmd:version>1.0.2</cmd:version>
-            <cmd:validFrom>2019-05-08</cmd:validFrom>
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1748103921">2025-05-24</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://392</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>new</cmd:status>
+                    <cmd:dateFrom>2025-01-09</cmd:dateFrom>
+                    <cmd:dateUntil>2025-04-30</cmd:dateUntil>
+                    <cmd:accrualMethod>found in curated list</cmd:accrualMethod>
+                    <cmd:comments>Odissei portal, added from CESSDA</cmd:comments>
+                    <cmd:reviewer>André Valdestilhas/Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-04-30</cmd:dateFrom>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>ddi_DataSourceType</cmd:identifier>
+                <cmd:title xml:lang="en">DDI Alliance Controlled Vocabulary for Data Source Type</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://rdf-vocabulary.ddialliance.org/cv/DataSourceType/</cmd:uri>
+                    <cmd:prefix>DataSourceType</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:uri>https://www.wikidata.org/wiki/Q29658528</cmd:uri>
+                    <cmd:label>DDI Alliance</cmd:label>
+                </cmd:Creator>
+                <cmd:Maintainer>
+                    <cmd:typeAgent>Organization</cmd:typeAgent>
+                    <cmd:uri>http://viaf.org/viaf/159763274</cmd:uri>
+                    <cmd:label>Consortium of European Social Science Data Archives (CESSDA)</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">Includes a typology of data sources.</cmd:description>
+                <cmd:dateIssued>2019</cmd:dateIssued>
+                <cmd:language>eng</cmd:language>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>skos</cmd:syntax>
+                <cmd:kos>thesaurus</cmd:kos>
+                <cmd:entity>Concept</cmd:entity>
+            </cmd:Type>
             <cmd:Location>
-               <cmd:uri>https://vocabularies.cessda.eu/v2/vocabularies/rdf/DataSourceType/1.0.2?languageVersion=en-1.0.2_et-1.0.2_fi-1.0.2_it-1.0.2_lt-1.0.2_nl-1.0.2_no-1.0.2_pt-1.0.2_sl-1.0.2_sr-1.0.2_sv-1.0.2</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
+                <cmd:uri>https://vocabularies.cessda.eu/vocabulary/DataSourceType</cmd:uri>
+                <cmd:type>homepage</cmd:type>
             </cmd:Location>
-         </cmd:Version>
-      </cmd:Vocabulary>
-   </cmd:Components>
+            <cmd:Version>
+                <cmd:version>1.0.2</cmd:version>
+                <cmd:validFrom>2019-05-08</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://vocabularies.cessda.eu/v2/vocabularies/rdf/DataSourceType/1.0.2?languageVersion=en-1.0.2_et-1.0.2_fi-1.0.2_it-1.0.2_lt-1.0.2_nl-1.0.2_no-1.0.2_pt-1.0.2_sl-1.0.2_sr-1.0.2_sv-1.0.2</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
 </cmd:CMD>

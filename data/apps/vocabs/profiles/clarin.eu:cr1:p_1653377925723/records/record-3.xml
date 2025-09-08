@@ -1,80 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-   <cmd:Header>
-      <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298507">2025-04-22</cmd:MdCreationDate>
-      <cmd:MdSelfLink>unl://3</cmd:MdSelfLink>
-      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-      <cmd:MdCollectionDisplayName/>
-   </cmd:Header>
-   <cmd:Resources>
-      <cmd:ResourceProxyList/>
-      <cmd:JournalFileProxyList/>
-      <cmd:ResourceRelationList/>
-      <cmd:IsPartOfList/>
-   </cmd:Resources>
-   <cmd:Components>
-      <cmd:Vocabulary>
-         <cmd:InternalCuration>
-            <cmd:Status>
-               <cmd:status>to-review</cmd:status>
-               <cmd:dateFrom>2024-01-31</cmd:dateFrom>
-               <cmd:dateUntil>2024-06-13</cmd:dateUntil>
-            </cmd:Status>
-         </cmd:InternalCuration>
-         <cmd:Identification>
-            <cmd:identifier>mto</cmd:identifier>
-            <cmd:title xml:lang="en">Music theory ontology (MTO)</cmd:title>
-            <cmd:Namespace>
-               <cmd:uri>http://purl.org/ontology/mto/</cmd:uri>
-               <cmd:prefix>http://purl.org/ontology/mto/</cmd:prefix>
-            </cmd:Namespace>
-         </cmd:Identification>
-         <cmd:Responsibility>
-            <cmd:Creator>
-               <cmd:uri>https://orcid.org/0000-0002-4162-8334</cmd:uri>
-               <cmd:label>Sabbir M. Rashid</cmd:label>
-            </cmd:Creator>
-         </cmd:Responsibility>
-         <cmd:Description>
-            <cmd:description xml:lang="en">The Music Theory Ontology was designed to be able to formally represent rudimentary concepts used to describe music. Included are classes for musical notation, such as accidentals or time signatures; duration, describing how long a note is or is not played; intervals, representing tonal difference between pitches; and progressions, which involve the succession of notes or chords.</cmd:description>
-            <cmd:dateIssued>2018-05-15</cmd:dateIssued>
-            <cmd:language>English</cmd:language>
-            <cmd:topicUnesco>Musicology</cmd:topicUnesco>
-            <cmd:topicNwo>32.30.00</cmd:topicNwo>
-            <cmd:Keywords>
-               <cmd:uri>https://www.wikidata.org/wiki/Q193544</cmd:uri>
-               <cmd:label>music theory</cmd:label>
-            </cmd:Keywords>
-         </cmd:Description>
-         <cmd:Type>
-            <cmd:syntax>rdfs</cmd:syntax>
-            <cmd:kos>ontology</cmd:kos>
-            <cmd:entity>Concept</cmd:entity>
-         </cmd:Type>
-         <cmd:License>
-            <cmd:uri>http://creativecommons.org/publicdomain/zero/1.0/</cmd:uri>
-            <cmd:label xml:lang="en">CC0 1.0 Universal </cmd:label>
-         </cmd:License>
-         <cmd:IsReferencedBy>
-            <cmd:Registry>
-               <cmd:title>Awesome Humanities</cmd:title>
-               <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
-               <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
-            </cmd:Registry>
-         </cmd:IsReferencedBy>
-         <cmd:Location>
-            <cmd:uri>http://web.archive.org/web/20220329190904/https://github.com/tetherless-world/MusicTheory/blob/master/ont/mto.ttl</cmd:uri>
-            <cmd:type>dump</cmd:type>
-         </cmd:Location>
-         <cmd:Version>
-            <cmd:version>0.9</cmd:version>
-            <cmd:validFrom>2018-05-19</cmd:validFrom>
+<?xml version='1.0' encoding='UTF-8'?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1745298507">2025-04-22</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://3</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>to-review</cmd:status>
+                    <cmd:dateFrom>2024-01-31</cmd:dateFrom>
+                    <cmd:dateUntil>2024-06-13</cmd:dateUntil>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>mto</cmd:identifier>
+                <cmd:title xml:lang="en">Music theory ontology (MTO)</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://purl.org/ontology/mto/</cmd:uri>
+                    <cmd:prefix>http://purl.org/ontology/mto/</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:uri>https://orcid.org/0000-0002-4162-8334</cmd:uri>
+                    <cmd:label>Sabbir M. Rashid</cmd:label>
+                </cmd:Creator>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The Music Theory Ontology was designed to be able to formally represent rudimentary concepts used to describe music. Included are classes for musical notation, such as accidentals or time signatures; duration, describing how long a note is or is not played; intervals, representing tonal difference between pitches; and progressions, which involve the succession of notes or chords.</cmd:description>
+                <cmd:dateIssued>2018-05-15</cmd:dateIssued>
+                <cmd:language>English</cmd:language>
+                <cmd:topicUnesco>Musicology</cmd:topicUnesco>
+                <cmd:topicNwo>32.30.00</cmd:topicNwo>
+                <cmd:Keywords>
+                    <cmd:uri>https://www.wikidata.org/wiki/Q193544</cmd:uri>
+                    <cmd:label>music theory</cmd:label>
+                </cmd:Keywords>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>rdfs</cmd:syntax>
+                <cmd:kos>ontology</cmd:kos>
+                <cmd:entity>Concept</cmd:entity>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>http://creativecommons.org/publicdomain/zero/1.0/</cmd:uri>
+                <cmd:label xml:lang="en">CC0 1.0 Universal </cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>Awesome Humanities</cmd:title>
+                    <cmd:url>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:url>
+                    <cmd:landingPage>https://github.com/CLARIAH/awesome-humanities-ontologies</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
             <cmd:Location>
-               <cmd:uri>https://raw.githubusercontent.com/tetherless-world/MusicTheory/refs/heads/master/ont/mto.ttl</cmd:uri>
-               <cmd:type>dump</cmd:type>
-               <cmd:recipe>rdf</cmd:recipe>
+                <cmd:uri>http://web.archive.org/web/20220329190904/https://github.com/tetherless-world/MusicTheory/blob/master/ont/mto.ttl</cmd:uri>
+                <cmd:type>dump</cmd:type>
             </cmd:Location>
-         </cmd:Version>
-      </cmd:Vocabulary>
-   </cmd:Components>
+            <cmd:Version>
+                <cmd:version>0.9</cmd:version>
+                <cmd:validFrom>2018-05-19</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://raw.githubusercontent.com/tetherless-world/MusicTheory/refs/heads/master/ont/mto.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
 </cmd:CMD>

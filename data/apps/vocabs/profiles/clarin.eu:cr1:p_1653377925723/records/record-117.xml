@@ -175,6 +175,73 @@
                         </cmd:Predicates>
                         <cmd:Objects>
                             <cmd:count>218</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19103/2005/UnitsOfMeasure#</cmd:URI>
+                                    <cmd:prefix>iso19103_530</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#</cmd:URI>
+                                    <cmd:prefix>iso19103_534</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19107/2003/GeometricPrimitive#</cmd:URI>
+                                    <cmd:prefix>iso19107_547</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/iso19115/2006/SpatialRepresentationInformation#
+                                    </cmd:URI>
+                                    <cmd:prefix>iso19115</cmd:prefix>
+                                    <cmd:count>112</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>
+                                        http://def.isotc211.org/iso19115/2006/SpatialRepresentationInformation/code/
+                                    </cmd:URI>
+                                    <cmd:prefix>iso19115Code</cmd:prefix>
+                                    <cmd:count>50</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>
+                                        http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#
+                                    </cmd:URI>
+                                    <cmd:prefix>iso19115_930</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://def.isotc211.org/orphans/Orphans#</cmd:URI>
+                                    <cmd:prefix>orph_239</cmd:prefix>
+                                    <cmd:count>4</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>79</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>6</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>2</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
+                                    <cmd:prefix>skos</cmd:prefix>
+                                    <cmd:count>37</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                    <cmd:prefix>xsd</cmd:prefix>
+                                    <cmd:count>23</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
                             <cmd:Classes>
                                 <cmd:count>218</cmd:count>
                                 <cmd:Namespaces>
@@ -310,73 +377,6 @@
                                     </cmd:NamespaceItem>
                                 </cmd:NamespaceItems>
                             </cmd:Literals>
-                            <cmd:Namespaces>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19103/2005/UnitsOfMeasure#</cmd:URI>
-                                    <cmd:prefix>iso19103_530</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#</cmd:URI>
-                                    <cmd:prefix>iso19103_534</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19107/2003/GeometricPrimitive#</cmd:URI>
-                                    <cmd:prefix>iso19107_547</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/iso19115/2006/SpatialRepresentationInformation#
-                                    </cmd:URI>
-                                    <cmd:prefix>iso19115</cmd:prefix>
-                                    <cmd:count>112</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>
-                                        http://def.isotc211.org/iso19115/2006/SpatialRepresentationInformation/code/
-                                    </cmd:URI>
-                                    <cmd:prefix>iso19115Code</cmd:prefix>
-                                    <cmd:count>50</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>
-                                        http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#
-                                    </cmd:URI>
-                                    <cmd:prefix>iso19115_930</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://def.isotc211.org/orphans/Orphans#</cmd:URI>
-                                    <cmd:prefix>orph_239</cmd:prefix>
-                                    <cmd:count>4</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
-                                    <cmd:prefix>owl</cmd:prefix>
-                                    <cmd:count>79</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
-                                    <cmd:prefix>rdf</cmd:prefix>
-                                    <cmd:count>6</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
-                                    <cmd:prefix>rdfs</cmd:prefix>
-                                    <cmd:count>2</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2004/02/skos/core#</cmd:URI>
-                                    <cmd:prefix>skos</cmd:prefix>
-                                    <cmd:count>37</cmd:count>
-                                </cmd:Namespace>
-                                <cmd:Namespace>
-                                    <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
-                                    <cmd:prefix>xsd</cmd:prefix>
-                                    <cmd:count>23</cmd:count>
-                                </cmd:Namespace>
-                            </cmd:Namespaces>
                         </cmd:Objects>
                     </cmd:Statements>
                     <cmd:Namespaces>
