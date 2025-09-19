@@ -1,113 +1,316 @@
-<?xml version="1.0" encoding="UTF-8"?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
-   <cmd:Header>
-      <cmd:MdCreator>vocabs</cmd:MdCreator>
-      <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1757059450">2025-09-05</cmd:MdCreationDate>
-      <cmd:MdSelfLink>unl://410</cmd:MdSelfLink>
-      <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
-      <cmd:MdCollectionDisplayName/>
-   </cmd:Header>
-   <cmd:Resources>
-      <cmd:ResourceProxyList/>
-      <cmd:JournalFileProxyList/>
-      <cmd:ResourceRelationList/>
-      <cmd:IsPartOfList/>
-   </cmd:Resources>
-   <cmd:Components>
-      <cmd:Vocabulary>
-         <cmd:InternalCuration>
-            <cmd:Status>
-               <cmd:status>new</cmd:status>
-               <cmd:dateFrom>2025-05-09</cmd:dateFrom>
-               <cmd:dateUntil>2025-05-09</cmd:dateUntil>
-               <cmd:comments>Very good example of an ontology produced as a result of academic research</cmd:comments>
-            </cmd:Status>
-            <cmd:Status>
-               <cmd:status>reviewed-publish</cmd:status>
-               <cmd:dateFrom>2025-05-09</cmd:dateFrom>
-               <cmd:downloadable>yes</cmd:downloadable>
-               <cmd:reviewer>Liliana Melgar</cmd:reviewer>
-            </cmd:Status>
-         </cmd:InternalCuration>
-         <cmd:Identification>
-            <cmd:identifier>od</cmd:identifier>
-            <cmd:title xml:lang="en">Odeuropa ontology</cmd:title>
-            <cmd:Namespace>
-               <cmd:uri>http://data.odeuropa.eu/ontology/</cmd:uri>
-               <cmd:prefix>od</cmd:prefix>
-            </cmd:Namespace>
-         </cmd:Identification>
-         <cmd:Responsibility>
-            <cmd:Creator>
-               <cmd:uri>http://orcid.org/0000-0003-3094-5585</cmd:uri>
-               <cmd:label>Lisena, Pasquale</cmd:label>
-            </cmd:Creator>
-            <cmd:Creator>
-               <cmd:uri>http://orcid.org/0000-0003-4347-2940</cmd:uri>
-               <cmd:label>Schwabe, Daniel</cmd:label>
-            </cmd:Creator>
-            <cmd:Creator>
-               <cmd:uri>http://orcid.org/0000-0001-9195-8203</cmd:uri>
-               <cmd:label>van Erp, Marieke</cmd:label>
-            </cmd:Creator>
-            <cmd:Creator>
-               <cmd:uri>http://orcid.org/0000-0003-0457-1436</cmd:uri>
-               <cmd:label>Troncy, Raphaël</cmd:label>
-            </cmd:Creator>
-            <cmd:Creator>
-               <cmd:uri>http://orcid.org/0000-0002-8975-8031</cmd:uri>
-               <cmd:label>Tullett, William</cmd:label>
-            </cmd:Creator>
-            <cmd:Maintainer>
-               <cmd:typeAgent>Person</cmd:typeAgent>
-               <cmd:uri>http://orcid.org/0000-0003-3094-5585</cmd:uri>
-               <cmd:label>Lisena, Pasquale</cmd:label>
-            </cmd:Maintainer>
-            <cmd:Maintainer>
-               <cmd:typeAgent>Group</cmd:typeAgent>
-               <cmd:uri>https://odeuropa.eu/contact/</cmd:uri>
-               <cmd:label>Odeuropa project</cmd:label>
-            </cmd:Maintainer>
-         </cmd:Responsibility>
-         <cmd:Description>
-            <cmd:description xml:lang="en">The Odeuropa data model for representing odours and their experiences from a Cultural Heritage perspective.
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1757059450">2025-09-05</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://410</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>new</cmd:status>
+                    <cmd:dateFrom>2025-05-09</cmd:dateFrom>
+                    <cmd:dateUntil>2025-05-09</cmd:dateUntil>
+                    <cmd:comments>Very good example of an ontology produced as a result of academic research</cmd:comments>
+                </cmd:Status>
+                <cmd:Status>
+                    <cmd:status>reviewed-publish</cmd:status>
+                    <cmd:dateFrom>2025-05-09</cmd:dateFrom>
+                    <cmd:downloadable>yes</cmd:downloadable>
+                    <cmd:reviewer>Liliana Melgar</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>od</cmd:identifier>
+                <cmd:title xml:lang="en">Odeuropa ontology</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>http://data.odeuropa.eu/ontology/</cmd:uri>
+                    <cmd:prefix>od</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Creator>
+                    <cmd:uri>http://orcid.org/0000-0003-3094-5585</cmd:uri>
+                    <cmd:label>Lisena, Pasquale</cmd:label>
+                </cmd:Creator>
+                <cmd:Creator>
+                    <cmd:uri>http://orcid.org/0000-0003-4347-2940</cmd:uri>
+                    <cmd:label>Schwabe, Daniel</cmd:label>
+                </cmd:Creator>
+                <cmd:Creator>
+                    <cmd:uri>http://orcid.org/0000-0001-9195-8203</cmd:uri>
+                    <cmd:label>van Erp, Marieke</cmd:label>
+                </cmd:Creator>
+                <cmd:Creator>
+                    <cmd:uri>http://orcid.org/0000-0003-0457-1436</cmd:uri>
+                    <cmd:label>Troncy, Raphaël</cmd:label>
+                </cmd:Creator>
+                <cmd:Creator>
+                    <cmd:uri>http://orcid.org/0000-0002-8975-8031</cmd:uri>
+                    <cmd:label>Tullett, William</cmd:label>
+                </cmd:Creator>
+                <cmd:Maintainer>
+                    <cmd:typeAgent>Person</cmd:typeAgent>
+                    <cmd:uri>http://orcid.org/0000-0003-3094-5585</cmd:uri>
+                    <cmd:label>Lisena, Pasquale</cmd:label>
+                </cmd:Maintainer>
+                <cmd:Maintainer>
+                    <cmd:typeAgent>Group</cmd:typeAgent>
+                    <cmd:uri>https://odeuropa.eu/contact/</cmd:uri>
+                    <cmd:label>Odeuropa project</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The Odeuropa data model for representing odours and their experiences from a Cultural Heritage perspective.
 See:
 Lisena, P., Schwabe, D., van Erp, M., Troncy, R., Tullet, W., Leemans, I., Marx, L., &amp; Ehrich, S. C. (2022). Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information In The Semantic Web. ESWC 2022, 13261, 387–405. https://doi.org/10.1007/978-3-031-06981-9_23</cmd:description>
-            <cmd:dateIssued>2022</cmd:dateIssued>
-            <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
-            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00884">Cultural history</cmd:topicUnesco>
-            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C03612">Sensory systems</cmd:topicUnesco>
-            <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00254">Art history</cmd:topicUnesco>
-            <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#HistoryOther">History, other</cmd:topicNwo>
-            <cmd:Keywords>
-               <cmd:uri>https://www.wikidata.org/wiki/Q485537</cmd:uri>
-               <cmd:label>smell</cmd:label>
-            </cmd:Keywords>
-         </cmd:Description>
-         <cmd:Type>
-            <cmd:syntax>owl</cmd:syntax>
-            <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#ontology">ontology</cmd:kos>
-            <cmd:entity>Concept</cmd:entity>
-         </cmd:Type>
-         <cmd:License>
-            <cmd:uri>https://creativecommons.org/licenses/by/4.0/</cmd:uri>
-            <cmd:label xml:lang="en">CC BY 4.0</cmd:label>
-         </cmd:License>
-         <cmd:Location>
-            <cmd:uri>https://odeuropa.eu/</cmd:uri>
-            <cmd:type>homepage</cmd:type>
-         </cmd:Location>
-         <cmd:Location>
-            <cmd:uri>https://github.com/Odeuropa/ontology</cmd:uri>
-            <cmd:type>githubRepository</cmd:type>
-         </cmd:Location>
-         <cmd:Version>
-            <cmd:version>0.2</cmd:version>
-            <cmd:validFrom>2023</cmd:validFrom>
+                <cmd:dateIssued>2022</cmd:dateIssued>
+                <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
+                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00884">Cultural history</cmd:topicUnesco>
+                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C03612">Sensory systems</cmd:topicUnesco>
+                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/C00254">Art history</cmd:topicUnesco>
+                <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#HistoryOther">History, other</cmd:topicNwo>
+                <cmd:Keywords>
+                    <cmd:uri>https://www.wikidata.org/wiki/Q485537</cmd:uri>
+                    <cmd:label>smell</cmd:label>
+                </cmd:Keywords>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>owl</cmd:syntax>
+                <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#ontology">ontology</cmd:kos>
+                <cmd:entity>Concept</cmd:entity>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/licenses/by/4.0/</cmd:uri>
+                <cmd:label xml:lang="en">CC BY 4.0</cmd:label>
+            </cmd:License>
             <cmd:Location>
-               <cmd:uri>https://github.com/Odeuropa/ontology/blob/master/odeuropa-ontology.owl</cmd:uri>
-               <cmd:type>dump</cmd:type>
+                <cmd:uri>https://odeuropa.eu/</cmd:uri>
+                <cmd:type>homepage</cmd:type>
             </cmd:Location>
-         </cmd:Version>
-      </cmd:Vocabulary>
-   </cmd:Components>
+            <cmd:Location>
+                <cmd:uri>https://github.com/Odeuropa/ontology</cmd:uri>
+                <cmd:type>homepage</cmd:type>
+            </cmd:Location>
+            <cmd:Version>
+                <cmd:version>0.2</cmd:version>
+                <cmd:validFrom>2023</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://raw.githubusercontent.com/Odeuropa/ontology/refs/heads/master/odeuropa-ontology.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/cache/od/0.2.owl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://static.vocabs.clariah.nl/docs/od/0.2.html</cmd:uri>
+                    <cmd:type>homepage</cmd:type>
+                    <cmd:recipe>doc</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://sparql.vocabs.clariah.nl?default-graph-uri=https%3A//registry.vocabs.clariah.nl/vocab/od/version/0.2</cmd:uri>
+                    <cmd:type>endpoint</cmd:type>
+                    <cmd:recipe>sparql</cmd:recipe>
+                </cmd:Location>
+                <cmd:Summary>
+                    <cmd:Statements>
+                        <cmd:Subjects>
+                            <cmd:count>24</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://data.odeuropa.eu/ontology/</cmd:URI>
+                                    <cmd:prefix>od</cmd:prefix>
+                                    <cmd:count>98</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Subjects>
+                        <cmd:Predicates>
+                            <cmd:count>11</cmd:count>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                                    <cmd:prefix>rdfs</cmd:prefix>
+                                    <cmd:count>64</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                    <cmd:prefix>rdf</cmd:prefix>
+                                    <cmd:count>27</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>5</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
+                                    <cmd:prefix>vann</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                                    <cmd:prefix>dc</cmd:prefix>
+                                    <cmd:count>1</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Predicates>
+                        <cmd:Objects>
+                            <cmd:count>57</cmd:count>
+                            <cmd:Classes>
+                                <cmd:count>27</cmd:count>
+                                <cmd:Namespaces>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:count>27</cmd:count>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Class</cmd:name>
+                                        <cmd:count>13</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>ObjectProperty</cmd:name>
+                                        <cmd:count>10</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>Ontology</cmd:name>
+                                        <cmd:count>1</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                        <cmd:prefix>owl</cmd:prefix>
+                                        <cmd:name>AsymmetricProperty</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                </cmd:NamespaceItems>
+                            </cmd:Classes>
+                            <cmd:Literals>
+                                <cmd:count>28</cmd:count>
+                                <cmd:Languages>
+                                    <cmd:Language>
+                                        <cmd:code>en</cmd:code>
+                                        <cmd:count>23</cmd:count>
+                                    </cmd:Language>
+                                </cmd:Languages>
+                                <cmd:Namespaces>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:count>23</cmd:count>
+                                    </cmd:Namespace>
+                                    <cmd:Namespace>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:count>5</cmd:count>
+                                    </cmd:Namespace>
+                                </cmd:Namespaces>
+                                <cmd:NamespaceItems>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                                        <cmd:prefix>rdf</cmd:prefix>
+                                        <cmd:name>langString</cmd:name>
+                                        <cmd:count>23</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>string</cmd:name>
+                                        <cmd:count>2</cmd:count>
+                                    </cmd:NamespaceItem>
+                                    <cmd:NamespaceItem>
+                                        <cmd:URI>http://www.w3.org/2001/XMLSchema#</cmd:URI>
+                                        <cmd:prefix>xsd</cmd:prefix>
+                                        <cmd:name>nonNegativeInteger</cmd:name>
+                                        <cmd:count>3</cmd:count>
+                                    </cmd:NamespaceItem>
+                                </cmd:NamespaceItems>
+                            </cmd:Literals>
+                            <cmd:Namespaces>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://data.odeuropa.eu/ontology/</cmd:URI>
+                                    <cmd:prefix>od</cmd:prefix>
+                                    <cmd:count>19</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                                    <cmd:prefix>owl</cmd:prefix>
+                                    <cmd:count>27</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://erlangen-crm.org/current/</cmd:URI>
+                                    <cmd:prefix>crm</cmd:prefix>
+                                    <cmd:count>18</cmd:count>
+                                </cmd:Namespace>
+                                <cmd:Namespace>
+                                    <cmd:URI>http://www.ics.forth.gr/isl/CRMsci/</cmd:URI>
+                                    <cmd:prefix>crmsci</cmd:prefix>
+                                    <cmd:count>5</cmd:count>
+                                </cmd:Namespace>
+                            </cmd:Namespaces>
+                        </cmd:Objects>
+                    </cmd:Statements>
+                    <cmd:Namespaces>
+                        <cmd:Namespace>
+                            <cmd:URI>http://data.odeuropa.eu/ontology/</cmd:URI>
+                            <cmd:prefix>od</cmd:prefix>
+                            <cmd:count>117</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2000/01/rdf-schema#</cmd:URI>
+                            <cmd:prefix>rdfs</cmd:prefix>
+                            <cmd:count>64</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#</cmd:URI>
+                            <cmd:prefix>rdf</cmd:prefix>
+                            <cmd:count>27</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.w3.org/2002/07/owl#</cmd:URI>
+                            <cmd:prefix>owl</cmd:prefix>
+                            <cmd:count>32</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://erlangen-crm.org/current/</cmd:URI>
+                            <cmd:prefix>crm</cmd:prefix>
+                            <cmd:count>18</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/vocab/vann/</cmd:URI>
+                            <cmd:prefix>vann</cmd:prefix>
+                            <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://www.ics.forth.gr/isl/CRMsci/</cmd:URI>
+                            <cmd:prefix>crmsci</cmd:prefix>
+                            <cmd:count>5</cmd:count>
+                        </cmd:Namespace>
+                        <cmd:Namespace>
+                            <cmd:URI>http://purl.org/dc/elements/1.1/</cmd:URI>
+                            <cmd:prefix>dc</cmd:prefix>
+                            <cmd:count>1</cmd:count>
+                        </cmd:Namespace>
+                    </cmd:Namespaces>
+                </cmd:Summary>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
 </cmd:CMD>
