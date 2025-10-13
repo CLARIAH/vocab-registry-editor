@@ -4,8 +4,7 @@
 
 # Introduction
 
-This repository contains the code and basic documentation of one of the components of the FAIR vocabulary registry (i.e., the
-vocabulary metadata editor).
+This repository contains the code and basic documentation of one of the components of the FAIR vocabulary registry (i.e., the vocabulary metadata editor).
 
 The FAIR Vocabulary Registry for the Humanities and Social Sciences (SSH) is built in the context of the "Social Sciences and Humanities Open Cloud" project ([SSHOC-NL](https://sshoc.nl/)). This project develops state-of-the-art infrastructure for researchers, in collaboration between [ODISSEI](https://odissei-data.nl/) (Open Data Infrastructure for Social Science and Economic Innovations) and [CLARIAH](https://www.clariah.nl/) (Common Lab Research Infrastructure for the Arts and Humanities).
 
