@@ -1,0 +1,114 @@
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.1/profiles/clarin.eu:cr1:p_1653377925723/xsd" CMDVersion="1.1">
+    <cmd:Header>
+        <cmd:MdCreator>vocabs</cmd:MdCreator>
+        <cmd:MdCreationDate xmlns:clariah="http://www.clariah.eu/" clariah:epoch="1762859652">2025-11-11</cmd:MdCreationDate>
+        <cmd:MdSelfLink>unl://390</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1653377925723</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName/>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList/>
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
+        <cmd:IsPartOfList/>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmd:Vocabulary>
+            <cmd:InternalCuration>
+                <cmd:Status>
+                    <cmd:status>new</cmd:status>
+                    <cmd:dateFrom>2025-11-11</cmd:dateFrom>
+                    <cmd:accrualMethod>recommended by user</cmd:accrualMethod>
+                    <cmd:comments>Recommended by Angelica</cmd:comments>
+                    <cmd:reviewer>LM</cmd:reviewer>
+                </cmd:Status>
+            </cmd:InternalCuration>
+            <cmd:Identification>
+                <cmd:identifier>codata-rdmt</cmd:identifier>
+                <cmd:title xml:lang="en">CODATA Research Data Management Terminology</cmd:title>
+                <cmd:Namespace>
+                    <cmd:uri>https://terms.codata.org/rdmt/</cmd:uri>
+                    <cmd:prefix>rdm</cmd:prefix>
+                </cmd:Namespace>
+            </cmd:Identification>
+            <cmd:Responsibility>
+                <cmd:Maintainer>
+                    <cmd:typeAgent>Organization</cmd:typeAgent>
+                    <cmd:uri>https://isni.org/isni/0000000123530846</cmd:uri>
+                    <cmd:label>CODATA</cmd:label>
+                </cmd:Maintainer>
+                <cmd:Maintainer>
+                    <cmd:typeAgent>Person</cmd:typeAgent>
+                    <cmd:uri>https://orcid.org/0000-0002-5214-4466</cmd:uri>
+                    <cmd:label>Dr. Laura Molloy</cmd:label>
+                </cmd:Maintainer>
+            </cmd:Responsibility>
+            <cmd:Description>
+                <cmd:description xml:lang="en">The goal of this terminology is to gather the key terms needed for a common understanding of the research data management domain. Research data management (RDM) refers to the storage, access and preservation of data created or collected in the course of research. Research data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. (https://vocabs.ardc.edu.au/viewById/685).
+See also: https://zenodo.org/records/10626170 (for version 001).</cmd:description>
+                <cmd:dateIssued>2024-06-18</cmd:dateIssued>
+                <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
+                <cmd:topicUnesco>Information management</cmd:topicUnesco>
+                <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#InformationSystemsDatabases">Information systems, databases</cmd:topicNwo>
+                <cmd:Keywords>
+                    <cmd:uri>https://www.wikidata.org/wiki/Q30089794</cmd:uri>
+                    <cmd:label>Research data management</cmd:label>
+                </cmd:Keywords>
+            </cmd:Description>
+            <cmd:Type>
+                <cmd:syntax>skos</cmd:syntax>
+                <cmd:kos cmd:valueConceptLink="http://w3id.org/nkos/nkostype#thesaurus">thesaurus</cmd:kos>
+                <cmd:entity>Concept</cmd:entity>
+            </cmd:Type>
+            <cmd:License>
+                <cmd:uri>https://creativecommons.org/licenses/by/4.0/</cmd:uri>
+                <cmd:label xml:lang="en">CC BY 4.0</cmd:label>
+            </cmd:License>
+            <cmd:IsReferencedBy>
+                <cmd:Registry>
+                    <cmd:title>Awesome Social Sciences</cmd:title>
+                    <cmd:url>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:url>
+                    <cmd:landingPage>https://github.com/FAIR-Expertise-Hub/awesome-ontologies-social-sciences</cmd:landingPage>
+                </cmd:Registry>
+            </cmd:IsReferencedBy>
+            <cmd:Version>
+                <cmd:version>v001</cmd:version>
+                <cmd:validFrom>2024-06-18</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://vocabs.ardc.edu.au/registry/api/resource/downloads/4818/laura-concepts-copied-to-new-file(2)-2024-06-18.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>http://vocabs.ardc.edu.au/repository/api/sparql/codata_codata-research-data-management-terminology_v001</cmd:uri>
+                    <cmd:type>endpoint</cmd:type>
+                    <cmd:recipe>sparql</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://localhost:5000/cache/codata-rdmt/v001.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+            <cmd:Version>
+                <cmd:version>002</cmd:version>
+                <cmd:validFrom>2025-09-30</cmd:validFrom>
+                <cmd:Location>
+                    <cmd:uri>https://vocabs.ardc.edu.au/registry/api/resource/downloads/5405/codate_rdmt_025-09-30_1.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>rdf</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://vocabs.ardc.edu.au/yasgui/#query=PREFIX%20skos%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20%2A%20WHERE%20%7B%0A%20%20%3Fc%20a%20skos%3AConcept%20.%0A%20%20%3Fc%20skos%3AprefLabel%20%3Fl%0A%7D%20LIMIT%2010&amp;endpoint=https://vocabs.ardc.edu.au/repository/api/sparql/codata_codata-research-data-management-terminology_v002</cmd:uri>
+                    <cmd:type>endpoint</cmd:type>
+                    <cmd:recipe>sparql</cmd:recipe>
+                </cmd:Location>
+                <cmd:Location>
+                    <cmd:uri>https://localhost:5000/cache/codata-rdmt/002.ttl</cmd:uri>
+                    <cmd:type>dump</cmd:type>
+                    <cmd:recipe>cache</cmd:recipe>
+                </cmd:Location>
+            </cmd:Version>
+        </cmd:Vocabulary>
+    </cmd:Components>
+</cmd:CMD>
