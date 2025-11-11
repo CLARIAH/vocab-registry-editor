@@ -48,7 +48,7 @@
 See also: https://zenodo.org/records/10626170 (for version 001).</cmd:description>
                 <cmd:dateIssued>2024-06-18</cmd:dateIssued>
                 <cmd:language cmd:valueConceptLink="http://cdb.iso.org/lg/CDB-00138502-001">English</cmd:language>
-                <cmd:topicUnesco>Information management</cmd:topicUnesco>
+                <cmd:topicUnesco cmd:valueConceptLink="http://skos.um.es/unescothes/COL515">Information management</cmd:topicUnesco>
                 <cmd:topicNwo cmd:valueConceptLink="https://w3id.org/nwo-research-fields#InformationSystemsDatabases">Information systems, databases</cmd:topicNwo>
                 <cmd:Keywords>
                     <cmd:uri>https://www.wikidata.org/wiki/Q30089794</cmd:uri>
